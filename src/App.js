@@ -1,3 +1,5 @@
+import Profile from './profile.js';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          {Profile}
           Learn React
         </a>
       </header>
