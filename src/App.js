@@ -1,3 +1,4 @@
+import React from 'react';
 import Profile from './profile.js';
 
 import logo from './logo.svg';
@@ -11,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        {Profile}
+        <Profile />
         <a
           className="App-link"
           href="https://reactjs.org"
