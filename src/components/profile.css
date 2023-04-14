@@ -1,0 +1,95 @@
+/* display, position, flex-direction, align-items, justify-content */
+/* width, height, padding, margin, border */
+/* background, color, font-size, font-weight */
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.profile_container {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 17.5em;
+  height: 100vh;
+  background: rgb(200, 200, 200);
+}
+
+.profile_box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 2.5em;
+}
+
+.profile_image_box {
+  margin: 0 0 1em 0;
+}
+
+.profile_image {
+  display: flex;
+  width: 12em;
+  border-radius: 100%;
+}
+
+.profile_text_box {
+  margin: 1em 0 1em 0;
+  font-family: 'S-CoreDream-3Light';
+}
+
+.profile_name_kor {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.profile_name_eng {
+  font-size: 1em;
+}
+
+.profile_job_kor {
+  font-size: 1.1em;
+}
+
+.profile_job_eng {
+  font-size: 1em;
+}
+
+.profile_break_line {
+  width: 2em;
+  margin: 1.5em 0 1.5em 0;
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.profile_icon_box {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5em;
+  margin: 1em 0 0 0;
+}
+
+.profile_icon_github {
+  width: 30px;
+}
+
+.profile_icon_github:hover {
+  cursor: pointer;
+}
+
+.profile_icon_velog {
+  width: 30px;
+}
+
+.profile_icon_velog:hover {
+  cursor: pointer;
+}
+
+.profile_icon_email {
+  width: 30px;
+}
+
+.profile_icon_email:hover {
+  cursor: pointer;
+}
