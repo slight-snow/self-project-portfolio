@@ -7,6 +7,12 @@ function Contents() {
       <div>
         <div className='contents_container'>
           <div className='contents_box'>
+            <div className='contents_title'>
+              <div>About</div>
+              <div>Skill</div>
+              <div>Project</div>
+              <div>Contact</div>
+            </div>
             <div className='contents_line'>
               <div className='dots_container'>
                 <div className='unselected' />

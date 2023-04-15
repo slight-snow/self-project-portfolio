@@ -1,6 +1,7 @@
 .contents_container {
   display: flex;
   position: fixed;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   left: 17.5em;
@@ -12,7 +13,18 @@
 .contents_box {
   display: flex;
   width: 50%;
+  height: 65vh;
+  align-items: center;
   justify-content: flex-end;
+}
+.contents_title {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  /* text-align: end; */
+  margin-right: 20px;
+  height: 66vh;
+  justify-content: space-between;
 }
 
 .contents_line {
@@ -49,7 +61,6 @@
 
 .unselected:hover {
   cursor: pointer;
-  width: 14px;
-  height: 14px;
+  transform: scale(1.75);
   transition: 0.3s ease;
 }
