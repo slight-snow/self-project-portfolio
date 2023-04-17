@@ -16,7 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  left: 15.5em;
+  left: 14em;
   width: 8em;
   height: 100%;
   padding-right: 1.5em;
@@ -123,5 +123,4 @@
 .contents:not(:hover) .contents_title_unselected {
   opacity: 0;
   transition: 0.2s ease;
-  margin-right: 13px;
 }
