@@ -44,7 +44,6 @@
 .contents_line {
   display: flex;
   position: absolute;
-  text-align: center;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
@@ -53,6 +52,7 @@
   height: 96%;
   min-height: 75px;
   border-right: 0.1px solid #f9f9f9;
+  margin: 0 auto;
 }
 
 .contents {
