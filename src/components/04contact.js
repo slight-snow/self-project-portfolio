@@ -1,10 +1,12 @@
 import React from 'react';
 import './04contact.css';
 
-function Contact() {
+function Contact(props) {
   return (
     <>
-      <div className='contact_container'>
+      <div
+        className='contact_container'
+        onClick={() => props.setActive(4)}>
         <div className='contact_title'>CONTACT</div>
       </div>
     </>
