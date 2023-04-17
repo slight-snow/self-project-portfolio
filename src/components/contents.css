@@ -52,7 +52,7 @@
   min-height: 75px;
   border-left: 0.1px solid #f9f9f9;
   border-right: 0px solid #f9f9f9;
-  padding-left: 0.05px;
+  /* padding-left: 0.05px; */
 }
 
 .contents {
