@@ -1,3 +1,7 @@
+/* display, position, flex-direction, align-items, justify-content */
+/* width, height, padding, margin, border */
+/* background, color, font-size, font-weight */
+
 .contents_container {
   display: flex;
   position: fixed;
@@ -5,51 +9,67 @@
   align-items: center;
   justify-content: center;
   left: 17.5em;
-  width: 10em;
+  width: 8em;
   height: 100vh;
   background: rgb(190, 190, 190);
 }
 
 .contents_box {
   display: flex;
-  width: 50%;
-  height: 65vh;
   align-items: center;
   justify-content: flex-end;
+  width: 100%;
+  height: 65vh;
 }
-.contents_title {
+
+.contents_line_dots_container {
   display: flex;
-  align-items: flex-end;
+  position: relative;
   flex-direction: column;
-  /* text-align: end; */
-  margin-right: 20px;
-  height: 66vh;
+  align-items: center;
   justify-content: space-between;
+  width: 45%;
+  height: 100%;
 }
 
 .contents_line {
   display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 0;
+  height: 100%;
+  border-left: 0.5px solid rgb(30, 30, 30);
+  border-right: 0.5px solid rgb(30, 30, 30);
+}
+
+.contents {
+  display: flex;
   position: relative;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  /* width: 20px; */
-  height: 65vh;
-  border-left: 1px solid rgb(30, 30, 30);
-  border-right: 1px solid rgb(30, 30, 30);
+  justify-content: flex-end;
+  width: 100px;
+  padding-right: 90px;
 }
 
-.dots_container {
+.contents_title {
+  /* visibility: hidden; */
   display: flex;
-  position: absolute;
-  align-items: center;
-  flex-direction: column;
-  width: 20px;
-  height: 65vh;
-  justify-content: space-between;
+  margin-right: 12.5px;
 }
 
-.unselected {
+.contents_dot_selected {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  background: rgb(30, 30, 30);
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.contents_dot_unselected {
   display: flex;
   width: 8px;
   height: 8px;
@@ -59,8 +79,12 @@
   transition: 0.3s ease;
 }
 
-.unselected:hover {
+.contents_dot_unselected:hover {
   cursor: pointer;
   transform: scale(1.75);
+  transition: 0.3s ease;
+}
+
+.contents_dot_unselected:hover .contents_title {
   transition: 0.3s ease;
 }
