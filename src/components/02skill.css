@@ -1,6 +1,6 @@
 .skill_container {
   display: flex;
-  width: 17.5em;
+  width: calc(25%);
   height: 100vh;
   background-color: rgb(150, 150, 150);
   align-items: center;
