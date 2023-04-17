@@ -16,7 +16,7 @@
   align-items: center;
   width: 17.5em;
   height: 100vh;
-  background: #151515;
+  background: #191919;
   color: #f9f9f9;
 }
 
@@ -73,6 +73,8 @@
 
 .profile_icon_github {
   width: 30px;
+  filter: invert(99%) sepia(8%) saturate(0%) hue-rotate(324deg) brightness(113%)
+    contrast(100%);
 }
 
 .profile_icon_github:hover {
