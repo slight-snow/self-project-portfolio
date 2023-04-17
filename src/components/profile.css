@@ -12,7 +12,6 @@
 
 .profile_container {
   display: flex;
-  position: fixed;
   align-items: center;
   width: 16em;
   height: 100vh;
