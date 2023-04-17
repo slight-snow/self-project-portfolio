@@ -1,0 +1,6 @@
+.skill_container {
+  display: flex;
+  width: 17.5em;
+  height: 100vh;
+  background-color: rgb(150, 150, 150);
+}

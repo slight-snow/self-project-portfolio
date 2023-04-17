@@ -1,0 +1,6 @@
+.work_container {
+  display: flex;
+  width: 17.5em;
+  height: 100vh;
+  background-color: rgb(175, 175, 175);
+}

@@ -1,0 +1,6 @@
+.contact_container {
+  display: flex;
+  width: 17.5em;
+  height: 100vh;
+  background-color: rgb(200, 200, 200);
+}
