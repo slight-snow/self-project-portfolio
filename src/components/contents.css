@@ -89,8 +89,6 @@
 
 .contents_dot_selected {
   display: flex;
-  /* width: 15.11px; */
-  /* height: 15.11px; */
   width: 8px;
   height: 8px;
   background: #f9f9f9;
@@ -98,6 +96,7 @@
   border-radius: 50%;
   transform-origin: center center;
   transform: scale(1.75);
+  transition: 0.3s ease-in-out;
 }
 
 .contents_dot_unselected {
