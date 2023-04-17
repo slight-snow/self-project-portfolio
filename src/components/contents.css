@@ -50,8 +50,8 @@
   top: 2%;
   height: 96%;
   min-height: 75px;
-  border-left: 0.5px solid #f9f9f9;
-  border-right: 0.5px solid #f9f9f9;
+  border-left: 0.01px solid #f9f9f9;
+  border-right: 0.01px solid #f9f9f9;
 }
 
 .contents {
