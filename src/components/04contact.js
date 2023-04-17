@@ -4,7 +4,9 @@ import './04contact.css';
 function Contact() {
   return (
     <>
-      <div className='contact_container'>Hi</div>
+      <div className='contact_container'>
+        <div className='contact_title'>CONTACT</div>
+      </div>
     </>
   )
 }
