@@ -88,8 +88,8 @@
 
 .contents_dot_selected {
   display: flex;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   background: #f9f9f9;
   border: 1px solid #f9f9f9;
   border-radius: 50%;
@@ -100,8 +100,8 @@
 
 .contents_dot_unselected {
   display: flex;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   background: #f9f9f9;
   border: 1px solid #f9f9f9;
   border-radius: 50%;
