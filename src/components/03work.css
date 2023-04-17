@@ -11,13 +11,20 @@
   width: calc(25%);
   height: 100vh;
   color: #f9f9f9;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(50, 50, 50);
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .work_container:hover {
   cursor: pointer;
+}
+
+.work_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .work_title {

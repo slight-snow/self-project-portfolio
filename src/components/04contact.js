@@ -7,6 +7,8 @@ function Contact(props) {
       <div
         className='contact_container'
         onClick={() => props.setActive(4)}>
+        <div>04</div>
+        <div className='contact_break_line' />
         <div className='contact_title'>CONTACT</div>
       </div>
     </>

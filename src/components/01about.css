@@ -14,10 +14,17 @@
   background-color: rgb(30, 30, 30);
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about_container:hover {
   cursor: pointer;
+}
+
+.about_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .about_title {

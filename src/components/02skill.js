@@ -7,6 +7,8 @@ function Skill(props) {
       <div
         className='skill_container'
         onClick={() => props.setActive(2)}>
+        <div>02</div>
+        <div className='skill_break_line' />
         <div className='skill_title'>SKILL</div>
       </div>
     </>
