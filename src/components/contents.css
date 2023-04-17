@@ -51,7 +51,7 @@
   height: 96%;
   min-height: 75px;
   border-left: 0.1px solid #f9f9f9;
-  margin-right: 0.1px;
+  /* margin-right: 0.1px; */
 }
 
 .contents {
