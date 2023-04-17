@@ -10,7 +10,7 @@
   display: flex;
   width: calc(25%);
   height: 100vh;
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(125, 125, 125);
   align-items: center;
   justify-content: center;
 }
