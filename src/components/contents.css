@@ -2,16 +2,26 @@
 /* width, height, padding, margin, border */
 /* background, color, font-size, font-weight */
 
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .contents_container {
   display: flex;
   position: fixed;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  left: 17.5em;
-  width: 8em;
-  height: 100vh;
+  left: 15.5em;
+  width: 7em;
+  height: 100%;
   background: rgb(190, 190, 190);
+  font-family: 'S-CoreDream-3Light';
+  font-size: 1.1em;
 }
 
 .contents_box {
@@ -19,7 +29,7 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  height: 65vh;
+  height: 65%;
 }
 
 .contents_line_dots_container {
@@ -28,7 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 45%;
+  width: 40%;
   height: 100%;
 }
 
@@ -37,9 +47,10 @@
   position: absolute;
   align-items: flex-end;
   flex-direction: column;
-  justify-content: space-between;
   width: 0;
-  height: 100%;
+  top: 2%;
+  height: 96%;
+  min-height: 75px;
   border-left: 0.5px solid rgb(30, 30, 30);
   border-right: 0.5px solid rgb(30, 30, 30);
 }
@@ -53,20 +64,35 @@
   padding-right: 90px;
 }
 
-.contents_title {
-  /* visibility: hidden; */
+.contents:hover {
+  cursor: pointer;
+}
+
+.contents_title_selected {
+  visibility: visible;
   display: flex;
-  margin-right: 12.5px;
+  margin-right: 6.6px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.contents_title_unselected {
+  visibility: hidden;
+  display: flex;
+  margin-right: 10px;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  padding-top: 2px;
 }
 
 .contents_dot_selected {
   display: flex;
-  width: 10px;
-  height: 10px;
+  width: 15.11px;
+  height: 15.11px;
   background: rgb(30, 30, 30);
   border: 1px solid rgb(30, 30, 30);
   border-radius: 50%;
-  transition: 0.3s ease;
+  margin-right: -3.6px;
 }
 
 .contents_dot_unselected {
@@ -76,15 +102,22 @@
   background: rgb(30, 30, 30);
   border: 1px solid rgb(30, 30, 30);
   border-radius: 50%;
-  transition: 0.3s ease;
+  transition: 0.3s ease-out;
 }
 
-.contents_dot_unselected:hover {
+.contents:hover .contents_dot_unselected {
   cursor: pointer;
-  transform: scale(1.75);
+  transform: scale(1.72);
   transition: 0.3s ease;
 }
 
-.contents_dot_unselected:hover .contents_title {
-  transition: 0.3s ease;
+.contents:hover .contents_title_unselected {
+  visibility: visible;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.contents:not(:hover) .contents_title_unselected {
+  opacity: 0;
+  transition: 0.1s ease;
 }
