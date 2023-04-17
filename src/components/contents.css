@@ -17,7 +17,7 @@
   justify-content: center;
   width: 6em;
   height: 100%;
-  padding-right: 2em;
+  padding-right: 1.75em;
   background: #191919;
   font-family: 'S-CoreDream-3Light';
   font-size: 1.1em;
@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 30%;
+  width: 20%;
   height: 100%;
 }
 
@@ -51,7 +51,8 @@
   height: 96%;
   min-height: 75px;
   border-left: 0.01px solid #f9f9f9;
-  border-right: 0.01px solid #f9f9f9;
+  border-right: 0px solid #f9f9f9;
+  padding-left: 0.01px;
 }
 
 .contents {

@@ -22,7 +22,7 @@
 .profile_box {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 3.25em;
+  margin: 0 0 0 2.5em;
 }
 
 .profile_image_box {
@@ -36,7 +36,7 @@
 }
 
 .profile_text_box {
-  margin: 1em 0 1em 0;
+  margin: 1em 0 1em 0.25em;
   font-family: 'S-CoreDream-3Light';
 }
 
@@ -67,7 +67,7 @@
   display: flex;
   justify-content: space-between;
   width: 7.5em;
-  margin: 1em 0 0 0;
+  margin: 1em 0 0 0.5em;
 }
 
 .profile_icon_github {
