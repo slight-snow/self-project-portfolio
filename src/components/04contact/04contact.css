@@ -28,10 +28,13 @@
 
 .inactive_contact_container {
   width: 3%;
+  transition: width 0.2s ease;
 }
 
 .inactive_contact_container:hover {
   cursor: pointer;
+  width: 4.5%;
+  transition: width 0.2s ease;
 }
 
 .home_contact_container:hover {
