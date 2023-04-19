@@ -33,7 +33,7 @@
 .inactive_contact_container:hover {
   cursor: pointer;
   width: 4.5%;
-  transition: width 0.2s ease;
+  transition: width 0.75s ease;
 }
 
 .home_contact_container:hover {
