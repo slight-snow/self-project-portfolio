@@ -40,11 +40,11 @@ function Contact() {
           className='contact_container'
           onClick={() => dispatch(page04())}>
           {show && (
-            <>
+            <div className='contact_box'>
               <div>04</div>
               <div className='contact_break_line' />
               <div className='contact_title'>CONTACT</div>
-            </>)}
+            </div>)}
         </div>
       </>
     )

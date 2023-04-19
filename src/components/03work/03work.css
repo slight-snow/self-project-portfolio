@@ -57,6 +57,16 @@
   cursor: pointer;
 }
 
+.work_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
 .work_break_line {
   width: 1.5em;
   margin: 1.25em 0 1.25em 0;
@@ -66,4 +76,13 @@
 .work_title {
   font-size: 1.8em;
   font-family: 'LeferiPoint-BlackA';
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

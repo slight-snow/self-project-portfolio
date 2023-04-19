@@ -40,11 +40,11 @@ function Skill() {
           className='skill_container'
           onClick={() => dispatch(page02())}>
           {show && (
-            <>
+            <div className='skill_box'>
               <div>02</div>
               <div className='skill_break_line' />
               <div className='skill_title'>SKILL</div>
-            </>)}
+            </div>)}
         </div>
       </>
     )

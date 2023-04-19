@@ -61,6 +61,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
 }
 
 .about_break_line {
@@ -72,4 +76,13 @@
 .about_title {
   font-size: 1.8em;
   font-family: 'LeferiPoint-BlackA';
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

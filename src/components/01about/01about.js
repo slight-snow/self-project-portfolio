@@ -44,8 +44,7 @@ function About() {
               <div>01</div>
               <div className='about_break_line' />
               <div className='about_title'>ABOUT</div>
-            </div>)
-          }
+            </div>)}
         </div>
       </>
     )

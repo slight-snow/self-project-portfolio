@@ -40,11 +40,11 @@ function Work() {
           className='work_container'
           onClick={() => dispatch(page03())}>
           {show && (
-            <>
+            <div className='work_box'>
               <div>03</div>
               <div className='work_break_line' />
               <div className='work_title'>WORK</div>
-            </>)}
+            </div>)}
         </div>
       </>
     )
