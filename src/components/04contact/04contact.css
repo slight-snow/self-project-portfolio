@@ -15,11 +15,11 @@
   width: calc(25%);
   height: 100vh;
   color: #f9f9f9;
-  background-color: rgb(60, 60, 60);
+  background: rgb(60, 60, 60);
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: all 0.8s ease-in-out;
+  transition: width 0.7s ease-in-out;
 }
 
 .contact_container {
@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+.home_contact_container:hover .home_contact_title {
+  font-size: 2.1em;
+  transition: all 0.1s ease-in-out;
+}
+
 .home_contact_break_line {
   width: 1.5em;
   margin: 1.25em 0 1.25em 0;
@@ -43,6 +48,7 @@
 .home_contact_title {
   font-size: 1.8em;
   font-family: 'LeferiPoint-BlackA';
+  transition: all 0.1s ease-in-out;
 }
 
 /* ------------------------------------------ */
