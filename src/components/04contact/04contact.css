@@ -7,10 +7,10 @@
 }
 
 @font-face {
-  font-family: 'S-CoreDream-3Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+  font-family: 'NEXON Lv2 Gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff')
     format('woff');
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -51,7 +51,7 @@
   transform: rotate(90deg);
   margin-top: 3.5em;
   width: 6em;
-  font-family: 'S-CoreDream-3Light';
+  font-family: 'NEXON Lv2 Gothic';
   font-size: 1em;
   opacity: 0;
   animation-name: fade-in;
