@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Profile from './components/profile.js';
 import Contents from './components/contents.js'
@@ -9,18 +9,16 @@ import Contact from './components/04contact.js'
 import './App.css';
 
 function App() {
-  const [active, setActive] = useState(0);
-
   return (
     <>
       <div className='App'>
         <Profile />
-        <Contents active={active} setActive={setActive} />
+        <Contents />
 
-        <About setActive={setActive} />
-        <Skill setActive={setActive} />
-        <Work setActive={setActive} />
-        <Contact setActive={setActive} />
+        <About />
+        <Skill />
+        <Work />
+        <Contact />
       </div>
     </>
   );
