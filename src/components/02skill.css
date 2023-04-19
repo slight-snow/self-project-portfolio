@@ -9,6 +9,7 @@
 .skill_container {
   display: flex;
   width: calc(25%);
+  min-width: 15em;
   height: 100vh;
   color: #f9f9f9;
   background-color: rgb(40, 40, 40);
