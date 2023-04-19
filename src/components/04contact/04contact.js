@@ -56,6 +56,7 @@ function Contact() {
         <div
           className='inactive_contact_container'
           onClick={() => dispatch(page04())}>
+          <span className='inactive_contact_title'>04 Contact</span>
         </div>
       </>
     )

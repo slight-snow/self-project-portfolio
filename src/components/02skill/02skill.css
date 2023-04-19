@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_skill_container,
@@ -27,13 +35,29 @@
 }
 
 .inactive_skill_container {
-  width: 3%;
+  display: flex;
+  justify-content: flex-start;
+  width: 2.5%;
+  height: 100vh;
 }
 
 .inactive_skill_container:hover {
   cursor: pointer;
-  width: 4.5%;
+  width: 3.5%;
   transition: width 0.75s ease;
+}
+
+.inactive_skill_title {
+  transform: rotate(90deg);
+  margin-top: 3.5em;
+  width: 6em;
+  font-family: 'S-CoreDream-3Light';
+  font-size: 0.9em;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.75s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
 }
 
 .home_skill_container:hover {

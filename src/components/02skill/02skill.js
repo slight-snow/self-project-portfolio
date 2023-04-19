@@ -56,6 +56,7 @@ function Skill() {
         <div
           className='inactive_skill_container'
           onClick={() => dispatch(page02())}>
+          <span className='inactive_skill_title'>02 Skill</span>
         </div>
       </>
     )

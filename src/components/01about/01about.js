@@ -56,6 +56,7 @@ function About() {
         <div
           className='inactive_about_container'
           onClick={() => dispatch(page01())}>
+          <span className='inactive_about_title'>01 About</span>
         </div>
       </>
     )

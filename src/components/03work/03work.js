@@ -56,6 +56,7 @@ function Work() {
         <div
           className='inactive_work_container'
           onClick={() => dispatch(page03())}>
+          <span className='inactive_work_title'>03 Work</span>
         </div>
       </>
     )
