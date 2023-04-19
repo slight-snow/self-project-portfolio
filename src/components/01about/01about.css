@@ -57,6 +57,12 @@
   cursor: pointer;
 }
 
+.about_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about_break_line {
   width: 1.5em;
   margin: 1.25em 0 1.25em 0;

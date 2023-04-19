@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page04 } from '../../features/counter/counterSlice';
 import './04contact.css';
 
 function Contact() {
+  const [show, setShow] = useState(false);
+
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (page === 4) {
+      setTimeout(() => {
+        setShow(true);
+      }, 850)
+    } else {
+      setShow(false);
+    }
+  }, [page]);
 
   if (page === 0) {
     return (
@@ -27,9 +39,12 @@ function Contact() {
         <div
           className='contact_container'
           onClick={() => dispatch(page04())}>
-          <div>04</div>
-          <div className='contact_break_line' />
-          <div className='contact_title'>CONTACT</div>
+          {show && (
+            <>
+              <div>04</div>
+              <div className='contact_break_line' />
+              <div className='contact_title'>CONTACT</div>
+            </>)}
         </div>
       </>
     )

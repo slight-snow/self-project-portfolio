@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page03 } from '../../features/counter/counterSlice';
 import './03work.css';
 
 function Work() {
+  const [show, setShow] = useState(false);
+
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (page === 3) {
+      setTimeout(() => {
+        setShow(true);
+      }, 850)
+    } else {
+      setShow(false);
+    }
+  }, [page]);
 
   if (page === 0) {
     return (
@@ -27,9 +39,12 @@ function Work() {
         <div
           className='work_container'
           onClick={() => dispatch(page03())}>
-          <div>03</div>
-          <div className='work_break_line' />
-          <div className='work_title'>WORK</div>
+          {show && (
+            <>
+              <div>03</div>
+              <div className='work_break_line' />
+              <div className='work_title'>WORK</div>
+            </>)}
         </div>
       </>
     )
