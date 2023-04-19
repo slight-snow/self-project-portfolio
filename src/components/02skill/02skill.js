@@ -54,7 +54,8 @@ function Skill() {
     return (
       <>
         <div
-          className='inactive_skill_container'>
+          className='inactive_skill_container'
+          onClick={() => dispatch(page02())}>
         </div>
       </>
     )

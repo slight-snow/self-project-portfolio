@@ -54,7 +54,8 @@ function About() {
     return (
       <>
         <div
-          className='inactive_about_container'>
+          className='inactive_about_container'
+          onClick={() => dispatch(page01())}>
         </div>
       </>
     )

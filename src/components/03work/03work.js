@@ -54,7 +54,8 @@ function Work() {
     return (
       <>
         <div
-          className='inactive_work_container'>
+          className='inactive_work_container'
+          onClick={() => dispatch(page03())}>
         </div>
       </>
     )

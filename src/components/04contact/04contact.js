@@ -54,7 +54,8 @@ function Contact() {
     return (
       <>
         <div
-          className='inactive_contact_container'>
+          className='inactive_contact_container'
+          onClick={() => dispatch(page04())}>
         </div>
       </>
     )

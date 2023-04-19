@@ -27,7 +27,11 @@
 }
 
 .inactive_skill_container {
-  width: 0;
+  width: 1.75em;
+}
+
+.inactive_skill_container:hover {
+  cursor: pointer;
 }
 
 .home_skill_container:hover {
@@ -52,10 +56,6 @@
 }
 
 /* ------------------------------------------ */
-
-.skill_container:hover {
-  cursor: pointer;
-}
 
 .skill_box {
   display: flex;

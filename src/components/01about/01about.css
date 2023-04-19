@@ -27,7 +27,11 @@
 }
 
 .inactive_about_container {
-  width: 0;
+  width: 1.75em;
+}
+
+.inactive_about_container:hover {
+  cursor: pointer;
 }
 
 .home_about_container:hover {
@@ -52,10 +56,6 @@
 }
 
 /* ------------------------------------------ */
-
-.about_container:hover {
-  cursor: pointer;
-}
 
 .about_box {
   display: flex;

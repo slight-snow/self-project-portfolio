@@ -27,7 +27,11 @@
 }
 
 .inactive_contact_container {
-  width: 0;
+  width: 1.75em;
+}
+
+.inactive_contact_container:hover {
+  cursor: pointer;
 }
 
 .home_contact_container:hover {
@@ -52,10 +56,6 @@
 }
 
 /* ------------------------------------------ */
-
-.contact_container:hover {
-  cursor: pointer;
-}
 
 .contact_box {
   display: flex;
