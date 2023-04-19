@@ -28,7 +28,6 @@
 
 .inactive_about_container {
   width: 3%;
-  transition: width 0.2s ease;
 }
 
 .inactive_about_container:hover {
