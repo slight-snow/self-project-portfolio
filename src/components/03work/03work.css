@@ -6,17 +6,46 @@
   font-style: normal;
 }
 
-.work_container {
+/* ------------------------------------------ */
+
+.home_work_container,
+.work_container,
+.inactive_work_container {
   display: flex;
   width: calc(25%);
-  min-width: 15em;
   height: 100vh;
   color: #f9f9f9;
   background-color: rgb(50, 50, 50);
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: all 0.8s ease-in-out;
 }
+
+.work_container {
+  width: calc(100%);
+}
+
+.inactive_work_container {
+  width: 0;
+}
+
+.home_work_container:hover {
+  cursor: pointer;
+}
+
+.home_work_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.home_work_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+}
+
+/* ------------------------------------------ */
 
 .work_container:hover {
   cursor: pointer;

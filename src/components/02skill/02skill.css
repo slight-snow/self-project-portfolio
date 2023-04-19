@@ -6,17 +6,46 @@
   font-style: normal;
 }
 
-.skill_container {
+/* ------------------------------------------ */
+
+.home_skill_container,
+.skill_container,
+.inactive_skill_container {
   display: flex;
   width: calc(25%);
-  min-width: 15em;
   height: 100vh;
   color: #f9f9f9;
   background-color: rgb(40, 40, 40);
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: all 0.8s ease-in-out;
 }
+
+.skill_container {
+  width: calc(100%);
+}
+
+.inactive_skill_container {
+  width: 0;
+}
+
+.home_skill_container:hover {
+  cursor: pointer;
+}
+
+.home_skill_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.home_skill_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+}
+
+/* ------------------------------------------ */
 
 .skill_container:hover {
   cursor: pointer;
