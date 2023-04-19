@@ -1,9 +1,10 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { page02 } from '../features/counter/counterSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { page02 } from '../../features/counter/counterSlice';
 import './02skill.css';
 
 function Skill() {
+  const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
   return (
