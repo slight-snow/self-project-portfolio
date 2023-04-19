@@ -19,7 +19,7 @@
   flex-direction: column;
   background: rgb(30, 30, 30);
   color: #f9f9f9;
-  transition: width 0.7s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .about_container {

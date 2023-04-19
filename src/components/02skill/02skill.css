@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: width 0.7s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .skill_container {
