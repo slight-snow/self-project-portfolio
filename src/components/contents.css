@@ -3,8 +3,8 @@
 /* background, color, font-size, font-weight */
 
 @font-face {
-  font-family: 'S-CoreDream-3Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff')
     format('woff');
   font-weight: normal;
   font-style: normal;
@@ -19,7 +19,7 @@
   height: 100vh;
   padding-right: 1.75em;
   background: rgb(25, 25, 25);
-  font-family: 'S-CoreDream-3Light';
+  font-family: 'Arita-dotum-Medium';
   font-size: 1.1em;
 }
 
