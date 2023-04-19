@@ -2,8 +2,6 @@ import React from 'react';
 import './contents.css';
 
 function Contents(props) {
-  const page = useSelector((state) => state.page);
-
   return (
     <>
       <div>
