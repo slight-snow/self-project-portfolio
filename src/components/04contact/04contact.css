@@ -37,13 +37,13 @@
 .inactive_contact_container {
   display: flex;
   justify-content: flex-start;
-  width: 2.5%;
+  width: calc(2.5%);
   height: 100vh;
 }
 
 .inactive_contact_container:hover {
   cursor: pointer;
-  width: 3.5%;
+  width: calc(3.5%);
   transition: width 0.75s ease;
 }
 
