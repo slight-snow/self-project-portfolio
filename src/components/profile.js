@@ -1,4 +1,6 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { page00 } from '../features/counter/counterSlice';
 import { ToastContainer, toast, Zoom } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import profile_image from '../assets/profile_image.jpeg'
@@ -22,10 +24,13 @@ const notify = () =>
   });
 
 function Profile() {
+  const dispatch = useDispatch();
+
   return (
     <>
       <div>
-        <div className='profile_title' onClick={() => window.location.reload()}>yunseok.portfolio</div>
+        {/* <div className='profile_title' onClick={() => window.location.reload()}>yunseok.portfolio</div> */}
+        <div className='profile_title' onClick={() => dispatch(page00())}>yunseok.portfolio</div>
         <div className='profile_container'>
           <div className='profile_box'>
             <div className='profile_image_box'>

@@ -39,12 +39,13 @@
   justify-content: flex-start;
   width: calc(2.5%);
   height: 100vh;
+  transition: width 0.5s ease;
 }
 
 .inactive_work_container:hover {
   cursor: pointer;
   width: calc(3.5%);
-  transition: width 0.75s ease;
+  transition: width 0.5s ease;
 }
 
 .inactive_work_title {
