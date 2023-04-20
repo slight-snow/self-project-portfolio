@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .contact_container {
@@ -44,7 +44,7 @@
 .inactive_contact_container:hover {
   cursor: pointer;
   width: 3.5%;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .inactive_contact_title {

@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .skill_container {
@@ -44,7 +44,7 @@
 .inactive_skill_container:hover {
   cursor: pointer;
   width: 3.5%;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .inactive_skill_title {

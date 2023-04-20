@@ -25,8 +25,7 @@
   height: 3em;
   align-items: center;
   justify-content: center;
-  /* background: rgb(255, 88, 88); */
-  background: rgb(25, 25, 25);
+  background: none;
   font-family: 'Arita-dotum-Medium';
   font-size: 1.5em;
   font-weight: bold;

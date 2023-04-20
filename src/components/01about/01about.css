@@ -27,7 +27,7 @@
   background: rgb(33, 33, 33);
   flex-direction: column;
   color: #f9f9f9;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .about_container {
@@ -44,7 +44,7 @@
 .inactive_about_container:hover {
   cursor: pointer;
   width: 3.5%;
-  transition: width 0.75s ease-in-out;
+  transition: width 0.75s ease;
 }
 
 .inactive_about_title {
