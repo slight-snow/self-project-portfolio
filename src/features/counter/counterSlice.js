@@ -8,6 +8,9 @@ export const counterSlice = createSlice({
   name: 'active',
   initialState,
   reducers: {
+    page00: (state) => {
+      state.page = 0;
+    },
     page01: (state) => {
       state.page = 1;
     },
@@ -23,6 +26,6 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { page01, page02, page03, page04 } = counterSlice.actions;
+export const { page00, page01, page02, page03, page04 } = counterSlice.actions;
 
 export default counterSlice.reducer;

@@ -24,10 +24,10 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   background: rgb(33, 33, 33);
+  flex-direction: column;
   color: #f9f9f9;
-  transition: width 0.75s ease;
+  transition: width 0.75s ease-in-out;
 }
 
 .about_container {
@@ -44,7 +44,7 @@
 .inactive_about_container:hover {
   cursor: pointer;
   width: 3.5%;
-  transition: width 0.75s ease;
+  transition: width 0.75s ease-in-out;
 }
 
 .inactive_about_title {
@@ -89,6 +89,7 @@
   align-items: center;
   opacity: 0;
   animation-name: fade-in;
+  animation-delay: 0.85s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
 }

@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: width 0.75s ease;
+  transition: width 0.75s ease-in-out;
 }
 
 .skill_container {
@@ -44,7 +44,7 @@
 .inactive_skill_container:hover {
   cursor: pointer;
   width: 3.5%;
-  transition: width 0.75s ease;
+  transition: width 0.75s ease-in-out;
 }
 
 .inactive_skill_title {
@@ -89,6 +89,7 @@
   align-items: center;
   opacity: 0;
   animation-name: fade-in;
+  animation-delay: 0.85s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
 }

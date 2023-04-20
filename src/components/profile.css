@@ -10,6 +10,33 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.profile_title {
+  display: flex;
+  position: fixed;
+  width: 9em;
+  height: 3em;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(255, 88, 88); */
+  background: rgb(25, 25, 25);
+  font-family: 'Arita-dotum-Medium';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.profile_title:hover {
+  cursor: pointer;
+}
+
 .profile_container {
   display: flex;
   align-items: center;
@@ -47,6 +74,7 @@
 
 .profile_name_eng {
   font-size: 1em;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .profile_job_kor {
@@ -55,6 +83,7 @@
 
 .profile_job_eng {
   font-size: 1em;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .profile_break_line {
