@@ -22,17 +22,82 @@
   display: flex;
   width: calc(25%);
   height: 100vh;
+  color: #f9f9f9;
+  background: rgb(33, 33, 33);
   align-items: center;
   justify-content: center;
-  background: rgb(33, 33, 33);
   flex-direction: column;
-  color: #f9f9f9;
   transition: width 0.75s ease;
 }
+
+/* ------------------------------------------ */
+
+.home_about_container {
+  min-width: calc(2.5%);
+}
+
+.home_about_container:hover {
+  cursor: pointer;
+}
+
+.home_about_container:hover .home_about_title {
+  font-size: 2.1em;
+  transition: all 0.1s ease-in-out;
+}
+
+.home_about_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.3s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.home_about_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.home_about_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+  transition: all 0.1s ease-in-out;
+}
+
+/* ------------------------------------------ */
 
 .about_container {
   width: calc(100%);
 }
+
+.about_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.85s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.about_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.about_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+}
+
+/* ------------------------------------------ */
 
 .inactive_about_container {
   display: flex;
@@ -61,50 +126,7 @@
   animation-fill-mode: forwards;
 }
 
-.home_about_container:hover {
-  cursor: pointer;
-}
-
-.home_about_container:hover .home_about_title {
-  font-size: 2.1em;
-  transition: all 0.1s ease-in-out;
-}
-
-.home_about_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
-}
-
-.home_about_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
-  transition: all 0.1s ease-in-out;
-}
-
 /* ------------------------------------------ */
-
-.about_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 0;
-  animation-name: fade-in;
-  animation-delay: 0.85s;
-  animation-duration: 0.75s;
-  animation-fill-mode: forwards;
-}
-
-.about_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
-}
-
-.about_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
-}
 
 @keyframes fade-in {
   from {

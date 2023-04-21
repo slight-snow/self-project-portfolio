@@ -29,8 +29,8 @@ function Profile() {
   return (
     <>
       <div>
-        {/* <div className='profile_title' onClick={() => window.location.reload()}>yunseok.portfolio</div> */}
-        <div className='profile_title' onClick={() => dispatch(page00())}>yunseok.portfolio</div>
+        <div className='profile_title' onClick={() => window.location.reload()}>yunseok.portfolio</div>
+        {/* <div className='profile_title' onClick={() => dispatch(page00())}>#yunseok.portfolio</div> */}
         <div className='profile_container'>
           <div className='profile_box'>
             <div className='profile_image_box'>

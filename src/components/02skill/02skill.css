@@ -30,9 +30,74 @@
   transition: width 0.75s ease;
 }
 
+/* ------------------------------------------ */
+
+.home_skill_container {
+  min-width: calc(2.5%);
+}
+
+.home_skill_container:hover {
+  cursor: pointer;
+}
+
+.home_skill_container:hover .home_skill_title {
+  font-size: 2.1em;
+  transition: all 0.1s ease-in-out;
+}
+
+.home_skill_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.3s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.home_skill_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.home_skill_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+  transition: all 0.1s ease-in-out;
+}
+
+/* ------------------------------------------ */
+
 .skill_container {
   width: calc(100%);
 }
+
+.skill_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.85s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.skill_break_line {
+  width: 1.5em;
+  margin: 1.25em 0 1.25em 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.skill_title {
+  font-size: 1.8em;
+  font-family: 'LeferiPoint-BlackA';
+}
+
+/* ------------------------------------------ */
 
 .inactive_skill_container {
   display: flex;
@@ -61,50 +126,7 @@
   animation-fill-mode: forwards;
 }
 
-.home_skill_container:hover {
-  cursor: pointer;
-}
-
-.home_skill_container:hover .home_skill_title {
-  font-size: 2.1em;
-  transition: all 0.1s ease-in-out;
-}
-
-.home_skill_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
-}
-
-.home_skill_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
-  transition: all 0.1s ease-in-out;
-}
-
 /* ------------------------------------------ */
-
-.skill_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 0;
-  animation-name: fade-in;
-  animation-delay: 0.85s;
-  animation-duration: 0.75s;
-  animation-fill-mode: forwards;
-}
-
-.skill_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
-}
-
-.skill_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
-}
 
 @keyframes fade-in {
   from {

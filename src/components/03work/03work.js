@@ -13,9 +13,11 @@ function Work() {
         <div
           className='home_work_container'
           onClick={() => dispatch(page03())}>
-          <div>03</div>
-          <div className='home_work_break_line' />
-          <div className='home_work_title'>WORK</div>
+          <div className='home_work_box'>
+            <div>03</div>
+            <div className='home_work_break_line' />
+            <div className='home_work_title'>WORK</div>
+          </div>
         </div>
       </>
     )

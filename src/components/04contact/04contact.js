@@ -13,9 +13,11 @@ function Contact() {
         <div
           className='home_contact_container'
           onClick={() => dispatch(page04())}>
-          <div>04</div>
-          <div className='home_contact_break_line' />
-          <div className='home_contact_title'>CONTACT</div>
+          <div className='home_contact_box'>
+            <div>04</div>
+            <div className='home_contact_break_line' />
+            <div className='home_contact_title'>CONTACT</div>
+          </div>
         </div>
       </>
     )

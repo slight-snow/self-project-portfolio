@@ -1,18 +1,22 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { page01, page02, page03, page04 } from '../features/counter/counterSlice';
+import { page00, page01, page02, page03, page04 } from '../features/counter/counterSlice';
+import icon_home from '../assets/icon_home.png';
 import './contents.css';
 
 function Contents() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  console.log(page);
-
   return (
     <>
       <div>
         <div className='contents_container'>
+          <div className='contents_icon_box'>
+            <img
+              className='contents_icon_home' alt='icon_home' src={icon_home}
+              onClick={() => dispatch(page00())} />
+          </div>
           <div className='contents_box'>
             <div className='contents_line_dots_container'>
               <div className='contents_line' />
