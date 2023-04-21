@@ -119,9 +119,7 @@
 }
 
 .profile_icon_email {
-  width: 31px;
-  filter: invert(99%) sepia(10%) saturate(0%) hue-rotate(324deg)
-    brightness(300%) contrast(100%);
+  width: 30.5px;
 }
 
 .profile_icon_email:hover {
