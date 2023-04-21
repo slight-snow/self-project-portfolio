@@ -14,9 +14,15 @@ function About() {
           className='home_about_container'
           onClick={() => dispatch(page01())}>
           <div className='home_about_box'>
-            <div>01</div>
-            <div className='home_about_break_line' />
-            <div className='home_about_title'>ABOUT</div>
+            <span className='about_line01'></span>
+            <span className='about_line02'></span>
+            <span className='about_line03'></span>
+            <span className='about_line04'></span>
+            <div className='home_about_contents'>
+              <div>01</div>
+              <div className='home_about_break_line' />
+              <div className='home_about_title'>ABOUT</div>
+            </div>
           </div>
         </div>
       </>

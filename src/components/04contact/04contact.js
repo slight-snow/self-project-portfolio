@@ -14,9 +14,15 @@ function Contact() {
           className='home_contact_container'
           onClick={() => dispatch(page04())}>
           <div className='home_contact_box'>
-            <div>04</div>
-            <div className='home_contact_break_line' />
-            <div className='home_contact_title'>CONTACT</div>
+            <span className='contact_line01'></span>
+            <span className='contact_line02'></span>
+            <span className='contact_line03'></span>
+            <span className='contact_line04'></span>
+            <div className='home_contact_contents'>
+              <div>04</div>
+              <div className='home_contact_break_line' />
+              <div className='home_contact_title'>CONTACT</div>
+            </div>
           </div>
         </div>
       </>

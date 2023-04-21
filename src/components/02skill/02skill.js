@@ -14,9 +14,15 @@ function Skill() {
           className='home_skill_container'
           onClick={() => dispatch(page02())}>
           <div className='home_skill_box'>
-            <div>02</div>
-            <div className='home_skill_break_line' />
-            <div className='home_skill_title'>SKILL</div>
+            <span className='skill_line01'></span>
+            <span className='skill_line02'></span>
+            <span className='skill_line03'></span>
+            <span className='skill_line04'></span>
+            <div className='home_skill_contents'>
+              <div>02</div>
+              <div className='home_skill_break_line' />
+              <div className='home_skill_title'>SKILL</div>
+            </div>
           </div>
         </div>
       </>

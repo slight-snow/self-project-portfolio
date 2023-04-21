@@ -14,9 +14,15 @@ function Work() {
           className='home_work_container'
           onClick={() => dispatch(page03())}>
           <div className='home_work_box'>
-            <div>03</div>
-            <div className='home_work_break_line' />
-            <div className='home_work_title'>WORK</div>
+            <span className='work_line01'></span>
+            <span className='work_line02'></span>
+            <span className='work_line03'></span>
+            <span className='work_line04'></span>
+            <div className='home_work_contents'>
+              <div>03</div>
+              <div className='home_work_break_line' />
+              <div className='home_work_title'>WORK</div>
+            </div>
           </div>
         </div>
       </>
