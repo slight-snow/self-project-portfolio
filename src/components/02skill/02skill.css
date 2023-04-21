@@ -46,7 +46,7 @@
 }
 
 .skill_line01 {
-  opacity: 0.5;
+  opacity: 0.3;
   display: inline-block;
   position: absolute;
   width: 0;
@@ -63,7 +63,7 @@
 }
 
 .skill_line02 {
-  opacity: 0.5;
+  opacity: 0.3;
   display: inline-block;
   position: absolute;
   width: 1px;
@@ -80,7 +80,7 @@
 }
 
 .skill_line03 {
-  opacity: 0.5;
+  opacity: 0.3;
   display: inline-block;
   position: absolute;
   width: 0;
@@ -97,7 +97,7 @@
 }
 
 .skill_line04 {
-  opacity: 0.5;
+  opacity: 0.3;
   display: inline-block;
   position: absolute;
   width: 1px;
