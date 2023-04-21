@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import profile_image from '../assets/profile_image.jpeg'
 import icon_github from '../assets/icon_github.svg'
 import icon_velog from '../assets/icon_velog.png'
+import icon_velog_white from '../assets/icon_velog_white.svg'
 import icon_email from '../assets/icon_email.png'
 import './profile.css';
 
@@ -56,7 +57,7 @@ function Profile() {
                 className='profile_icon_github' alt='icon_github' src={icon_github}
                 onClick={() => window.open('https://github.com/slight-snow', '_blank')} />
               <img
-                className='profile_icon_velog' alt='icon_velog' src={icon_velog}
+                className='profile_icon_velog' alt='icon_velog' src={icon_velog_white}
                 onClick={() => window.open('https://velog.io/@slight-snow', '_blank')} />
               <img
                 className='profile_icon_email' alt='icon_email' src={icon_email}
