@@ -48,7 +48,7 @@
 .profile_box {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 3em;
+  margin: 0 0 0 2.8em;
 }
 
 .profile_image_box {
@@ -93,6 +93,7 @@
 
 .profile_icon_box {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 7.5em;
   margin: 1em 0 0 0.5em;
@@ -119,7 +120,7 @@
 }
 
 .profile_icon_email {
-  width: 30.5px;
+  width: 30.8px;
 }
 
 .profile_icon_email:hover {
