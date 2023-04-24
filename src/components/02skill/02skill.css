@@ -15,10 +15,9 @@
 }
 
 @font-face {
-  font-family: 'KOHINanumOTFL';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHINanumOTFL.woff')
-    format('woff');
-  font-weight: normal;
+  font-family: 'GothicA1-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Bold.woff2')
+    format('woff2');
   font-style: normal;
 }
 
@@ -158,7 +157,8 @@
 
 .skill_container {
   display: flex;
-  width: calc(92.5%);
+  position: relative;
+  width: calc(100%);
   height: 100vh;
   color: #f9f9f9;
   background: rgb(41, 41, 41);
@@ -168,36 +168,46 @@
   transition: width 0.75s ease;
 }
 
+.skill_title {
+  display: flex;
+  position: absolute;
+  font-family: 'LeferiPoint-BlackA';
+  font-size: 3em;
+  top: 0.75em;
+  left: 1em;
+  width: 100%;
+}
+
 .skill_box {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 90%;
+  justify-content: center;
+  gap: 40px;
+  width: 0;
   height: 100vh;
-  margin-top: 4em;
   opacity: 0;
-  animation-name: fade-in;
-  animation-delay: 0.85s;
+  animation-name: fade-in-skill-box;
+  animation-delay: 0.75s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
+  margin-top: 5em;
 }
 
-.skill_fe_box {
+.skill_item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.skill_fe_title {
+.skill_item_title {
   display: flex;
-  font-family: 'KOHINanumOTFL';
-  font-weight: 700;
-  font-size: 2em;
+  font-family: 'GothicA1-Bold';
+  font-size: 1.75em;
 }
 
-.skill_fe_list {
+.skill_ul_type1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,14 +215,15 @@
   width: 17em;
   background: white;
   opacity: 0.9;
-  height: 570px;
+  height: 585px;
   border-radius: 0.75em;
-  margin-top: 1em;
+  margin-top: 0.6em;
 }
 
-.skill_fe_item {
+.skill_fe_li {
   display: flex;
   width: 13.5em;
+  align-items: center;
   justify-content: space-between;
   margin: 0.75em 0 0.75em 0;
 }
@@ -252,6 +263,104 @@
   width: 100px;
 }
 
+.skill_ul_type2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17em;
+  background: white;
+  opacity: 0.9;
+  height: 260px;
+  border-radius: 0.75em;
+  margin-top: 0.6em;
+}
+
+.skill_be_li {
+  display: flex;
+  width: 13.5em;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.skill_be_mysql {
+  width: 80px;
+  margin: 0 10px 0 10px;
+}
+
+.skill_be_jwt {
+  width: 100px;
+}
+
+.skill_be_nodejs {
+  width: 170px;
+  margin-bottom: 17.5px;
+}
+
+.space_between {
+  height: 21px;
+}
+
+.skill_dep_li {
+  display: flex;
+  width: 13.5em;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.skill_dep_aws {
+  width: 190px;
+}
+
+.skill_dep_vercel {
+  width: 210px;
+}
+
+.skill_com_li {
+  display: flex;
+  width: 13.5em;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.skill_com_git {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.skill_com_figma {
+  width: 180px;
+}
+
+.skill_tool_li {
+  display: flex;
+  width: 13.5em;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.skill_tool_word {
+  width: 75px;
+}
+
+.skill_tool_excel {
+  width: 75px;
+}
+
+.skill_tool_powerpoint {
+  width: 75px;
+}
+
+.skill_tool_access {
+  width: 75px;
+}
+
 /* ------------------------------------------ */
 
 .inactive_skill_container {
@@ -289,5 +398,16 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes fade-in-skill-box {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
   }
 }
