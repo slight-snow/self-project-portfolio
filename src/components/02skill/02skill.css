@@ -191,7 +191,7 @@
   animation-delay: 0.75s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 .skill_item {
@@ -214,8 +214,7 @@
   align-items: center;
   width: 19vw;
   min-width: 17em;
-  height: 70vh;
-  min-height: 585px;
+  height: 600px;
   opacity: 0.9;
   background: white;
   border-radius: 0.75em;
@@ -224,7 +223,7 @@
 
 .skill_fe_li {
   display: flex;
-  width: 13.5em;
+  width: 14.25em;
   align-items: center;
   justify-content: space-between;
   margin: 0.75em 0 0.75em 0;
@@ -272,8 +271,7 @@
   align-items: center;
   width: 19vw;
   min-width: 17em;
-  height: 30vh;
-  min-height: 260px;
+  height: 265px;
   background: white;
   opacity: 0.9;
   border-radius: 0.75em;
@@ -304,8 +302,7 @@
 }
 
 .space_between {
-  height: 2vh;
-  min-height: 22px;
+  height: 25px;
 }
 
 .skill_dep_li {
