@@ -160,7 +160,6 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: rgb(44, 61, 107);
   opacity: 0;
   animation-name: fade-in;
   animation-delay: 0.85s;
