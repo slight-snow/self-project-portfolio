@@ -189,7 +189,7 @@
   opacity: 0;
   animation-name: fade-in-skill-box;
   animation-delay: 0.75s;
-  animation-duration: 0.9s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   margin-top: 6em;
 }
