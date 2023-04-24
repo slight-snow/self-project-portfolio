@@ -37,7 +37,7 @@ function Skill() {
           className='skill_container'
           onClick={() => dispatch(page02())}>
           <div className='skill_box'>
-            <div className='skill_title'>SKILL ‣</div>
+            <div className='skill_title'>#SKILL</div>
             <div className='skill_item'>
               <div className='skill_item_title'>Front-End</div>
               <div className='skill_ul_type1'>
