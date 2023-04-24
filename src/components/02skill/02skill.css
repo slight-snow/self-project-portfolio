@@ -212,7 +212,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 17em;
+  width: 19vw;
+  min-width: 17em;
   background: white;
   opacity: 0.9;
   height: 585px;
@@ -268,7 +269,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 17em;
+  width: 19vw;
+  min-width: 17em;
   background: white;
   opacity: 0.9;
   height: 260px;
