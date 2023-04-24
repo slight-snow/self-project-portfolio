@@ -14,10 +14,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'KOHINanumOTFL';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHINanumOTFL.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_skill_container,
-.skill_container,
 .inactive_skill_container {
   display: flex;
   width: calc(25%);
@@ -150,13 +157,25 @@
 /* ------------------------------------------ */
 
 .skill_container {
-  width: calc(100%);
+  display: flex;
+  width: calc(92.5%);
+  height: 100vh;
+  color: #f9f9f9;
+  background: rgb(41, 41, 41);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: width 0.75s ease;
 }
 
 .skill_box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100vh;
+  margin-top: 4em;
   opacity: 0;
   animation-name: fade-in;
   animation-delay: 0.85s;
@@ -164,15 +183,73 @@
   animation-fill-mode: forwards;
 }
 
-.skill_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
+.skill_fe_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.skill_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
+.skill_fe_title {
+  display: flex;
+  font-family: 'KOHINanumOTFL';
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.skill_fe_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17em;
+  background: white;
+  opacity: 0.9;
+  height: 570px;
+  border-radius: 0.75em;
+  margin-top: 1em;
+}
+
+.skill_fe_item {
+  display: flex;
+  width: 13.5em;
+  justify-content: space-between;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.skill_fe_html {
+  width: 95px;
+  margin-left: 2.5px;
+}
+
+.skill_fe_css {
+  width: 95px;
+  margin-right: 2.5px;
+}
+
+.skill_fe_javascript {
+  width: 100px;
+}
+
+.skill_fe_typescript {
+  width: 100px;
+}
+
+.skill_fe_react {
+  width: 100px;
+}
+
+.skill_fe_redux {
+  width: 100px;
+}
+
+.skill_fe_nextjs {
+  width: 100px;
+  filter: invert(99%) hue-rotate(324deg) brightness(330%) contrast(200%);
+}
+
+.skill_fe_styled-components {
+  width: 100px;
 }
 
 /* ------------------------------------------ */

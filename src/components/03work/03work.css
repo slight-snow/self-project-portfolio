@@ -46,7 +46,7 @@
 }
 
 .work_line01 {
-  opacity: 0.4;
+  opacity: 0.45;
   display: inline-block;
   position: absolute;
   width: 0;
@@ -63,7 +63,7 @@
 }
 
 .work_line02 {
-  opacity: 0.4;
+  opacity: 0.45;
   display: inline-block;
   position: absolute;
   width: 2px;
@@ -80,7 +80,7 @@
 }
 
 .work_line03 {
-  opacity: 0.4;
+  opacity: 0.45;
   display: inline-block;
   position: absolute;
   width: 0;
@@ -97,7 +97,7 @@
 }
 
 .work_line04 {
-  opacity: 0.4;
+  opacity: 0.45;
   display: inline-block;
   position: absolute;
   width: 2px;
