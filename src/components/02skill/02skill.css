@@ -218,8 +218,8 @@
   max-width: 22em;
   min-width: 17em;
   height: 100%;
-  opacity: 0.9;
-  background: white;
+  opacity: 1;
+  background: rgb(240, 240, 240);
   border-radius: 0.75em;
   margin-top: 0.6em;
 }
@@ -277,8 +277,8 @@
   min-width: 17em;
   height: 50%;
   /* height: 265px; */
-  background: white;
-  opacity: 0.9;
+  background: rgb(240, 240, 240);
+  opacity: 1;
   border-radius: 0.75em;
   margin-top: 0.6em;
 }
