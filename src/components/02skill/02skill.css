@@ -229,7 +229,7 @@
   width: 14.25em;
   align-items: center;
   justify-content: space-between;
-  margin: 0.75em 0 0.75em 0;
+  margin: 1em 0 1em 0;
 }
 
 .skill_fe_html {
@@ -289,20 +289,20 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-  margin: 0.75em 0 0.75em 0;
+  margin: 1em 0 1em 0;
 }
 
 .skill_be_mysql {
-  width: 80px;
+  width: 90px;
   margin: 0 10px 0 10px;
 }
 
 .skill_be_jwt {
-  width: 100px;
+  width: 110px;
 }
 
 .skill_be_nodejs {
-  width: 170px;
+  width: 190px;
   margin-bottom: 17.5px;
 }
 
@@ -319,11 +319,11 @@
 }
 
 .skill_dep_aws {
-  width: 190px;
+  width: 200px;
 }
 
 .skill_dep_vercel {
-  width: 210px;
+  width: 220px;
 }
 
 .skill_com_li {
@@ -331,16 +331,16 @@
   width: 13.5em;
   align-items: center;
   justify-content: center;
-  margin: 0.75em 0 0.75em 0;
+  margin: 1em 0 1em 0;
 }
 
 .skill_com_git {
-  width: 150px;
+  width: 160px;
   margin: 15px 0 5px 0;
 }
 
 .skill_com_figma {
-  width: 180px;
+  width: 190px;
 }
 
 .skill_tool_li {
@@ -353,19 +353,19 @@
 }
 
 .skill_tool_word {
-  width: 75px;
+  width: 80px;
 }
 
 .skill_tool_excel {
-  width: 75px;
+  width: 80px;
 }
 
 .skill_tool_powerpoint {
-  width: 75px;
+  width: 80px;
 }
 
 .skill_tool_access {
-  width: 75px;
+  width: 80px;
 }
 
 /* ------------------------------------------ */
