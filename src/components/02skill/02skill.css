@@ -199,6 +199,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 
 .skill_item_title {
@@ -215,7 +216,7 @@
   width: 19vw;
   max-width: 22em;
   min-width: 17em;
-  height: 600px;
+  height: 100%;
   opacity: 0.9;
   background: white;
   border-radius: 0.75em;
@@ -273,7 +274,8 @@
   width: 19vw;
   max-width: 22em;
   min-width: 17em;
-  height: 265px;
+  height: 50%;
+  /* height: 265px; */
   background: white;
   opacity: 0.9;
   border-radius: 0.75em;
