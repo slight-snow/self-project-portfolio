@@ -190,6 +190,7 @@
   flex-direction: column;
   width: 30em;
   height: 60vh;
+  max-height: 900px;
   justify-content: center;
   align-items: center;
 }
