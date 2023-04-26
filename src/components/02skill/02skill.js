@@ -39,7 +39,7 @@ function Skill() {
           <div className='skill_box'>
             <div className='skill_title'>#SKILL</div>
             <div className='skill_item'>
-              <div className='skill_item_title'>Front-End</div>
+              <div className='skill_item_title'>▸ Front-End</div>
               <div className='skill_ul_type1'>
                 <div className='skill_fe_li'>
                   <img src='/fe_icons/fe_HTML.png' alt='fe_html' className='skill_fe_html' />
@@ -60,7 +60,7 @@ function Skill() {
               </div>
             </div>
             <div className='skill_item'>
-              <div className='skill_item_title'>Back-End</div>
+              <div className='skill_item_title'>▸ Back-End</div>
               <div className='skill_ul_type2'>
                 <div className='skill_be_li'>
                   <img src='/be_icons/be_JWT.png' alt='be_jwt' className='skill_be_jwt' />
@@ -71,7 +71,7 @@ function Skill() {
                 </div>
               </div>
               <div className='space_between' />
-              <div className='skill_item_title'>Deploy</div>
+              <div className='skill_item_title'>▸ Deploy</div>
               <div className='skill_ul_type2'>
                 <div className='skill_dep_li'>
                   <img src='/dep_icons/dep_AWS.png' alt='dep_aws' className='skill_dep_aws' />
@@ -82,7 +82,7 @@ function Skill() {
               </div>
             </div>
             <div className='skill_item'>
-              <div className='skill_item_title'>Communication</div>
+              <div className='skill_item_title'>▸ Communication</div>
               <div className='skill_ul_type2'>
                 <div className='skill_com_li'>
                   <img src='/com_icons/com_Git.png' alt='com_git' className='skill_com_git' />
@@ -92,7 +92,7 @@ function Skill() {
                 </div>
               </div>
               <div className='space_between' />
-              <div className='skill_item_title'>Tools</div>
+              <div className='skill_item_title'>▸ Tools</div>
               <div className='skill_ul_type2'>
                 <div className='skill_tool_li'>
                   <img src='/tool_icons/tool_Word.jpeg' alt='tool_word' className='skill_tool_word' />
