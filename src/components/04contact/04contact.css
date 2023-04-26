@@ -247,12 +247,12 @@
 }
 
 .contact_send_button {
-  width: 140px;
-  height: 60px;
+  width: 120px;
+  height: 70px;
   margin-top: 60px;
   font-size: 20px;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 /* ------------------------------------------ */
