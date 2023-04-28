@@ -177,6 +177,7 @@
   justify-content: center;
   align-items: center;
   width: 0;
+  height: 60vh;
   opacity: 0;
   animation-name: fade-in-contact-box;
   animation-delay: 0.75s;
@@ -248,8 +249,8 @@
 
 .contact_send_button {
   width: 120px;
-  height: 4em;
-  margin-top: 3em;
+  height: 2.5em;
+  margin-top: 2em;
   font-size: 20px;
   border: none;
   border-radius: 10px;
