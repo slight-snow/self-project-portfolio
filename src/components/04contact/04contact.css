@@ -287,14 +287,14 @@
 
 /* ------------------------------------------ */
 
-/* @keyframes fade-in {
+@keyframes fade-in {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-} */
+}
 
 @keyframes fade-in-contact-box {
   from {
