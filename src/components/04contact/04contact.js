@@ -93,12 +93,12 @@ function Contact() {
                   value={message}
                   onChange={(e) => change(e)} />
               </div>
+              <button
+                type='submit'
+                className='contact_send_button'>
+                Send
+              </button>
             </form>
-            <button
-              type='submit'
-              className='contact_send_button'>
-              Send
-            </button>
           </div>
         </div>
       </>
