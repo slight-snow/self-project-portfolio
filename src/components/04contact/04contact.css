@@ -194,6 +194,7 @@
   max-height: 700px;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .contact_name {
@@ -212,6 +213,7 @@
   border: none;
   border-bottom: 2px solid white;
   background: rgb(57, 57, 57);
+  font-family: 'Arita-dotum-Medium';
 }
 
 .contact_name_box:focus {
@@ -235,6 +237,7 @@
   border: none;
   border-bottom: 2px solid white;
   background: rgb(57, 57, 57);
+  font-family: 'Arita-dotum-Medium';
 }
 
 .contact_email_box:focus {
@@ -254,11 +257,13 @@
   flex-direction: column;
   resize: none;
   height: 100%;
-  margin-top: 25px;
+  margin-top: 20px;
   color: white;
   border: none;
   border: 2px solid white;
   background: rgb(57, 57, 57);
+  font-family: 'Arita-dotum-Medium';
+  padding: 10px 10px 10px 10px;
 }
 
 .contact_message_box {

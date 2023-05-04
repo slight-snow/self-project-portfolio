@@ -72,6 +72,7 @@ function Contact() {
                   type='text'
                   name='name'
                   className='contact_name_box'
+                  placeholder='Enter Your Full Name'
                   value={name}
                   onChange={(e) => change(e)} />
               </div>
@@ -81,6 +82,7 @@ function Contact() {
                   type='email'
                   name='email'
                   className='contact_email_box'
+                  placeholder='Enter Your Email'
                   value={email}
                   onChange={(e) => change(e)} />
               </div>
@@ -90,6 +92,7 @@ function Contact() {
                   type='text'
                   name='message'
                   className='contact_message_box'
+                  placeholder='Enter Your Message ...'
                   value={message}
                   onChange={(e) => change(e)} />
               </div>
