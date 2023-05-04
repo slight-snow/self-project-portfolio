@@ -314,11 +314,13 @@
   overflow: hidden;
   position: relative;
   color: white;
-  font-weight: 700;
+  font-family: 'Arita-dotum-Medium';
+  font-weight: bold;
   font-size: 20px;
   background: rgb(57, 57, 57);
   border: 2px solid rgb(240, 240, 240);
-  padding: 17px 50px;
+  width: 140px;
+  min-height: 55px;
   margin-top: 5.5vh;
   transition: all 0.4s ease-in-out;
 }
