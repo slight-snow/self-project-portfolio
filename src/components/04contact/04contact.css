@@ -279,6 +279,7 @@
 .contact_send_button {
   width: 120px;
   height: 65px;
+  margin-top: 15px;
   font-size: 20px;
   border: none;
   font-family: 'Arita-dotum-Medium';
