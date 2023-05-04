@@ -340,8 +340,8 @@
   background: rgb(240, 240, 240);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  -webkit-transform: translateX(-96%) translateY(-1%) rotate(45deg);
-  transform: translateX(-96%) translateY(-1%) rotate(45deg);
+  -webkit-transform: translateX(-96%) translateY(1%) rotate(45deg);
+  transform: translateX(-96%) translateY(1%) rotate(45deg);
 }
 
 .contact_send_button:hover:after {
