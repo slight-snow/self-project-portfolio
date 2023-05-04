@@ -157,7 +157,7 @@
   background: rgb(57, 57, 57);
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   transition: width 0.75s ease;
 }
 
@@ -173,9 +173,10 @@
 
 .contact_box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 70px;
   width: 0;
   height: 100vh;
   opacity: 0;
@@ -186,15 +187,20 @@
   margin-top: 6em;
 }
 
+.contact_script {
+  width: 40%;
+  min-width: 400px;
+  height: 100vh;
+  background: white;
+}
+
 .contact_form {
   display: flex;
   flex-direction: column;
   width: 25vw;
   min-width: 400px;
   max-width: 550px;
-  /* height: 70vh; */
   max-height: 700px;
-  /* justify-content: space-between; */
   align-items: center;
   font-family: 'Arita-dotum-Medium';
 }
@@ -225,9 +231,6 @@
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
-}
-
-.contact_name_box:focus {
   outline: none;
 }
 
@@ -251,9 +254,6 @@
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
-}
-
-.contact_email_box:focus {
   outline: none;
 }
 
@@ -278,31 +278,8 @@
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
   padding: 15px;
-}
-
-.contact_message_box {
   outline: none;
 }
-
-/* .contact_send_button {
-  width: 140px;
-  min-height: 55px;
-  margin-top: 5.5vh;
-  font-size: 20px;
-  border: 2px solid rgb(240, 240, 240);
-  color: white;
-  font-family: 'Arita-dotum-Medium';
-  font-weight: bold;
-  background: rgb(57, 57, 57);
-  transition: all 0.15s ease-in-out;
-}
-
-.contact_send_button:hover {
-  cursor: pointer;
-  background: white;
-  color: rgb(57, 57, 57);
-  transition: all 0.15s ease-in-out;
-} */
 
 .contact_send_button {
   border: none;

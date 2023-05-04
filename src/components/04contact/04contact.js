@@ -64,10 +64,15 @@ function Contact() {
           onClick={() => dispatch(page04())}>
           <div className='contact_box'>
             <div className='contact_title'>#CONTACT</div>
+
+            <div className='contact_script'>
+
+            </div>
+
             <form className='contact_form' onSubmit={sendEmail}>
               <div className='contact_form_box'>
                 <div className='contact_name'>
-                  <label>• 성함 / Name</label>
+                  <label>• 이름 / Name</label>
                   <input
                     type='text'
                     name='name'
