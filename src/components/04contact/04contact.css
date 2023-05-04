@@ -189,8 +189,8 @@
 .contact_form {
   display: flex;
   flex-direction: column;
-  width: 27.5vw;
-  min-width: 440px;
+  width: 25vw;
+  min-width: 400px;
   max-width: 600px;
   /* height: 70vh; */
   max-height: 700px;
