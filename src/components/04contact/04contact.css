@@ -189,7 +189,9 @@
 .contact_form {
   display: flex;
   flex-direction: column;
-  width: 27em;
+  width: 27.5vw;
+  min-width: 440px;
+  max-width: 600px;
   /* height: 70vh; */
   max-height: 700px;
   /* justify-content: space-between; */
@@ -219,7 +221,7 @@
   margin-top: 5px;
   color: white;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
@@ -245,7 +247,7 @@
   margin-top: 5px;
   color: white;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
@@ -271,7 +273,7 @@
   height: 22vh;
   margin-top: 20px;
   color: white;
-  border: 2px solid white;
+  border: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
   font-size: 16px;
@@ -287,7 +289,7 @@
   min-height: 55px;
   margin-top: 5.5vh;
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid rgb(240, 240, 240);
   color: white;
   font-family: 'Arita-dotum-Medium';
   font-weight: bold;
