@@ -176,7 +176,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 55px;
   width: 0;
   height: 100vh;
   opacity: 0;
@@ -188,9 +188,8 @@
 }
 
 .contact_script {
-  /* width: 40%; */
-  min-width: 400px;
-  height: 100vh;
+  min-width: 470px;
+  height: 75vh;
   background: white;
 }
 
