@@ -271,7 +271,6 @@
   height: 22vh;
   margin-top: 20px;
   color: white;
-  border: none;
   border: 2px solid white;
   background: rgb(57, 57, 57);
   font-family: 'Arita-dotum-Medium';
@@ -285,12 +284,14 @@
 
 .contact_send_button {
   width: 120px;
-  height: 55px;
+  min-height: 55px;
   margin-top: 5.5vh;
   font-size: 20px;
-  border: none;
+  border: 2px solid white;
+  color: white;
   font-family: 'Arita-dotum-Medium';
   font-weight: bold;
+  background: rgb(57, 57, 57);
 }
 
 .contact_send_button:hover {
