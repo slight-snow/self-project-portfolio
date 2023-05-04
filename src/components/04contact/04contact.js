@@ -65,36 +65,37 @@ function Contact() {
           <div className='contact_box'>
             <div className='contact_title'>#CONTACT</div>
             <form className='contact_form' onSubmit={sendEmail}>
-              <input type='hidden' name='contact_number' />
-              <div className='contact_name'>
-                <label>• 성함 / Name</label>
-                <input
-                  type='text'
-                  name='name'
-                  className='contact_name_box'
-                  placeholder='Enter Your Full Name'
-                  value={name}
-                  onChange={(e) => change(e)} />
-              </div>
-              <div className='contact_email'>
-                <label>• 이메일 / Email</label>
-                <input
-                  type='email'
-                  name='email'
-                  className='contact_email_box'
-                  placeholder='Enter Your Email'
-                  value={email}
-                  onChange={(e) => change(e)} />
-              </div>
-              <div className='contact_message'>
-                <label>• 메세지 / Message</label>
-                <textarea
-                  type='text'
-                  name='message'
-                  className='contact_message_box'
-                  placeholder='Enter Your Message ...'
-                  value={message}
-                  onChange={(e) => change(e)} />
+              <div className='contact_form_box'>
+                <div className='contact_name'>
+                  <label>• 성함 / Name</label>
+                  <input
+                    type='text'
+                    name='name'
+                    className='contact_name_box'
+                    placeholder='Enter Your Full Name'
+                    value={name}
+                    onChange={(e) => change(e)} />
+                </div>
+                <div className='contact_email'>
+                  <label>• 이메일 / Email</label>
+                  <input
+                    type='email'
+                    name='email'
+                    className='contact_email_box'
+                    placeholder='Enter Your Email'
+                    value={email}
+                    onChange={(e) => change(e)} />
+                </div>
+                <div className='contact_message'>
+                  <label>• 메세지 / Message</label>
+                  <textarea
+                    type='text'
+                    name='message'
+                    className='contact_message_box'
+                    placeholder='Enter Your Message ...'
+                    value={message}
+                    onChange={(e) => change(e)} />
+                </div>
               </div>
               <button
                 type='submit'
