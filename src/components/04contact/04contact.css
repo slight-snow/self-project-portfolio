@@ -261,7 +261,7 @@
   display: flex;
   flex-direction: column;
   resize: none;
-  height: 20vh;
+  height: 22.5vh;
   margin-top: 20px;
   color: white;
   border: none;
@@ -279,7 +279,6 @@
 .contact_send_button {
   width: 120px;
   height: 65px;
-  margin-top: 2.5em;
   font-size: 20px;
   border: none;
   font-family: 'Arita-dotum-Medium';
