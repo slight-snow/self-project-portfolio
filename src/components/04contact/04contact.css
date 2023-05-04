@@ -192,7 +192,7 @@
   width: 30em;
   height: 60vh;
   max-height: 800px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -207,9 +207,14 @@
   display: flex;
   flex-direction: column;
   height: 2.5em;
-  margin-top: 1em;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-bottom: 1.5px solid white;
+  background: rgb(57, 57, 57);
+}
+
+.contact_name_box:focus {
+  outline: none;
 }
 
 .contact_email {
@@ -224,9 +229,14 @@
   display: flex;
   flex-direction: column;
   height: 2.5em;
-  margin-top: 1em;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-bottom: 1.5px solid white;
+  background: rgb(57, 57, 57);
+}
+
+.contact_email_box:focus {
+  outline: none;
 }
 
 .contact_message {
@@ -243,8 +253,14 @@
   resize: none;
   height: 100%;
   margin-top: 1em;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border: 1.5px solid white;
+  background: rgb(57, 57, 57);
+}
+
+.contact_message_box {
+  outline: none;
 }
 
 .contact_send_button {
@@ -253,7 +269,10 @@
   margin-top: 2em;
   font-size: 20px;
   border: none;
-  border-radius: 10px;
+}
+
+.contact_send_button:hover {
+  cursor: pointer;
 }
 
 /* ------------------------------------------ */
