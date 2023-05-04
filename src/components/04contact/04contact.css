@@ -284,8 +284,8 @@
   outline: none;
 }
 
-.contact_send_button {
-  width: 120px;
+/* .contact_send_button {
+  width: 140px;
   min-height: 55px;
   margin-top: 5.5vh;
   font-size: 20px;
@@ -294,10 +294,62 @@
   font-family: 'Arita-dotum-Medium';
   font-weight: bold;
   background: rgb(57, 57, 57);
+  transition: all 0.15s ease-in-out;
 }
 
 .contact_send_button:hover {
   cursor: pointer;
+  background: white;
+  color: rgb(57, 57, 57);
+  transition: all 0.15s ease-in-out;
+} */
+
+.contact_send_button {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  background: rgb(57, 57, 57);
+  border: 2px solid rgb(240, 240, 240);
+  padding: 17px 50px;
+  margin-top: 5.5vh;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact_send_button span {
+  position: relative;
+  z-index: 1;
+}
+
+.contact_send_button:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: rgb(240, 240, 240);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: translateX(-96%) translateY(-1%) rotate(45deg);
+  transform: translateX(-96%) translateY(-1%) rotate(45deg);
+}
+
+.contact_send_button:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-30%) rotate(45deg);
+  transform: translateX(-9%) translateY(-30%) rotate(45deg);
+}
+
+.contact_send_button:hover {
+  color: rgb(57, 57, 57);
+  transition: all 0.4s ease-in-out;
 }
 
 /* ------------------------------------------ */

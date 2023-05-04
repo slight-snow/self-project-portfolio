@@ -100,7 +100,7 @@ function Contact() {
               <button
                 type='submit'
                 className='contact_send_button'>
-                SEND
+                <span>SEND</span>
               </button>
             </form>
           </div>
