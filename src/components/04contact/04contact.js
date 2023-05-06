@@ -102,6 +102,7 @@ function Contact() {
                     onChange={(e) => change(e)} />
                 </div>
               </div>
+
               <button
                 type='submit'
                 className='contact_send_button'>
