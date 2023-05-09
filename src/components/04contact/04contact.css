@@ -226,8 +226,8 @@
 .contact_script_detail {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
-  gap: 25px;
+  margin-top: 40px;
+  gap: 20px;
 }
 
 .contact_script_detail_kor {
