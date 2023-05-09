@@ -408,8 +408,8 @@
 
 /* ------------------------------------------ */
 
-/* @media (min-width: 1200px) {
+@media (max-width: 1600px) {
   .contact_script_title_box {
     margin-top: 40px;
   }
-} */
+}
