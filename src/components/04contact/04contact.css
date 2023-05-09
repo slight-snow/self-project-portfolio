@@ -223,6 +223,13 @@
   color: rgb(240, 240, 240);
 }
 
+.contact_script_detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+}
+
 /* -----CONTACT FORM----- */
 
 .contact_form {
