@@ -226,8 +226,20 @@
 .contact_script_detail {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  gap: 5px;
+  margin-top: 25px;
+  gap: 25px;
+}
+
+.contact_script_detail_kor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact_script_detail_eng {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* -----CONTACT FORM----- */
