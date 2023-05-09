@@ -202,7 +202,7 @@
 .contact_script {
   display: flex;
   min-width: 470px;
-  height: 700px;
+  height: 655px;
   background: rgb(57, 57, 57);
 }
 
@@ -228,8 +228,10 @@
   display: flex;
   flex-direction: column;
   width: 420px;
+  height: 700px;
   max-height: 700px;
   align-items: center;
+  justify-content: center;
   font-family: 'Arita-dotum-Medium';
 }
 
@@ -238,7 +240,7 @@
   flex-direction: column;
   /* DESKTOP WIDTH */
   width: 500px;
-  height: 60vh;
+  height: 75%;
 }
 
 .contact_name {
@@ -413,10 +415,6 @@
 @media (max-width: 1680px) {
   .contact_box {
     gap: 10px;
-  }
-
-  .contact_script_title_box {
-    margin-top: 10px;
   }
 
   .contact_form_box {
