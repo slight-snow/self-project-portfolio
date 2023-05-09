@@ -21,6 +21,7 @@ function sendEmail(e) {
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
   const page = useSelector((state) => state.counter.page);
@@ -29,6 +30,7 @@ function Contact() {
   const change = (e) => {
     if (e.target.name === 'name') setName(e.target.value);
     if (e.target.name === 'email') setEmail(e.target.value);
+    if (e.target.name === 'subject') setSubject(e.target.value);
     if (e.target.name === 'message') setMessage(e.target.value);
   }
 
@@ -70,16 +72,25 @@ function Contact() {
                 <span className='contact_script_title01'>CONTACT</span>
                 <span className='contact_script_title02'>ME.</span>
               </div>
+              <div className='contact_script_detail'>
+                <span>
+                  폼을 작성하여 연락을 남길 수 있습니다.
+                </span>
+                <span>
+
+                </span>
+              </div>
               <div className='contact_script_source'>
                 <div className='contact_script_email'></div>
                 <div className='contact_script_phone'></div>
+                <div className='contact_script_address'></div>
               </div>
             </div>
 
             <form className='contact_form' onSubmit={sendEmail}>
               <div className='contact_form_box'>
                 <div className='contact_name'>
-                  <label>• 이름 / Name</label>
+                  <label>• Name</label>
                   <input
                     type='text'
                     name='name'
@@ -89,17 +100,27 @@ function Contact() {
                     onChange={(e) => change(e)} />
                 </div>
                 <div className='contact_email'>
-                  <label>• 이메일 / Email</label>
+                  <label>• Email</label>
                   <input
                     type='email'
                     name='email'
                     className='contact_email_box'
-                    placeholder='Enter Your Email'
+                    placeholder='Enter Your Email Address'
                     value={email}
                     onChange={(e) => change(e)} />
                 </div>
+                <div className='contact_subject'>
+                  <label>• Subject</label>
+                  <input
+                    type='text'
+                    name='subject'
+                    className='contact_subject_box'
+                    placeholder='Enter Subject'
+                    value={subject}
+                    onChange={(e) => change(e)} />
+                </div>
                 <div className='contact_message'>
-                  <label>• 메세지 / Message</label>
+                  <label>• Message</label>
                   <textarea
                     type='text'
                     name='message'
@@ -111,7 +132,7 @@ function Contact() {
                 <button
                   type='submit'
                   className='contact_send_button'>
-                  <span>SEND</span>
+                  <span>SUBMIT</span>
                 </button>
               </div>
             </form>
