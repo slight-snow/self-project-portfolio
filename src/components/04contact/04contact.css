@@ -202,7 +202,7 @@
 .contact_script {
   display: flex;
   min-width: 470px;
-  height: 800px;
+  height: 720px;
   background: rgb(57, 57, 57);
   flex-direction: column;
 }
@@ -242,7 +242,7 @@
   justify-content: center;
   /* DESKTOP WIDTH */
   width: 500px;
-  gap: 25px;
+  gap: 30px;
 }
 
 .contact_name {
@@ -444,7 +444,7 @@
   }
 
   .contact_script_title_box {
-    margin-top: 65px;
+    margin-top: 27.5px;
   }
 
   .contact_form {
