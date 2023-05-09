@@ -65,7 +65,7 @@ function Contact() {
           className='contact_container'
           onClick={() => dispatch(page04())}>
           <div className='contact_box'>
-            <div className='contact_title'>#CONTACT</div>
+            {/* <div className='contact_title'>#CONTACT</div> */}
 
             <div className='contact_script'>
               <div className='contact_script_title_box'>
