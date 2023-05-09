@@ -185,7 +185,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2.5vw;
+  /* DESKTOP GAP */
+  gap: 5vw;
   width: 0;
   height: 100vh;
   opacity: 0;
@@ -235,7 +236,8 @@
 .contact_form_box {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  /* DESKTOP WIDTH */
+  width: 600px;
   height: 60vh;
 }
 
@@ -408,8 +410,16 @@
 
 /* ------------------------------------------ */
 
-@media (max-width: 1600px) {
+@media (max-width: 1680px) {
+  .contact_box {
+    gap: 10px;
+  }
+
   .contact_script_title_box {
-    margin-top: 40px;
+    margin-top: 10px;
+  }
+
+  .contact_form_box {
+    width: 420px;
   }
 }
