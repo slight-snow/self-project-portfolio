@@ -66,7 +66,14 @@ function Contact() {
             <div className='contact_title'>#CONTACT</div>
 
             <div className='contact_script'>
-
+              <div className='contact_script_title_box'>
+                <span className='contact_script_title01'>CONTACT</span>
+                <span className='contact_script_title02'>ME.</span>
+              </div>
+              <div className='contact_script_source'>
+                <div className='contact_script_email'></div>
+                <div className='contact_script_phone'></div>
+              </div>
             </div>
 
             <form className='contact_form' onSubmit={sendEmail}>

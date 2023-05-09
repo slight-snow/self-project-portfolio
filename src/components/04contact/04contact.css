@@ -14,6 +14,15 @@
   font-style: normal;
 }
 
+/* CONTACT SCRIPT TITLE FONT */
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff')
+    format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_contact_container,
@@ -187,11 +196,32 @@
   margin-top: 6em;
 }
 
+/* ----CONTACT SCRIPT---- */
+
 .contact_script {
+  display: flex;
   min-width: 470px;
   height: 700px;
   background: rgb(57, 57, 57);
 }
+
+.contact_script_title_box {
+  display: flex;
+  flex-direction: column;
+  font-family: 'KBO-Dia-Gothic_bold';
+  font-size: 4.5em;
+}
+
+.contact_script_title01 {
+  color: rgb(57, 57, 57);
+  -webkit-text-stroke: 2px rgb(240, 240, 240);
+}
+
+.contact_script_title02 {
+  color: rgb(240, 240, 240);
+}
+
+/* -----CONTACT FORM----- */
 
 .contact_form {
   display: flex;
@@ -375,3 +405,11 @@
     width: 100%;
   }
 }
+
+/* ------------------------------------------ */
+
+/* @media (min-width: 1200px) {
+  .contact_script_title_box {
+    margin-top: 40px;
+  }
+} */
