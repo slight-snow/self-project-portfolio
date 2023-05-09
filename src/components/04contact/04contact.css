@@ -242,7 +242,7 @@
   justify-content: center;
   /* DESKTOP WIDTH */
   width: 500px;
-  gap: 15px;
+  gap: 25px;
 }
 
 .contact_name {
@@ -453,5 +453,6 @@
 
   .contact_form_box {
     width: 420px;
+    gap: 15px;
   }
 }
