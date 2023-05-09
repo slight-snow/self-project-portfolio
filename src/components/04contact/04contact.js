@@ -74,10 +74,16 @@ function Contact() {
               </div>
               <div className='contact_script_detail'>
                 <span>
+                  우측의 폼을 작성하여 저에게 메일을 보낼 수 있습니다.
+                </span>
+                <span>
+                  당신의 연락을 기다리고 있겠습니다 :)
+                </span>
+                <span>
                   You can use the form on the right to send me an email.
                 </span>
                 <span>
-                  I'll be waiting for your contact.
+                  I'll be waiting for your contact :)
                 </span>
               </div>
               <div className='contact_script_source'>
