@@ -259,6 +259,41 @@
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 10px;
+  font-size: 15px;
+  gap: 16px;
+}
+
+.contact_script_email {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.contact_icon_email {
+  width: 16px;
+  padding-left: 1px;
+}
+
+.contact_script_phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact_icon_phone {
+  width: 18px;
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(324deg)
+    brightness(200%) contrast(100%);
+}
+
+.contact_script_location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact_icon_location {
+  width: 18px;
 }
 
 /* -----CONTACT FORM----- */

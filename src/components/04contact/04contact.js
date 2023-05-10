@@ -3,6 +3,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { page04 } from '../../features/counter/counterSlice';
 import './04contact.css';
 
+import icon_contact_email from '../../assets/icon_email.png';
+import icon_contact_phone from '../../assets/icon_phone.png';
+import icon_contact_location from '../../assets/icon_location.png';
+
+import icon_contact_user from '../../assets/icon_user.png';
+import icon_contact_subject from '../../assets/icon_check.png';
+import icon_contact_message from '../../assets/icon_message.png';
+
 import emailjs from '@emailjs/browser';
 
 function sendEmail(e) {
@@ -92,13 +100,20 @@ function Contact() {
                   </div>
                 </div>
                 <div className='contact_script_source'>
-                  <div className='contact_script_email'>
-                    <span>forcoding97@gmail.com</span>
+                  <div className='contact_script_phone'>
+                    <img
+                      className='contact_icon_phone' alt='icon_phone' src={icon_contact_phone} />
+                    <span>+82 10 2322 3518</span>
                   </div>
-                  <div className='contact_script_phone'></div>
-                  <span>+82 10 2322 3518</span>
-                  <div className='contact_script_address'>
+                  <div className='contact_script_location'>
+                    <img
+                      className='contact_icon_location' alt='icon_location' src={icon_contact_location} />
                     <span>경기도 과천시 별양로 12</span>
+                  </div>
+                  <div className='contact_script_email'>
+                    <img
+                      className='contact_icon_email' alt='icon_email' src={icon_contact_email} />
+                    <span>forcoding97@gmail.com</span>
                   </div>
                 </div>
               </div>
