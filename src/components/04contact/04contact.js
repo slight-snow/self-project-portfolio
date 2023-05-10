@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page04 } from '../../features/counter/counterSlice';
 import './04contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
 
 import icon_contact_email from '../../assets/icon_email.png';
 import icon_contact_phone from '../../assets/icon_phone.png';
@@ -155,7 +157,9 @@ function Contact() {
                     placeholder='Enter Your Full Name'
                     value={name}
                     onChange={(e) => change(e)} />
-                  <span className='contact_name_error'>Please enter your full name.</span>
+                  <span className='contact_name_error'>
+                    <FontAwesomeIcon icon={faCircleExclamation} />
+                    Please enter your full name.</span>
                 </div>
                 <div className='contact_email'>
                   <label className='contact_email_label'>
@@ -170,7 +174,9 @@ function Contact() {
                     placeholder='Enter Your Email Address'
                     value={email}
                     onChange={(e) => change(e)} />
-                  <span className='contact_email_error'>Please enter your email address.</span>
+                  <span className='contact_email_error'>
+                    <FontAwesomeIcon icon={faCircleExclamation} />
+                    Please enter your email address.</span>
                 </div>
                 <div className='contact_subject'>
                   <label className='contact_subject_label'>
@@ -185,7 +191,9 @@ function Contact() {
                     placeholder='Enter Subject'
                     value={subject}
                     onChange={(e) => change(e)} />
-                  <span className='contact_subject_error'>Please enter subject.</span>
+                  <span className='contact_subject_error'>
+                    <FontAwesomeIcon icon={faCircleExclamation} />
+                    Please enter subject.</span>
                 </div>
                 <div className='contact_message'>
                   <label className='contact_message_label'>
@@ -200,7 +208,9 @@ function Contact() {
                     placeholder='Enter Your Message ...'
                     value={message}
                     onChange={(e) => change(e)} />
-                  <span className='contact_message_error'>Please enter your message.</span>
+                  <span className='contact_message_error'>
+                    <FontAwesomeIcon icon={faCircleExclamation} />
+                    Please enter your message.</span>
                 </div>
                 <button
                   type='submit'

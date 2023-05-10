@@ -375,11 +375,13 @@
 
 .contact_name_error {
   display: flex;
+  align-items: center;
   position: absolute;
   bottom: -12px;
   font-family: 'SUIT-Regular';
   font-size: 14px;
   color: rgb(255, 95, 95);
+  gap: 5px;
 }
 
 .contact_email {
@@ -420,11 +422,13 @@
 
 .contact_email_error {
   display: flex;
+  align-items: center;
   position: absolute;
   bottom: -12px;
   font-family: 'SUIT-Regular';
   font-size: 14px;
   color: rgb(255, 95, 95);
+  gap: 5px;
 }
 
 .contact_subject {
@@ -465,11 +469,13 @@
 
 .contact_subject_error {
   display: flex;
+  align-items: center;
   position: absolute;
   bottom: -12px;
   font-family: 'SUIT-Regular';
   font-size: 14px;
   color: rgb(255, 95, 95);
+  gap: 5px;
 }
 
 .contact_message {
@@ -513,11 +519,13 @@
 
 .contact_message_error {
   display: flex;
+  align-items: center;
   position: absolute;
-  bottom: -30px;
+  bottom: -29px;
   font-family: 'SUIT-Regular';
   font-size: 14px;
   color: rgb(255, 95, 95);
+  gap: 5px;
 }
 
 .contact_send_button {
