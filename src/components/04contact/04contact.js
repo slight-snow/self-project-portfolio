@@ -7,7 +7,7 @@ import icon_contact_email from '../../assets/icon_email.png';
 import icon_contact_phone from '../../assets/icon_phone.png';
 import icon_contact_location from '../../assets/icon_location.png';
 
-import icon_contact_user from '../../assets/icon_user.png';
+import icon_contact_name from '../../assets/icon_user.png';
 import icon_contact_subject from '../../assets/icon_check.png';
 import icon_contact_message from '../../assets/icon_message.png';
 
@@ -112,7 +112,7 @@ function Contact() {
                   </div>
                   <div className='contact_script_email'>
                     <img
-                      className='contact_icon_email' alt='icon_email' src={icon_contact_email} />
+                      className='contact_icon_script_email' alt='icon_email' src={icon_contact_email} />
                     <span>forcoding97@gmail.com</span>
                   </div>
                 </div>
@@ -122,7 +122,11 @@ function Contact() {
             <form className='contact_form' onSubmit={sendEmail}>
               <div className='contact_form_box'>
                 <div className='contact_name'>
-                  <label>• Name</label>
+                  <label className='contact_name_label'>
+                    <img
+                      className='contact_icon_name' alt='icon_name' src={icon_contact_name} />
+                    Name
+                  </label>
                   <input
                     type='text'
                     name='name'
@@ -132,7 +136,11 @@ function Contact() {
                     onChange={(e) => change(e)} />
                 </div>
                 <div className='contact_email'>
-                  <label>• Email</label>
+                  <label className='contact_email_label'>
+                    <img
+                      className='contact_icon_form_email' alt='icon_email' src={icon_contact_email} />
+                    Email
+                  </label>
                   <input
                     type='email'
                     name='email'
@@ -142,7 +150,11 @@ function Contact() {
                     onChange={(e) => change(e)} />
                 </div>
                 <div className='contact_subject'>
-                  <label>• Subject</label>
+                  <label className='contact_subject_label'>
+                    <img
+                      className='contact_icon_subject' alt='icon_subject' src={icon_contact_subject} />
+                    Subject
+                  </label>
                   <input
                     type='text'
                     name='subject'
@@ -152,7 +164,11 @@ function Contact() {
                     onChange={(e) => change(e)} />
                 </div>
                 <div className='contact_message'>
-                  <label>• Message</label>
+                  <label className='contact_message_label'>
+                    <img
+                      className='contact_icon_message' alt='icon_message' src={icon_contact_message} />
+                    Message
+                  </label>
                   <textarea
                     type='text'
                     name='message'

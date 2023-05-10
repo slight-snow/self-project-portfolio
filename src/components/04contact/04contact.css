@@ -269,7 +269,7 @@
   gap: 9px;
 }
 
-.contact_icon_email {
+.contact_icon_script_email {
   width: 16px;
   padding-left: 1px;
 }
@@ -327,6 +327,19 @@
   gap: 8px;
 }
 
+.contact_name_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact_icon_name {
+  display: flex;
+  width: 16px;
+  margin-left: 0.5px;
+}
+
 .contact_name_box {
   display: flex;
   flex-direction: column;
@@ -347,6 +360,19 @@
   height: 80px;
   font-size: 17px;
   gap: 8px;
+}
+
+.contact_email_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact_icon_form_email {
+  display: flex;
+  width: 15px;
+  margin-left: 1px;
 }
 
 .contact_email_box {
@@ -371,6 +397,18 @@
   gap: 8px;
 }
 
+.contact_subject_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.contact_icon_subject {
+  display: flex;
+  width: 18px;
+}
+
 .contact_subject_box {
   display: flex;
   flex-direction: column;
@@ -392,6 +430,19 @@
   margin-bottom: 0;
   font-size: 17px;
   gap: 8px;
+}
+
+.contact_message_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.contact_icon_message {
+  display: flex;
+  width: 16px;
+  margin-left: 1px;
 }
 
 .contact_message_box {
