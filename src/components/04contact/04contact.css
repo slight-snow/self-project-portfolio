@@ -407,6 +407,7 @@
 .contact_icon_subject {
   display: flex;
   width: 18px;
+  margin-left: -1px;
 }
 
 .contact_subject_box {
