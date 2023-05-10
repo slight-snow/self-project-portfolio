@@ -234,9 +234,9 @@
   height: 80px;
   background: repeating-linear-gradient(
     135deg,
-    rgb(57, 57, 57) 0,
+    rgb(57, 57, 57),
     rgb(57, 57, 57) 1px,
-    rgb(100, 100, 100) 0,
+    rgb(100, 100, 100),
     rgb(100, 100, 100) 2px
   );
   background-clip: text;
