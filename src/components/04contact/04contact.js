@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { page04 } from '../../features/counter/counterSlice';
-import './04contact.css';
+import { ToastContainer, toast, Zoom } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
+import { page04 } from '../../features/counter/counterSlice';
+import './04contact.css';
 
 import icon_contact_email from '../../assets/icon_email.png';
 import icon_contact_phone from '../../assets/icon_phone.png';
@@ -14,6 +16,20 @@ import icon_contact_subject from '../../assets/icon_check.png';
 import icon_contact_message from '../../assets/icon_message.png';
 
 import emailjs from '@emailjs/browser';
+
+const notify = () =>
+  toast.info(<div>메일이 정상적으로 전송되었습니다 :) <br /> (your mail has been sent successfully)</div>, {
+    position: 'bottom-center',
+    theme: 'dark',
+    autoClose: 2200,
+    transition: Zoom,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    pauseOnFocusLoss: false,
+    draggable: true,
+    progress: '',
+  });
 
 function Contact() {
   const [name, setName] = useState('');
@@ -37,6 +53,7 @@ function Contact() {
         'lz3cUWX4ve311rPtk')
         .then((result) => {
           console.log(result.text);
+          notify();
         }, (error) => {
           console.log(error.text);
         })
@@ -231,6 +248,7 @@ function Contact() {
               </div>
             </form>
           </div>
+          <ToastContainer style={{ "font-size": "15px", width: "350px" }} />
         </div>
       </>
     )
