@@ -30,20 +30,23 @@ function Contact() {
   const dispatch = useDispatch();
 
   function sendEmail(e) {
-    if (name.length === 0) setCheckName(false);
-    if (email.length === 0) setCheckEmail(false);
-    if (subject.length === 0) setCheckSubject(false);
-    if (message.length === 0) setCheckMessage(false);
-
-    e.preventDefault();
-    emailjs.sendForm('service_fr1lhns', 'template_qku4pks',
-      e.target,
-      'lz3cUWX4ve311rPtk')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      })
+    if (name && email && subject && message) {
+      e.preventDefault();
+      emailjs.sendForm('service_fr1lhns', 'template_qku4pks',
+        e.target,
+        'lz3cUWX4ve311rPtk')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        })
+    } else {
+      e.preventDefault();
+      if (name.length === 0) setCheckName(false);
+      if (email.length === 0) setCheckEmail(false);
+      if (subject.length === 0) setCheckSubject(false);
+      if (message.length === 0) setCheckMessage(false);
+    }
   }
 
   const change = (e) => {
@@ -142,7 +145,7 @@ function Contact() {
               </div>
             </div>
 
-            <form className='contact_form' onSubmit={sendEmail}>
+            <form className='contact_form' onSubmit={(event) => sendEmail(event)}>
               <div className='contact_form_box'>
                 <div className='contact_name'>
                   <label className='contact_name_label'>
@@ -157,9 +160,11 @@ function Contact() {
                     placeholder='Enter Your Full Name'
                     value={name}
                     onChange={(e) => change(e)} />
-                  <span className='contact_name_error'>
-                    <FontAwesomeIcon icon={faCircleExclamation} />
-                    Please enter your full name.</span>
+                  {checkName ? <></> :
+                    <span className='contact_name_error'>
+                      <FontAwesomeIcon icon={faCircleExclamation} />
+                      Please enter your full name.
+                    </span>}
                 </div>
                 <div className='contact_email'>
                   <label className='contact_email_label'>
@@ -174,9 +179,11 @@ function Contact() {
                     placeholder='Enter Your Email Address'
                     value={email}
                     onChange={(e) => change(e)} />
-                  <span className='contact_email_error'>
-                    <FontAwesomeIcon icon={faCircleExclamation} />
-                    Please enter your email address.</span>
+                  {checkEmail ? <></> :
+                    <span className='contact_email_error'>
+                      <FontAwesomeIcon icon={faCircleExclamation} />
+                      Please enter your email address.
+                    </span>}
                 </div>
                 <div className='contact_subject'>
                   <label className='contact_subject_label'>
@@ -191,9 +198,11 @@ function Contact() {
                     placeholder='Enter Subject'
                     value={subject}
                     onChange={(e) => change(e)} />
-                  <span className='contact_subject_error'>
-                    <FontAwesomeIcon icon={faCircleExclamation} />
-                    Please enter subject.</span>
+                  {checkSubject ? <></> :
+                    <span className='contact_subject_error'>
+                      <FontAwesomeIcon icon={faCircleExclamation} />
+                      Please enter subject.
+                    </span>}
                 </div>
                 <div className='contact_message'>
                   <label className='contact_message_label'>
@@ -208,9 +217,11 @@ function Contact() {
                     placeholder='Enter Your Message ...'
                     value={message}
                     onChange={(e) => change(e)} />
-                  <span className='contact_message_error'>
-                    <FontAwesomeIcon icon={faCircleExclamation} />
-                    Please enter your message.</span>
+                  {checkMessage ? <></> :
+                    <span className='contact_message_error'>
+                      <FontAwesomeIcon icon={faCircleExclamation} />
+                      Please enter your message.
+                    </span>}
                 </div>
                 <button
                   type='submit'
