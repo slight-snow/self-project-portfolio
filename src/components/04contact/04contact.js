@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page04 } from '../../features/counter/counterSlice';
 import './04contact.css';
@@ -13,36 +13,57 @@ import icon_contact_message from '../../assets/icon_message.png';
 
 import emailjs from '@emailjs/browser';
 
-function sendEmail(e) {
-  e.preventDefault();
-
-  emailjs.sendForm('service_fr1lhns', 'template_qku4pks',
-    e.target,
-    'lz3cUWX4ve311rPtk')
-    .then((result) => {
-      console.log(result.text);
-    }, (error) => {
-      console.log(error.text);
-    })
-}
-
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
+  const [checkName, setCheckName] = useState(true);
+  const [checkEmail, setCheckEmail] = useState(true);
+  const [checkSubject, setCheckSubject] = useState(true);
+  const [checkMessage, setCheckMessage] = useState(true);
+
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  const change = (e) => {
-    if (e.target.name === 'name') setName(e.target.value);
-    if (e.target.name === 'email') setEmail(e.target.value);
-    if (e.target.name === 'subject') setSubject(e.target.value);
-    if (e.target.name === 'message') setMessage(e.target.value);
+  function sendEmail(e) {
+    if (name.length === 0) setCheckName(false);
+    if (email.length === 0) setCheckEmail(false);
+    if (subject.length === 0) setCheckSubject(false);
+    if (message.length === 0) setCheckMessage(false);
+
+    e.preventDefault();
+    emailjs.sendForm('service_fr1lhns', 'template_qku4pks',
+      e.target,
+      'lz3cUWX4ve311rPtk')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      })
   }
 
-  // console.log("{ name : ", name, ", email : ", email, ", text : ", message, " }")
+  const change = (e) => {
+    if (e.target.name === 'name') {
+      setName(e.target.value);
+      setCheckName(true);
+    }
+    if (e.target.name === 'email') {
+      setEmail(e.target.value);
+      setCheckEmail(true);
+    }
+    if (e.target.name === 'subject') {
+      setSubject(e.target.value);
+      setCheckSubject(true);
+    }
+    if (e.target.name === 'message') {
+      setMessage(e.target.value);
+      setCheckMessage(true);
+    }
+  }
+
+  console.log(checkName);
 
   if (page === 0) {
     return (
@@ -134,6 +155,7 @@ function Contact() {
                     placeholder='Enter Your Full Name'
                     value={name}
                     onChange={(e) => change(e)} />
+                  <span className='contact_name_error'>이름을 입력해주세요.</span>
                 </div>
                 <div className='contact_email'>
                   <label className='contact_email_label'>
