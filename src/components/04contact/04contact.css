@@ -270,7 +270,7 @@
   margin-bottom: 15px;
   font-size: 15px;
   gap: 16px;
-  /* font-family: 'SUIT-Regular'; */
+  font-family: 'SUIT-Regular';
 }
 
 .contact_script_email {
@@ -358,8 +358,8 @@
   border: none;
   border-bottom: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
-  font-family: 'Arita-dotum-Medium';
-  font-size: 16px;
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
   outline: none;
 }
 
@@ -393,8 +393,8 @@
   border: none;
   border-bottom: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
-  font-family: 'Arita-dotum-Medium';
-  font-size: 16px;
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
   outline: none;
 }
 
@@ -428,8 +428,8 @@
   border: none;
   border-bottom: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
-  font-family: 'Arita-dotum-Medium';
-  font-size: 16px;
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
   outline: none;
 }
 
@@ -465,8 +465,8 @@
   color: white;
   border: 2px solid rgb(240, 240, 240);
   background: rgb(57, 57, 57);
-  font-family: 'Arita-dotum-Medium';
-  font-size: 16px;
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
   padding: 15px;
   outline: none;
 }
