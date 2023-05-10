@@ -68,32 +68,34 @@ function Contact() {
             {/* <div className='contact_title'>#CONTACT</div> */}
 
             <div className='contact_script'>
-              <div className='contact_script_title_box'>
-                <span className='contact_script_title01'>CONTACT</span>
-                <span className='contact_script_title02'>ME.</span>
-              </div>
-              <div className='contact_script_detail'>
-                <div className='contact_script_detail_kor'>
-                  <span>
-                    우측의 폼을 작성하여 저에게 메일을 보낼 수 있습니다.
-                  </span>
-                  <span>
-                    당신의 연락을 기다리고 있겠습니다 :)
-                  </span>
+              <div className='contact_script_box'>
+                <div className='contact_script_title_box'>
+                  <span className='contact_script_title01'>CONTACT</span>
+                  <span className='contact_script_title02'>ME.</span>
                 </div>
-                <div className='contact_script_detail_eng'>
-                  <span>
-                    You can use the form on the right to send me an email.
-                  </span>
-                  <span>
-                    I'll be waiting for your contact :)
-                  </span>
+                <div className='contact_script_detail'>
+                  <div className='contact_script_detail_kor'>
+                    <span>
+                      우측의 폼을 작성하여 저에게 메일을 보낼 수 있습니다.
+                    </span>
+                    <span>
+                      당신의 연락을 기다리고 있겠습니다 :)
+                    </span>
+                  </div>
+                  <div className='contact_script_detail_eng'>
+                    <span>
+                      You can use the form on the right to send me an email.
+                    </span>
+                    <span>
+                      I'll be waiting for your contact :)
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div className='contact_script_source'>
-                <div className='contact_script_email'></div>
-                <div className='contact_script_phone'></div>
-                <div className='contact_script_address'></div>
+                <div className='contact_script_source'>
+                  <div className='contact_script_email'></div>
+                  <div className='contact_script_phone'></div>
+                  <div className='contact_script_address'></div>
+                </div>
               </div>
             </div>
 
