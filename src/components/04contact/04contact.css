@@ -235,9 +235,9 @@
   background: repeating-linear-gradient(
     135deg,
     rgb(57, 57, 57),
-    rgb(57, 57, 57) 6px,
+    rgb(57, 57, 57) 1px,
     rgb(200, 200, 200) 0,
-    rgb(200, 200, 200) 12px
+    rgb(200, 200, 200) 2px
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -273,7 +273,7 @@
 
 .contact_script_source {
   display: flex;
-  height: 405px;
+  height: 407px;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 15px;
