@@ -233,7 +233,7 @@
 .contact_script_title01 {
   height: 80px;
   background: repeating-linear-gradient(
-    135deg,
+    45deg,
     rgb(57, 57, 57),
     rgb(57, 57, 57) 2.5px,
     rgb(90, 90, 90) 0,
@@ -242,7 +242,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: rgb(57, 57, 57); */
-  -webkit-text-stroke: 1.5px rgb(240, 240, 240);
+  -webkit-text-stroke: 1.5px rgb(200, 200, 200);
 }
 
 .contact_script_title02 {
