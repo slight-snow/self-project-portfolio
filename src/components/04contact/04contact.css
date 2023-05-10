@@ -235,14 +235,14 @@
   background: repeating-linear-gradient(
     135deg,
     rgb(57, 57, 57),
-    rgb(57, 57, 57) 3px,
-    rgb(220, 220, 220) 0,
-    rgb(220, 220, 220) 4px
+    rgb(57, 57, 57) 4px,
+    rgb(200, 200, 200) 0,
+    rgb(200, 200, 200) 8px
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: rgb(57, 57, 57); */
-  -webkit-text-stroke: 1.5px rgb(220, 220, 220);
+  -webkit-text-stroke: 1.5px rgb(200, 200, 200);
 }
 
 .contact_script_title02 {
