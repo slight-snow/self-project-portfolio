@@ -120,7 +120,8 @@
 }
 
 .profile_icon_email {
-  width: 30px;
+  width: 38px;
+  margin-left: -5px;
 }
 
 .profile_icon_email:hover {

@@ -92,9 +92,14 @@ function Contact() {
                   </div>
                 </div>
                 <div className='contact_script_source'>
-                  <div className='contact_script_email'></div>
+                  <div className='contact_script_email'>
+                    <span>forcoding97@gmail.com</span>
+                  </div>
                   <div className='contact_script_phone'></div>
-                  <div className='contact_script_address'></div>
+                  <span>+82 10 2322 3518</span>
+                  <div className='contact_script_address'>
+                    <span>경기도 과천시 별양로 12</span>
+                  </div>
                 </div>
               </div>
             </div>
