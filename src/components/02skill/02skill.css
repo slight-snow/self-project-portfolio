@@ -208,8 +208,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 85vh;
-  max-height: 800px;
+  height: 720px;
 }
 
 .skill_item_title {
@@ -223,7 +222,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 19vw;
+  width: 290px;
   max-width: 22em;
   min-width: 17em;
   height: 100%;
@@ -281,7 +280,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 19vw;
+  width: 290px;
   max-width: 22em;
   min-width: 17em;
   height: 38%;
@@ -433,6 +432,18 @@
 @media (min-width: 1920px) {
   .skill_box {
     gap: 60px;
+  }
+
+  .skill_item {
+    height: 800px;
+  }
+
+  .skill_ul_type1 {
+    width: 320px;
+  }
+
+  .skill_ul_type2 {
+    width: 320px;
   }
 
   .skill_fe_li {
