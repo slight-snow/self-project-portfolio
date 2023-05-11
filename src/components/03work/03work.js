@@ -36,9 +36,61 @@ function Work() {
           className='work_container'
           onClick={() => dispatch(page03())}>
           <div className='work_box'>
-            <div>03</div>
-            <div className='work_break_line' />
-            <div className='work_title'>WORK</div>
+            {/* 01 */}
+            <div className='work_item'>
+
+              {/* -------------------SCREEN SIDE------------------- */}
+              <div className='work_screen_box'>
+                <div className='work_image'>
+                  <div className='work_image_prev' />
+                  <div className='work_image_next' />
+                </div>
+
+                <div className='work_image_page'>
+                  <div className='work_image_page_prev' />
+                  <div className='work_image_page_next' />
+                </div>
+              </div>
+
+              {/* -------------------SCRIPT SIDE------------------- */}
+              <div className='work_script_box'>
+                <div className='work_script'></div>
+
+                <div className='work_detail_box'>
+                  <div className='work_detail_01'></div>
+                  <div className='work_detail_02'></div>
+                </div>
+              </div>
+            </div>
+
+
+            {/* 02 */}
+            <div className='work_item'>
+
+              {/* -------------------SCREEN SIDE------------------- */}
+              <div className='work_screen_box'>
+                <div className='work_image'>
+                  <div className='work_image_prev' />
+                  <div className='work_image_next' />
+                </div>
+
+                <div className='work_image_page'>
+                  <div className='work_image_page_prev' />
+                  <div className='work_image_page_next' />
+                </div>
+              </div>
+
+              {/* -------------------SCRIPT SIDE------------------- */}
+              <div className='work_script_box'>
+                <div className='work_script'></div>
+
+                <div className='work_detail_box'>
+                  <div className='work_detail_01'></div>
+                  <div className='work_detail_02'></div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </>

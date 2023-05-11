@@ -158,21 +158,19 @@
   flex-direction: column;
   align-items: center;
   opacity: 0;
+  gap: 25px;
   animation-name: fade-in;
   animation-delay: 0.85s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
 }
 
-.work_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
-}
-
-.work_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
+.work_item {
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  height: 350px;
+  border: solid 1px white;
 }
 
 /* ------------------------------------------ */
