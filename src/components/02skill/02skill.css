@@ -229,6 +229,13 @@
   opacity: 1;
   background: rgb(240, 240, 240);
   border-radius: 0.75em;
+  transition: all 0.2s ease;
+}
+
+.skill_ul_type1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px black, 0 2px 15px black;
+  transition: all 0.2s ease;
 }
 
 .skill_fe_li {
@@ -283,10 +290,16 @@
   max-width: 22em;
   min-width: 17em;
   height: 280px;
-  /* height: 265px; */
   background: rgb(240, 240, 240);
   opacity: 1;
   border-radius: 0.75em;
+  transition: all 0.2s ease;
+}
+
+.skill_ul_type2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px black, 0 2px 15px black;
+  transition: all 0.2s ease;
 }
 
 .skill_be_li {
