@@ -238,7 +238,7 @@
   width: 14.25em;
   align-items: center;
   justify-content: space-between;
-  margin: 1em 0 1em 0;
+  margin: 22.5px 0 22.5px 0;
 }
 
 .skill_fe_html {
@@ -432,6 +432,14 @@
 
 @media (min-width: 1920px) {
   .skill_box {
-    gap: 50px;
+    gap: 70px;
+  }
+
+  .skill_fe_li {
+    display: flex;
+    width: 14.25em;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
   }
 }
