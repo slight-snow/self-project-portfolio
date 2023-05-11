@@ -202,15 +202,14 @@
   animation-delay: 0.75s;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  margin-top: 6em;
 }
 
 .skill_item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 81vh;
-  max-height: 50em;
+  height: 85vh;
+  max-height: 800px;
 }
 
 .skill_item_title {
@@ -426,5 +425,13 @@
   to {
     opacity: 1;
     width: 100%;
+  }
+}
+
+/* ------------------------------------------ */
+
+@media (min-width: 1920px) {
+  .skill_box {
+    gap: 50px;
   }
 }
