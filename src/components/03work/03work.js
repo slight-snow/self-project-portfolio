@@ -42,19 +42,23 @@ function Work() {
               {/* -------------------SCREEN SIDE------------------- */}
               <div className='work_screen_box'>
                 <div className='work_image'>
-                  <div className='work_image_prev' />
-                  <div className='work_image_next' />
+                  <div className='work_image_prev'>&#10094;</div>
+                  <div className='work_image_next'>&#10095;</div>
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev' />
-                  <div className='work_image_page_next' />
+                  <div className='work_image_page_prev'>◀︎</div>
+                  <span>1 / 4</span>
+                  <div className='work_image_page_next'>▶︎</div>
                 </div>
               </div>
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script'></div>
+                <div className='work_script_title'>반띵(BanThing)</div>
+                <div className='work_script_content'>
+
+                </div>
 
                 <div className='work_detail_box'>
                   <div className='work_detail_01'></div>
@@ -76,13 +80,15 @@ function Work() {
 
                 <div className='work_image_page'>
                   <div className='work_image_page_prev' />
+                  <span>1 / 4</span>
                   <div className='work_image_page_next' />
                 </div>
               </div>
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script'></div>
+                <div className='work_script_title'></div>
+                <div className='work_script_content'></div>
 
                 <div className='work_detail_box'>
                   <div className='work_detail_01'></div>
@@ -104,13 +110,15 @@ function Work() {
 
                 <div className='work_image_page'>
                   <div className='work_image_page_prev' />
+                  <span>1 / 4</span>
                   <div className='work_image_page_next' />
                 </div>
               </div>
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script'></div>
+                <div className='work_script_title'></div>
+                <div className='work_script_content'></div>
 
                 <div className='work_detail_box'>
                   <div className='work_detail_01'></div>
@@ -132,13 +140,15 @@ function Work() {
 
                 <div className='work_image_page'>
                   <div className='work_image_page_prev' />
+                  <span>1 / 4</span>
                   <div className='work_image_page_next' />
                 </div>
               </div>
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script'></div>
+                <div className='work_script_title'></div>
+                <div className='work_script_content'></div>
 
                 <div className='work_detail_box'>
                   <div className='work_detail_01'></div>
