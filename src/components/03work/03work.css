@@ -185,7 +185,7 @@
   display: flex;
   flex-direction: row;
   width: 950px;
-  height: 500px;
+  height: 550px;
   background: rgb(240, 240, 240);
   border-radius: 12px;
   box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31);
@@ -194,8 +194,9 @@
 .work_screen_box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 410px;
-  height: 500px;
+  height: 550px;
   border: solid 1px black;
   gap: 5px;
 }
@@ -206,7 +207,6 @@
   position: relative;
   width: 410px;
   height: 402.5px;
-  margin-top: 27.5px;
   border: solid 1px black;
 }
 
@@ -252,8 +252,9 @@
 .work_script_box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 537px;
-  height: 500px;
+  height: 550px;
   border: solid 1px black;
   gap: 10px;
 }
@@ -264,14 +265,14 @@
   width: 527px;
   height: 60px;
   border: solid 1px black;
-  margin-top: 27.5px;
   padding-left: 10px;
 }
 
 .work_script_content {
   display: flex;
+  align-items: center;
   width: 527px;
-  height: 190px;
+  height: 250px;
   border: solid 1px black;
   padding-left: 10px;
 }
