@@ -73,7 +73,7 @@ function Work() {
 
                 <div className='work_detail_box'>
                   <ul className='work_detail_01'></ul>
-                  <li>hi</li>
+                  <li></li>
                   <ul className='work_detail_02'></ul>
                 </div>
               </div>
