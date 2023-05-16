@@ -94,10 +94,16 @@ function Work() {
                   </div>
                   <div className='work_detail_box'>
                     <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ URL</span>
+                      <span className='work_detail_item_content'>- banthing.kr (X)</span>
+                    </div>
+                    <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Team Member</span>
-                      <span className='work_detail_item_content'>- 4인</span>
-                      <span className='work_detail_item_title'>✦ Team Member</span>
-                      <span className='work_detail_item_content'>- 4인</span>
+                      <span className='work_detail_item_content'>- 4人</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Project Duration</span>
+                      <span className='work_detail_item_content'>- 4 Weeks</span>
                     </div>
                   </div>
                 </div>
