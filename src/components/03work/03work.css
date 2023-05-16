@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'BinggraeMelona-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona-Bold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_work_container,
@@ -261,6 +269,8 @@
 
 .work_script_title {
   display: flex;
+  font-family: 'BinggraeMelona-Bold';
+  font-size: 30px;
   align-items: center;
   height: 60px;
   border: solid 1px black;
