@@ -201,7 +201,7 @@
   display: flex;
   flex-direction: row;
   width: 950px;
-  height: 600px;
+  height: 640px;
   background: rgb(240, 240, 240);
   border-radius: 12px;
   box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31);
@@ -212,7 +212,6 @@
   flex-direction: column;
   justify-content: center;
   width: 390px;
-  height: 600px;
   border: solid 1px black;
   gap: 5px;
 }
@@ -270,7 +269,6 @@
   flex-direction: column;
   justify-content: center;
   width: 560px;
-  height: 600px;
   border: solid 1px black;
   gap: 10px;
 }
@@ -289,7 +287,7 @@
   display: flex;
   align-items: center;
   font-family: 'S-CoreDream-3Light';
-  height: 250px;
+  height: 300px;
   border: solid 1px black;
   padding-left: 10px;
 }
