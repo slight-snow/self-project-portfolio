@@ -15,8 +15,16 @@
 }
 
 @font-face {
-  font-family: 'BinggraeMelona-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona-Bold.woff')
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
     format('woff');
   font-weight: normal;
   font-style: normal;
@@ -269,8 +277,8 @@
 
 .work_script_title {
   display: flex;
-  font-family: 'BinggraeMelona-Bold';
-  font-size: 30px;
+  font-family: 'GongGothicMedium';
+  font-size: 35px;
   align-items: center;
   height: 60px;
   border: solid 1px black;
@@ -280,6 +288,7 @@
 .work_script_content {
   display: flex;
   align-items: center;
+  font-family: 'S-CoreDream-3Light';
   height: 250px;
   border: solid 1px black;
   padding-left: 10px;
@@ -287,6 +296,7 @@
 
 .work_detail_container {
   display: flex;
+  font-family: 'S-CoreDream-3Light';
   justify-content: center;
   height: 220px;
   border: solid 1px black;

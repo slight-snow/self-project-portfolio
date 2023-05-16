@@ -55,7 +55,7 @@ function Work() {
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script_title'>반띵(BanThing)</div>
+                <div className='work_script_title'>반띵 프로젝트</div>
                 <div className='work_script_content'>
                   가까운 거리 내에 있는 주변 사용자들과 채팅방을 통해 의사소통하여
                   <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션입니다.
