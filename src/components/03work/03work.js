@@ -68,13 +68,38 @@ function Work() {
                   <br />이를 바탕으로 사용자들 간의 세부 사항을 조율할 수 있습니다.
                   <br />
                   <br />최소주문금액, 배달팁 등 배달 음식에 대해
-                  <br />사용자들이 느끼는 부담을 해소하고자 개발된 팀 프로젝트입니다.
+                  <br />사용자들이 느끼는 부담을 해소하고자 추진된 팀 프로젝트입니다.
                 </div>
 
-                <div className='work_detail_box'>
-                  <ul className='work_detail_01'></ul>
-                  <li></li>
-                  <ul className='work_detail_02'></ul>
+                <div className='work_detail_container'>
+                  <div className='work_detail_box'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Repository</span>
+                      <span className='work_detail_item_content'>- github.com/slight-snow/BanThing</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Front End</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js, Axios</span>
+                      </span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Back End</span>
+                      <span className='work_detail_item_content'>-&nbsp;<span className='work_detail_item_content_bold'>JWT, MySQL,</span>&nbsp;TypeScript, TypeORM</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Deploy</span>
+                      <span className='work_detail_item_content'>- AWS</span>
+                    </div>
+                  </div>
+                  <div className='work_detail_box'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Team Member</span>
+                      <span className='work_detail_item_content'>- 4인</span>
+                      <span className='work_detail_item_title'>✦ Team Member</span>
+                      <span className='work_detail_item_content'>- 4인</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
