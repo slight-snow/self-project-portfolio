@@ -278,10 +278,10 @@
   flex-direction: column;
   font-family: 'GangwonEduPowerExtraBoldA';
   font-size: 45px;
-  justify-content: center;
+  justify-content: flex-end;
   height: 60px;
   border: solid 1px black;
-  padding: 0 0 0 10px;
+  padding-left: 10px;
 }
 
 .work_script_content {
