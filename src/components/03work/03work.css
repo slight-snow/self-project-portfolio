@@ -15,10 +15,10 @@
 }
 
 @font-face {
-  font-family: 'GangwonEduPowerExtraBoldA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff')
-    format('woff');
-  font-weight: normal;
+  font-family: 'OAGothic-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2')
+    format('woff2');
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -276,9 +276,8 @@
 .work_script_title {
   display: flex;
   flex-direction: row;
-  font-family: 'Pretendard-Regular';
-  /* font-family: 'GangwonEduPowerExtraBoldA'; */
-  font-size: 45px;
+  font-family: 'OAGothic-ExtraBold';
+  font-size: 40px;
   align-items: center;
   height: 60px;
   border: solid 1px black;
