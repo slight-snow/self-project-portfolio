@@ -241,14 +241,12 @@
 .contact_script_title_box {
   display: flex;
   flex-direction: column;
-  font-family: 'GangwonEduPowerExtraBoldA';
-  /* font-family: 'KBO-Dia-Gothic_bold'; */
-  /* font-family: 'GoyangDeogyang'; */
-  font-size: 85px;
+  font-family: 'Tilt Warp';
+  font-size: 90px;
 }
 
 .contact_script_title01 {
-  height: 80px;
+  height: 90px;
   background: repeating-linear-gradient(
     180deg,
     rgb(57, 57, 57) 0px,
@@ -292,7 +290,7 @@
   height: 407px;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 16px;
   gap: 16px;
   font-family: 'SUIT-Regular';
