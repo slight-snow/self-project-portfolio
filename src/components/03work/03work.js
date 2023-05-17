@@ -55,10 +55,10 @@ function Work() {
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script_title'>반띵 프로젝트</div>
+                <div className='work_script_title'>BANTHING</div>
                 <div className='work_script_content'>
                   가까운 거리 내에 있는 주변 사용자들과 채팅방을 통해 의사소통하여
-                  <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션입니다.
+                  <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션, '반띵'입니다.
                   <br />
                   <br />카카오맵 API를 활용한 웹 어플리케이션으로,
                   <br />사용자는 현재 자신의 위치를 기반으로 새로운 방을 생성하거나
@@ -104,6 +104,10 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Project Duration</span>
                       <span className='work_detail_item_content'>- 4 Weeks</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>&nbsp;</span>
+                      <span className='work_detail_item_content'>&nbsp;</span>
                     </div>
                   </div>
                 </div>

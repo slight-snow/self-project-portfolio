@@ -15,18 +15,18 @@
 }
 
 @font-face {
-  font-family: 'GongGothicMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff')
     format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'S-CoreDream-3Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
     format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -275,8 +275,8 @@
 
 .work_script_title {
   display: flex;
-  font-family: 'GongGothicMedium';
-  font-size: 35px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+  font-size: 40px;
   align-items: center;
   height: 60px;
   border: solid 1px black;
@@ -286,7 +286,7 @@
 .work_script_content {
   display: flex;
   align-items: center;
-  font-family: 'S-CoreDream-3Light';
+  font-family: 'Pretendard-Regular';
   height: 300px;
   border: solid 1px black;
   padding-left: 10px;
@@ -294,8 +294,8 @@
 
 .work_detail_container {
   display: flex;
-  font-family: 'S-CoreDream-3Light';
   justify-content: center;
+  font-family: 'Pretendard-Regular';
   height: 220px;
   border: solid 1px black;
   gap: 5px;
@@ -318,6 +318,7 @@
 .work_detail_item_content {
   display: flex;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .work_detail_item_content_bold {
