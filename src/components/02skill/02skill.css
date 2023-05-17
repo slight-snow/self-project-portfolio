@@ -28,6 +28,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'OAGothic-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2')
+    format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_skill_container,
@@ -214,8 +222,8 @@
 .skill_item_title {
   display: flex;
   height: 40px;
-  font-family: 'GothicA1-Bold';
-  font-size: 2em;
+  font-family: 'OAGothic-ExtraBold';
+  font-size: 29px;
   margin-bottom: 10px;
 }
 
