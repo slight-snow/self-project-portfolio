@@ -276,7 +276,8 @@
 .work_script_title {
   display: flex;
   flex-direction: row;
-  font-family: 'GangwonEduPowerExtraBoldA';
+  font-family: 'Pretendard-Regular';
+  /* font-family: 'GangwonEduPowerExtraBoldA'; */
   font-size: 45px;
   align-items: center;
   height: 60px;
