@@ -275,10 +275,10 @@
 
 .work_script_title {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-family: 'GangwonEduPowerExtraBoldA';
   font-size: 45px;
-  justify-content: flex-end;
+  align-items: center;
   height: 60px;
   border: solid 1px black;
   padding-left: 10px;
