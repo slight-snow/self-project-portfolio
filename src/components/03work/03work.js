@@ -72,7 +72,7 @@ function Work() {
                 </div>
 
                 <div className='work_detail_container'>
-                  <div className='work_detail_box'>
+                  <div className='work_detail_box_01'>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Repository</span>
                       <span className='work_detail_item_content'>
@@ -94,7 +94,7 @@ function Work() {
                       <span className='work_detail_item_content'>- AWS</span>
                     </div>
                   </div>
-                  <div className='work_detail_box'>
+                  <div className='work_detail_box_02'>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ URL</span>
                       <span className='work_detail_item_content'>- banthing.kr (X)</span>
