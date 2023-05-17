@@ -221,7 +221,8 @@
   flex-direction: column;
   justify-content: center;
   width: 390px;
-  border: solid 1px black;
+  padding-left: 20px;
+  /* border: solid 1px black; */
   gap: 5px;
 }
 
@@ -229,7 +230,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
+  width: 370px;
   height: 402.5px;
   border: solid 1px black;
 }
@@ -262,9 +263,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 370px;
   height: 35px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   gap: 10px;
 }
 
