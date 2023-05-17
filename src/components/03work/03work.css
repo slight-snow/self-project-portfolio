@@ -201,7 +201,7 @@
   display: flex;
   flex-direction: row;
   width: 950px;
-  height: 620px;
+  height: 580px;
   background: rgb(240, 240, 240);
   border-radius: 12px;
   box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31);
@@ -270,7 +270,7 @@
   justify-content: center;
   width: 560px;
   border: solid 1px black;
-  gap: 10px;
+  gap: 5px;
 }
 
 .work_script_title {
@@ -287,7 +287,7 @@
   display: flex;
   align-items: center;
   font-family: 'Pretendard-Regular';
-  height: 280px;
+  height: 270px;
   border: solid 1px black;
   padding-left: 10px;
 }
@@ -296,7 +296,7 @@
   display: flex;
   justify-content: center;
   font-family: 'Pretendard-Regular';
-  height: 220px;
+  height: 200px;
   border: solid 1px black;
   gap: 5px;
 }
