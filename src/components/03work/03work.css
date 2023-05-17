@@ -385,7 +385,20 @@
 
 @media (min-width: 1600px) {
   .work_item {
-    width: 970px;
+    width: 1000px;
     gap: 30px;
+  }
+
+  .work_screen_box {
+    width: 410px;
+    padding-left: 30px;
+  }
+
+  .work_image {
+    width: 380px;
+  }
+
+  .work_image_page {
+    width: 380px;
   }
 }
