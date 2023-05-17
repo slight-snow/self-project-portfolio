@@ -274,12 +274,11 @@
 }
 
 .work_script_title {
-  /* display: flex; */
+  display: flex;
   font-family: 'GangwonEduPowerExtraBoldA';
-  font-size: 40px;
-  /* align-items: center; */
-  height: 60px;
-  line-height: 60px;
+  font-size: 45px;
+  align-items: center;
+  height: 50px;
   border: solid 1px black;
   padding: 0 0 0 10px;
 }
