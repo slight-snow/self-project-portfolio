@@ -208,8 +208,9 @@
 .work_item {
   display: flex;
   flex-direction: row;
-  width: 960px;
-  height: 640px;
+  width: 950px;
+  height: 660px;
+  gap: 10px;
   background: rgb(240, 240, 240);
   border-radius: 12px;
   box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31);
@@ -376,5 +377,14 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+/* ------------------------------------------ */
+
+@media (min-width: 1920px) {
+  .work_item {
+    width: 970px;
+    gap: 30px;
   }
 }
