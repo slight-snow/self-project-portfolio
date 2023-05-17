@@ -209,7 +209,7 @@
   display: flex;
   flex-direction: row;
   width: 950px;
-  height: 660px;
+  height: 680px;
   gap: 10px;
   background: rgb(240, 240, 240);
   border-radius: 12px;
@@ -220,17 +220,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 390px;
-  padding-left: 20px;
+  width: 400px;
+  padding-left: 30px;
   /* border: solid 1px black; */
-  gap: 5px;
+  gap: 20px;
 }
 
 .work_image {
   display: flex;
   align-items: center;
   position: relative;
-  width: 370px;
+  width: 385px;
   height: 402.5px;
   border: solid 1px black;
 }
@@ -263,7 +263,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 370px;
+  width: 385px;
   height: 35px;
   /* border: solid 1px black; */
   gap: 10px;
@@ -317,13 +317,14 @@
   flex-direction: column;
   justify-content: center;
   width: 270px;
-  gap: 10px;
+  gap: 15px;
   /* border: solid 1px black; */
 }
 
 .work_detail_item {
   display: flex;
   flex-direction: column;
+  gap: 2px;
 }
 
 .work_detail_item_title {

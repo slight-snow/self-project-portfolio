@@ -75,7 +75,9 @@ function Work() {
                   <div className='work_detail_box'>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Repository</span>
-                      <span className='work_detail_item_content'>- github.com/slight-snow/BanThing</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<a href='https://github.com/slight-snow/BanThing' target='_blank'>github.com/slight-snow/BanThing</a>
+                      </span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
@@ -99,7 +101,7 @@ function Work() {
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Team Member</span>
-                      <span className='work_detail_item_content'>- 4人</span>
+                      <span className='work_detail_item_content'>- 4 Members</span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Project Duration</span>
