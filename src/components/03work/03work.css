@@ -222,7 +222,7 @@
   justify-content: center;
   width: 390px;
   padding-left: 20px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   gap: 5px;
 }
 
@@ -265,7 +265,7 @@
   justify-content: center;
   width: 370px;
   height: 35px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   gap: 10px;
 }
 
