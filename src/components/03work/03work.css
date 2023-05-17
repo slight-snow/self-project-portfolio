@@ -278,7 +278,7 @@
   flex-direction: column;
   justify-content: center;
   width: 570px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   gap: 15px;
 }
 
