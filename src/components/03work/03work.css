@@ -382,7 +382,7 @@
 
 /* ------------------------------------------ */
 
-@media (min-width: 1920px) {
+@media (min-width: 1600px) {
   .work_item {
     width: 970px;
     gap: 30px;
