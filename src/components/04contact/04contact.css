@@ -39,6 +39,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_contact_container,
@@ -233,9 +241,10 @@
 .contact_script_title_box {
   display: flex;
   flex-direction: column;
+  font-family: 'GangwonEduPowerExtraBoldA';
   /* font-family: 'KBO-Dia-Gothic_bold'; */
-  font-family: 'OAGothic-ExtraBold';
-  font-size: 74px;
+  /* font-family: 'GoyangDeogyang'; */
+  font-size: 85px;
 }
 
 .contact_script_title01 {
