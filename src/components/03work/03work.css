@@ -232,7 +232,7 @@
   align-items: center;
   position: relative;
   width: 360px;
-  height: 402.5px;
+  height: 400px;
   border: solid 1px black;
 }
 
@@ -405,12 +405,4 @@
     width: 420px;
     padding-left: 50px;
   }
-
-  /* .work_image {
-    width: 380px;
-  }
-
-  .work_image_page {
-    width: 380px;
-  } */
 }
