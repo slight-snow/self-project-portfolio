@@ -376,6 +376,8 @@
 .banthing05 {
   display: flex;
   width: 100%;
+  animation-name: slides-fade;
+  animation-duration: 1s;
 }
 
 .banthing06 {
@@ -418,6 +420,15 @@
 @keyframes fade-in {
   from {
     opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slides-fade {
+  from {
+    opacity: 0.4;
   }
   to {
     opacity: 1;

@@ -64,7 +64,7 @@ function Work() {
                 <div className='work_image'>
                   <div className='work_image_prev' onClick={() => banthingPageSlides(-1)}>&#10094;</div>
                   <div className='work_image_next' onClick={() => banthingPageSlides(1)}>&#10095;</div>
-                  {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' /> : <></>}
+                  {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' onClick={() => window.open(banthing00)} /> : <></>}
                   {banthingPage === 2 ? <img className='banthing01' src={banthing01} alt='banthing01' /> : <></>}
                   {banthingPage === 3 ? <img className='banthing02' src={banthing02} alt='banthing02' /> : <></>}
                   {banthingPage === 4 ? <img className='banthing03' src={banthing03} alt='banthing03' /> : <></>}
