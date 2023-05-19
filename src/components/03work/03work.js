@@ -1,11 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page03 } from '../../features/counter/counterSlice';
 import './03work.css';
 
+import banthing00 from '../../assets/banthing/BanThing_00_Landing_Page.png';
+import banthing01 from '../../assets/banthing/BanThing_01_Login.png';
+import banthing02 from '../../assets/banthing/BanThing_02_Making_Room.png';
+import banthing03 from '../../assets/banthing/BanThing_03_Room_List.png';
+import banthing04 from '../../assets/banthing/BanThing_04_Chat_Room.png';
+import banthing05 from '../../assets/banthing/BanThing_05_My_Page.png';
+import banthing06 from '../../assets/banthing/BanThing_06_Mobile.png';
+
 function Work() {
+  const [banthingPage, setBanthingPage] = useState(1);
+
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
+
+  function banthingPageSlides(n) {
+    if (banthingPage + n > 7) {
+      setBanthingPage(1);
+    } else if (banthingPage + n < 1) {
+      setBanthingPage(7)
+    } else {
+      setBanthingPage(banthingPage + n);
+    }
+  }
 
   if (page === 0) {
     return (
@@ -42,14 +62,27 @@ function Work() {
               {/* -------------------SCREEN SIDE------------------- */}
               <div className='work_screen_box'>
                 <div className='work_image'>
-                  <div className='work_image_prev'>&#10094;</div>
-                  <div className='work_image_next'>&#10095;</div>
+                  <div className='work_image_prev' onClick={() => banthingPageSlides(-1)}>&#10094;</div>
+                  <div className='work_image_next' onClick={() => banthingPageSlides(1)}>&#10095;</div>
+                  {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' /> : <></>}
+                  {banthingPage === 2 ? <img className='banthing01' src={banthing01} alt='banthing01' /> : <></>}
+                  {banthingPage === 3 ? <img className='banthing02' src={banthing02} alt='banthing02' /> : <></>}
+                  {banthingPage === 4 ? <img className='banthing03' src={banthing03} alt='banthing03' /> : <></>}
+                  {banthingPage === 5 ? <img className='banthing04' src={banthing04} alt='banthing04' /> : <></>}
+                  {banthingPage === 6 ? <img className='banthing05' src={banthing05} alt='banthing05' /> : <></>}
+                  {banthingPage === 7 ? <img className='banthing06' src={banthing06} alt='banthing06' /> : <></>}
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev'>◀︎</div>
-                  <span>1 / 4</span>
-                  <div className='work_image_page_next'>▶︎</div>
+                  <div className='work_image_page_prev' onClick={() => banthingPageSlides(-1)}>◀︎</div>
+                  {banthingPage === 1 ? <span>1 / 7</span> : <></>}
+                  {banthingPage === 2 ? <span>2 / 7</span> : <></>}
+                  {banthingPage === 3 ? <span>3 / 7</span> : <></>}
+                  {banthingPage === 4 ? <span>4 / 7</span> : <></>}
+                  {banthingPage === 5 ? <span>5 / 7</span> : <></>}
+                  {banthingPage === 6 ? <span>6 / 7</span> : <></>}
+                  {banthingPage === 7 ? <span>7 / 7</span> : <></>}
+                  <div className='work_image_page_next' onClick={() => banthingPageSlides(1)}>▶︎</div>
                 </div>
               </div>
 
