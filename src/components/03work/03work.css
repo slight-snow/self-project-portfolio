@@ -561,6 +561,10 @@ a:hover {
     width: 420px;
     padding-left: 50px;
   }
+
+  .work_line_box {
+    margin: 20px 0 20px 0;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -572,5 +576,9 @@ a:hover {
   .work_screen_box {
     width: 420px;
     padding-left: 170px;
+  }
+
+  .work_line_box {
+    margin: 40px 0 40px 0;
   }
 }
