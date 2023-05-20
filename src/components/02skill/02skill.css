@@ -191,10 +191,14 @@
   width: 0;
   height: 100vh;
   opacity: 0;
-  animation-name: fade-in-skill-box;
+  animation-name: fade-in;
+  animation-delay: 0.85s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+  /* animation-name: fade-in-skill-box;
   animation-delay: 0.75s;
   animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 .skill_item {
@@ -420,7 +424,7 @@
   }
 }
 
-@keyframes fade-in-skill-box {
+/* @keyframes fade-in-skill-box {
   from {
     opacity: 0;
     width: 0;
@@ -429,7 +433,7 @@
     opacity: 1;
     width: 100%;
   }
-}
+} */
 
 /* ------------------------------------------ */
 
