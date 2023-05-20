@@ -20,8 +20,7 @@ import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
 const handleMouseOver = () => {
-  const images = ['../../assets/banthing/BanThing_00_Landing_Page.png', '../../assets/banthing/BanThing_01_Login.png', '../../assets/banthing/BanThing_02_Making_Room.png',
-    '../../assets/banthing/BanThing_03_Room_List.png', '../../assets/banthing/BanThing_04_Chat_Room.png', '../../assets/banthing/BanThing_05_My_Page.png', '../../assets/banthing/BanThing_06_Mobile.png']
+  const images = [banthing00, banthing01, banthing02, banthing03, banthing04, banthing05, banthing06]
   images.forEach((image) => {
     const img = new Image();
     img.src = image;
