@@ -19,22 +19,11 @@ import portfolio02 from '../../assets/portfolio/Portfolio_02_Skill_Page.png';
 import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
-const preloadImagesBefore = () => {
+const preloadImages = () => {
   const images = [
-    banthing00,
+    banthing00, banthing01, banthing02, banthing03, banthing04, banthing05, banthing06,
     auction00,
-    portfolio00
-  ]
-  images.forEach((image) => {
-    const img = new Image();
-    img.src = image;
-  });
-};
-
-const preloadImagesAfter = () => {
-  const images = [
-    banthing01, banthing02, banthing03, banthing04, banthing05, banthing06,
-    portfolio01, portfolio02, portfolio03, portfolio04
+    portfolio00, portfolio01, portfolio02, portfolio03, portfolio04
   ]
   images.forEach((image) => {
     const img = new Image();
@@ -49,9 +38,7 @@ function Work() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    preloadImagesBefore();
-  }, []);
+  preloadImages();
 
   function banthingPageSlides(n) {
     if (banthingPage + n > 7) {
@@ -96,8 +83,6 @@ function Work() {
   }
 
   if (page === 3) {
-    preloadImagesAfter();
-
     return (
       <>
         <div
