@@ -455,7 +455,7 @@ a:hover {
   display: flex;
   width: 100%;
   animation-name: slides-fade;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 .banthing06 {
@@ -463,7 +463,7 @@ a:hover {
   height: 100%;
   margin: auto;
   animation-name: slides-fade;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 .banthing00:hover,
@@ -493,7 +493,7 @@ a:hover {
   display: flex;
   width: 100%;
   animation-name: slides-fade;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 .portfolio00:hover,
