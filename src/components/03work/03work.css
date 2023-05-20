@@ -192,6 +192,7 @@ a:hover {
   justify-content: flex-start;
   overflow-y: auto;
   overflow-x: hidden;
+  transition: width 0.75s ease;
 }
 
 .work_container::-webkit-scrollbar {
