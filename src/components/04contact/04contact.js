@@ -52,10 +52,10 @@ function Contact() {
         e.target,
         'lz3cUWX4ve311rPtk')
         .then((result) => {
-          console.log(result.text);
+          // console.log(result.text);
           notify();
         }, (error) => {
-          console.log(error.text);
+          // console.log(error.text);
         })
     } else {
       e.preventDefault();
@@ -84,8 +84,6 @@ function Contact() {
       setCheckMessage(true);
     }
   }
-
-  console.log(checkName);
 
   if (page === 0) {
     return (
