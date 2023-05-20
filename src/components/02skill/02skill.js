@@ -14,10 +14,14 @@ const images = [
 ]
 
 const preloadImages = (images) => {
-  images.forEach((image) => {
-    const img = new Image();
-    img.src = image;
-  });
+  return new Promise(function (resolve) {
+    setTimeout(function () {
+      images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+      });
+    }, 1000)
+  })
 };
 
 function Skill() {
