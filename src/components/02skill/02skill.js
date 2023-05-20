@@ -24,11 +24,11 @@ const preloadImages = (images) => {
   })
 };
 
+preloadImages(images);
+
 function Skill() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
-
-  preloadImages(images);
 
   if (page === 0) {
     return (

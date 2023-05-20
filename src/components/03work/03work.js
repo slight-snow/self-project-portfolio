@@ -36,14 +36,14 @@ const preloadImages = (images) => {
   })
 };
 
+preloadImages(images);
+
 function Work() {
   const [banthingPage, setBanthingPage] = useState(1);
   const [portfolioPage, setPortfolioPage] = useState(1);
 
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
-
-  preloadImages(images);
 
   function banthingPageSlides(n) {
     if (banthingPage + n > 7) {
