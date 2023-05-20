@@ -54,6 +54,20 @@
   transition: width 0.75s ease;
 }
 
+a {
+  color: white;
+}
+
+a:focus,
+a:visited {
+  color: rgb(160, 160, 160);
+}
+
+a:active,
+a:hover {
+  color: orange;
+}
+
 /* ------------------------------------------ */
 
 .home_work_container {
@@ -202,18 +216,33 @@
   animation-fill-mode: forwards;
   padding-top: 30px;
   margin-bottom: 30px;
-  color: black;
+  /* color: black; */
+  color: rgb(240, 240, 240);
 }
 
 .work_item {
   display: flex;
   flex-direction: row;
   width: 950px;
-  height: 700px;
-  /* gap: 5px; */
-  background: rgb(240, 240, 240);
+  height: 750px;
+  gap: 5px;
+  /* background: rgb(240, 240, 240); */
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31);
+  /* box-shadow: 0 5px 15px rgb(31, 31, 31), 0 2px 15px rgb(31, 31, 31); */
+}
+
+.work_line_box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+
+.work_line_between_item {
+  display: flex;
+  width: 40%;
+  border: 0.5px solid white;
 }
 
 .work_screen_box {
@@ -232,10 +261,10 @@
   align-items: center;
   position: relative;
   width: 360px;
-  height: 330px;
-  background: white;
+  height: 450px;
+  background: rgb(37, 37, 37);
   /* border: solid 1px black; */
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .work_image_prev_white,
@@ -301,13 +330,32 @@
   height: 35px;
   font-family: 'Pretendard-Regular';
   /* border: solid 1px black; */
-  gap: 10px;
+  gap: 9px;
   /* UNABLE DRAG */
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
+}
+
+.work_image_page_circle_active {
+  width: 25px;
+  height: 6px;
+  background: rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 7px;
+}
+
+.work_image_page_circle_inactive {
+  width: 25px;
+  height: 6px;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 7px;
+}
+
+.work_image_page_circle_inactive:hover {
+  cursor: pointer;
 }
 
 .work_image_page_prev:hover,
@@ -327,7 +375,7 @@
 .work_script_title {
   display: flex;
   font-family: 'Tilt Warp';
-  font-size: 50px;
+  font-size: 53px;
   align-items: center;
   height: 40px;
   /* border: solid 1px black; */

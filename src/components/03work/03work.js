@@ -93,7 +93,14 @@ function Work() {
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev' onClick={() => banthingPageSlides(-1)}>◀︎</div>
+                  {banthingPage === 1 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(1)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(1)} />}
+                  {banthingPage === 2 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(2)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(2)} />}
+                  {banthingPage === 3 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(3)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(3)} />}
+                  {banthingPage === 4 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(4)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(4)} />}
+                  {banthingPage === 5 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(5)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(5)} />}
+                  {banthingPage === 6 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(6)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(6)} />}
+                  {banthingPage === 7 ? <div className='work_image_page_circle_active' onClick={() => setBanthingPage(7)} /> : <div className='work_image_page_circle_inactive' onClick={() => setBanthingPage(7)} />}
+                  {/* <div className='work_image_page_prev' onClick={() => banthingPageSlides(-1)}>◀︎</div>
                   {banthingPage === 1 ? <span>1&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
                   {banthingPage === 2 ? <span>2&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
                   {banthingPage === 3 ? <span>3&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
@@ -101,7 +108,7 @@ function Work() {
                   {banthingPage === 5 ? <span>5&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
                   {banthingPage === 6 ? <span>6&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
                   {banthingPage === 7 ? <span>7&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
-                  <div className='work_image_page_next' onClick={() => banthingPageSlides(1)}>▶︎</div>
+                  <div className='work_image_page_next' onClick={() => banthingPageSlides(1)}>▶︎</div> */}
                 </div>
               </div>
 
@@ -169,6 +176,11 @@ function Work() {
               </div>
             </div>
 
+            <div className='work_line_box'>
+              <div className='work_line_between_item' />
+              &nbsp;&nbsp;✦&nbsp;&nbsp;
+              <div className='work_line_between_item' />
+            </div>
 
             {/* 02 */}
             <div className='work_item'>
@@ -182,9 +194,10 @@ function Work() {
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev'>◀︎</div>
+                  <div className='work_image_page_circle_active' />
+                  {/* <div className='work_image_page_prev'>◀︎</div>
                   <span>1&nbsp;&nbsp;/&nbsp;&nbsp;1</span>
-                  <div className='work_image_page_next'>▶︎</div>
+                  <div className='work_image_page_next'>▶︎</div> */}
                 </div>
               </div>
 
@@ -252,6 +265,11 @@ function Work() {
               </div>
             </div>
 
+            <div className='work_line_box'>
+              <div className='work_line_between_item' />
+              &nbsp;&nbsp;✦&nbsp;&nbsp;
+              <div className='work_line_between_item' />
+            </div>
 
             {/* 03 */}
             <div className='work_item'>
@@ -269,13 +287,18 @@ function Work() {
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev' onClick={() => portfolioPageSlides(-1)}>◀︎</div>
+                  {portfolioPage === 1 ? <div className='work_image_page_circle_active' onClick={() => setPortfolioPage(1)} /> : <div className='work_image_page_circle_inactive' onClick={() => setPortfolioPage(1)} />}
+                  {portfolioPage === 2 ? <div className='work_image_page_circle_active' onClick={() => setPortfolioPage(2)} /> : <div className='work_image_page_circle_inactive' onClick={() => setPortfolioPage(2)} />}
+                  {portfolioPage === 3 ? <div className='work_image_page_circle_active' onClick={() => setPortfolioPage(3)} /> : <div className='work_image_page_circle_inactive' onClick={() => setPortfolioPage(3)} />}
+                  {portfolioPage === 4 ? <div className='work_image_page_circle_active' onClick={() => setPortfolioPage(4)} /> : <div className='work_image_page_circle_inactive' onClick={() => setPortfolioPage(4)} />}
+                  {portfolioPage === 5 ? <div className='work_image_page_circle_active' onClick={() => setPortfolioPage(5)} /> : <div className='work_image_page_circle_inactive' onClick={() => setPortfolioPage(5)} />}
+                  {/* <div className='work_image_page_prev' onClick={() => portfolioPageSlides(-1)}>◀︎</div>
                   {portfolioPage === 1 ? <span>1 / 5</span> : <></>}
                   {portfolioPage === 2 ? <span>2 / 5</span> : <></>}
                   {portfolioPage === 3 ? <span>3 / 5</span> : <></>}
                   {portfolioPage === 4 ? <span>4 / 5</span> : <></>}
                   {portfolioPage === 5 ? <span>5 / 5</span> : <></>}
-                  <div className='work_image_page_next' onClick={() => portfolioPageSlides(1)}>▶︎</div>
+                  <div className='work_image_page_next' onClick={() => portfolioPageSlides(1)}>▶︎</div> */}
                 </div>
               </div>
 
