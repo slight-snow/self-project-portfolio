@@ -566,11 +566,11 @@ a:hover {
 @media (min-width: 1920px) {
   .work_item {
     width: 1300px;
-    gap: 70px;
+    gap: 50px;
   }
 
   .work_screen_box {
     width: 420px;
-    padding-left: 100px;
+    padding-left: 200px;
   }
 }
