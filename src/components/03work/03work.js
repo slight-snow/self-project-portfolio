@@ -11,6 +11,8 @@ import banthing04 from '../../assets/banthing/BanThing_04_Chat_Room.png';
 import banthing05 from '../../assets/banthing/BanThing_05_My_Page.png';
 import banthing06 from '../../assets/banthing/BanThing_06_Mobile.png';
 
+import auction00 from '../../assets/auction/Auction_Calculator_00_Main_Page.png';
+
 function Work() {
   const [banthingPage, setBanthingPage] = useState(1);
 
@@ -62,6 +64,184 @@ function Work() {
               {/* -------------------SCREEN SIDE------------------- */}
               <div className='work_screen_box'>
                 <div className='work_image'>
+                  <div className='work_image_prev_black' onClick={() => banthingPageSlides(-1)}>&#10094;</div>
+                  <div className='work_image_next_black' onClick={() => banthingPageSlides(1)}>&#10095;</div>
+                  {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' onClick={() => window.open(banthing00)} /> : <></>}
+                  {banthingPage === 2 ? <img className='banthing01' src={banthing01} alt='banthing01' onClick={() => window.open(banthing01)} /> : <></>}
+                  {banthingPage === 3 ? <img className='banthing02' src={banthing02} alt='banthing02' onClick={() => window.open(banthing02)} /> : <></>}
+                  {banthingPage === 4 ? <img className='banthing03' src={banthing03} alt='banthing03' onClick={() => window.open(banthing03)} /> : <></>}
+                  {banthingPage === 5 ? <img className='banthing04' src={banthing04} alt='banthing04' onClick={() => window.open(banthing04)} /> : <></>}
+                  {banthingPage === 6 ? <img className='banthing05' src={banthing05} alt='banthing05' onClick={() => window.open(banthing05)} /> : <></>}
+                  {banthingPage === 7 ? <img className='banthing06' src={banthing06} alt='banthing06' onClick={() => window.open(banthing06)} /> : <></>}
+                </div>
+
+                <div className='work_image_page'>
+                  <div className='work_image_page_prev' onClick={() => banthingPageSlides(-1)}>◀︎</div>
+                  {banthingPage === 1 ? <span>1&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 2 ? <span>2&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 3 ? <span>3&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 4 ? <span>4&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 5 ? <span>5&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 6 ? <span>6&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  {banthingPage === 7 ? <span>7&nbsp;&nbsp;/&nbsp;&nbsp;7</span> : <></>}
+                  <div className='work_image_page_next' onClick={() => banthingPageSlides(1)}>▶︎</div>
+                </div>
+              </div>
+
+              {/* -------------------SCRIPT SIDE------------------- */}
+              <div className='work_script_box'>
+                <div className='work_script_title'>BANTHING</div>
+
+                <div className='work_script_content'>
+                  가까운 거리 내에 있는 주변 사용자들과 채팅방을 통해 의사소통하여
+                  <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션, '반띵'입니다.
+                  <br />
+                  <br />카카오맵 API를 활용한 웹 어플리케이션으로,
+                  <br />사용자는 현재 자신의 위치를 기반으로 새로운 방을 생성하거나
+                  <br />기존에 생성되어 있는 주변의 방에 참가할 수 있습니다.
+                  <br />
+                  <br />배달시키고자 하는 음식과 역할을 설정하고
+                  <br />이를 바탕으로 사용자들 간의 세부 사항을 조율할 수 있습니다.
+                  <br />
+                  <br />최소 주문금액, 배달팁 등 배달 음식에 대해
+                  <br />사용자들이 느끼는 부담을 해소하고자 추진된 팀 프로젝트입니다.
+                </div>
+
+                <div className='work_detail_container'>
+                  <div className='work_detail_box_01'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Repository</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<a href='https://github.com/slight-snow/BanThing' target='_blank' rel='noreferrer'>github.com/slight-snow/BanThing</a>
+                      </span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Front End</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js, Axios</span>
+                      </span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Back End</span>
+                      <span className='work_detail_item_content'>-&nbsp;<span className='work_detail_item_content_bold'>JWT, MySQL,</span>&nbsp;TypeScript, TypeORM</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Deploy</span>
+                      <span className='work_detail_item_content'>- AWS</span>
+                    </div>
+                  </div>
+                  <div className='work_detail_box_02'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ URL</span>
+                      <span className='work_detail_item_content'>- banthing.kr (X)</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Responsive</span>
+                      <span className='work_detail_item_content'>- O</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Team Member</span>
+                      <span className='work_detail_item_content'>- 4 Members</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Project Duration</span>
+                      <span className='work_detail_item_content'>- 4 Weeks</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            {/* 02 */}
+            <div className='work_item'>
+
+              {/* -------------------SCREEN SIDE------------------- */}
+              <div className='work_screen_box'>
+                <div className='work_image'>
+                  <div className='work_image_prev_white'>&#10094;</div>
+                  <div className='work_image_next_white'>&#10095;</div>
+                  <img className='auction00' src={auction00} alt='' onClick={() => window.open(auction00)} />
+                </div>
+
+                <div className='work_image_page'>
+                  <div className='work_image_page_prev'>◀︎</div>
+                  <span>1&nbsp;&nbsp;/&nbsp;&nbsp;1</span>
+                  <div className='work_image_page_next'>▶︎</div>
+                </div>
+              </div>
+
+              {/* -------------------SCRIPT SIDE------------------- */}
+              <div className='work_script_box'>
+                <div className='work_script_title'>Auction Calculator</div>
+                <div className='work_script_content'>
+                  게임 내 경매 시스템에서 적정 입찰가를 계산해주는 정적 웹 사이트입니다.
+                  <br />
+                  <br />경매에 참여하는 인원수와 경매장가를 입력하면 손익분기점을 계산하여
+                  <br />이를 바탕으로 입찰선점가, 직전입찰가 등 적정 입찰가를 추천합니다.
+                  <br />
+                  <br />경매에 참여하는 인원수와 경매장가는 버튼을 통해 조작하거나,
+                  <br />직접 숫자를 입력하여 구체적인 수치를 입력할 수 있습니다.
+                  <br />
+                  <br />만약 입찰하는 것 자체가 손해로 이어질 경우,
+                  <br />적정 입찰가를 계산하거나 추천하지 않습니다.
+                  <br />
+                  <br />계산된 금액을 클릭하여 클립보드에 해당 금액을 복사할 수 있습니다.
+                  <br />대학교 게임 소모임 내의 수요를 기반으로 제작되었습니다.
+                </div>
+
+                <div className='work_detail_container'>
+                  <div className='work_detail_box_01'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Repository</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<a href='https://github.com/slight-snow/lostark-calc' target='_blank' rel='noreferrer'>github.com/slight-snow/lostark-calc</a>
+                      </span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Front End</span>
+                      <span className='work_detail_item_content'>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js</span>
+                      </span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Back End</span>
+                      <span className='work_detail_item_content'>- X</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Deploy</span>
+                      <span className='work_detail_item_content'>-&nbsp;<span className='work_detail_item_content_bold'>Vercel</span></span>
+                    </div>
+                  </div>
+                  <div className='work_detail_box_02'>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ URL</span>
+                      <span className='work_detail_item_content'>-&nbsp;<a href='https://lostark-calc.vercel.app/auction' target='_blank' rel='noreferrer'>lostark-calc.vercel.app/auction</a></span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Responsive</span>
+                      <span className='work_detail_item_content'>- X</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Team Member</span>
+                      <span className='work_detail_item_content'>- 1 Member</span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Project Duration</span>
+                      <span className='work_detail_item_content'>- 1.5 Weeks</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            {/* 03 */}
+            <div className='work_item'>
+
+              {/* -------------------SCREEN SIDE------------------- */}
+              <div className='work_screen_box'>
+                <div className='work_image'>
                   <div className='work_image_prev' onClick={() => banthingPageSlides(-1)}>&#10094;</div>
                   <div className='work_image_next' onClick={() => banthingPageSlides(1)}>&#10095;</div>
                   {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' onClick={() => window.open(banthing00)} /> : <></>}
@@ -88,7 +268,7 @@ function Work() {
 
               {/* -------------------SCRIPT SIDE------------------- */}
               <div className='work_script_box'>
-                <div className='work_script_title'>BANTHING</div>
+                <div className='work_script_title'>PORTFOLIO</div>
                 <div className='work_script_content'>
                   가까운 거리 내에 있는 주변 사용자들과 채팅방을 통해 의사소통하여
                   <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션, '반띵'입니다.
@@ -109,7 +289,7 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Repository</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<a href='https://github.com/slight-snow/BanThing' target='_blank'>github.com/slight-snow/BanThing</a>
+                        -&nbsp;<a href='https://github.com/slight-snow/BanThing' target='_blank' rel='noreferrer'>github.com/slight-snow/BanThing</a>
                       </span>
                     </div>
                     <div className='work_detail_item'>
@@ -145,96 +325,6 @@ function Work() {
                       <span className='work_detail_item_content'>&nbsp;</span>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-
-
-            {/* 02 */}
-            <div className='work_item'>
-
-              {/* -------------------SCREEN SIDE------------------- */}
-              <div className='work_screen_box'>
-                <div className='work_image'>
-                  <div className='work_image_prev' />
-                  <div className='work_image_next' />
-                </div>
-
-                <div className='work_image_page'>
-                  <div className='work_image_page_prev' />
-                  <span>1 / 4</span>
-                  <div className='work_image_page_next' />
-                </div>
-              </div>
-
-              {/* -------------------SCRIPT SIDE------------------- */}
-              <div className='work_script_box'>
-                <div className='work_script_title'></div>
-                <div className='work_script_content'></div>
-
-                <div className='work_detail_box'>
-                  <div className='work_detail_01'></div>
-                  <div className='work_detail_02'></div>
-                </div>
-              </div>
-            </div>
-
-
-            {/* 03 */}
-            <div className='work_item'>
-
-              {/* -------------------SCREEN SIDE------------------- */}
-              <div className='work_screen_box'>
-                <div className='work_image'>
-                  <div className='work_image_prev' />
-                  <div className='work_image_next' />
-                </div>
-
-                <div className='work_image_page'>
-                  <div className='work_image_page_prev' />
-                  <span>1 / 4</span>
-                  <div className='work_image_page_next' />
-                </div>
-              </div>
-
-              {/* -------------------SCRIPT SIDE------------------- */}
-              <div className='work_script_box'>
-                <div className='work_script_title'></div>
-                <div className='work_script_content'></div>
-
-                <div className='work_detail_box'>
-                  <div className='work_detail_01'></div>
-                  <div className='work_detail_02'></div>
-                </div>
-              </div>
-            </div>
-
-
-            {/* 04 */}
-            <div className='work_item'>
-
-              {/* -------------------SCREEN SIDE------------------- */}
-              <div className='work_screen_box'>
-                <div className='work_image'>
-                  <div className='work_image_prev' />
-                  <div className='work_image_next' />
-                </div>
-
-                <div className='work_image_page'>
-                  <div className='work_image_page_prev' />
-                  <span>1 / 4</span>
-                  <div className='work_image_page_next' />
-                </div>
-              </div>
-
-              {/* -------------------SCRIPT SIDE------------------- */}
-              <div className='work_script_box'>
-                <div className='work_script_title'></div>
-                <div className='work_script_content'></div>
-
-                <div className='work_detail_box'>
-                  <div className='work_detail_01'></div>
-                  <div className='work_detail_02'></div>
                 </div>
               </div>
             </div>
