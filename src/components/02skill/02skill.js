@@ -23,9 +23,9 @@ function Skill() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   preloadImages();
-  // }, []);
+  useEffect(() => {
+    preloadImages();
+  }, []);
 
   if (page === 0) {
     return (
@@ -51,8 +51,6 @@ function Skill() {
 
   //--------------------------------------------------------
   if (page === 2) {
-    preloadImages();
-
     return (
       <>
         <div
