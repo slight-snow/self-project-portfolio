@@ -32,7 +32,7 @@ const preloadImages = (images) => {
         const img = new Image();
         img.src = image;
       });
-    }, 1000)
+    }, 500)
   })
 };
 
