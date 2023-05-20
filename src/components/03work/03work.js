@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page03 } from '../../features/counter/counterSlice';
 import './03work.css';
@@ -20,9 +20,13 @@ import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
 const handleMouseOver = () => {
-  const img = new Image();
-  img.src = '../../assets/banthing/BanThing_01_Login.png';
-}
+  const images = ['../../assets/banthing/BanThing_00_Landing_Page.png', '../../assets/banthing/BanThing_01_Login.png', '../../assets/banthing/BanThing_02_Making_Room.png',
+    '../../assets/banthing/BanThing_03_Room_List.png', '../../assets/banthing/BanThing_04_Chat_Room.png', '../../assets/banthing/BanThing_05_My_Page.png', '../../assets/banthing/BanThing_06_Mobile.png']
+  images.forEach((image) => {
+    const img = new Image();
+    img.src = image;
+  });
+};
 
 function Work() {
   const [banthingPage, setBanthingPage] = useState(1);
@@ -30,6 +34,10 @@ function Work() {
 
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    handleMouseOver();
+  }, []);
 
   function banthingPageSlides(n) {
     if (banthingPage + n > 7) {
@@ -78,7 +86,6 @@ function Work() {
       <>
         <div
           className='work_container'
-          onMouseOver={handleMouseOver}
           onClick={() => dispatch(page03())}>
           <div className='work_box'>
 
