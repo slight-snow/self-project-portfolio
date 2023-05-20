@@ -13,8 +13,15 @@ import banthing06 from '../../assets/banthing/BanThing_06_Mobile.png';
 
 import auction00 from '../../assets/auction/Auction_Calculator_00_Main_Page.png';
 
+import portfolio00 from '../../assets/portfolio/Portfolio_00_Landing_Page.png';
+import portfolio01 from '../../assets/portfolio/Portfolio_01_About_Page.png';
+import portfolio02 from '../../assets/portfolio/Portfolio_02_Skill_Page.png';
+import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
+import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
+
 function Work() {
   const [banthingPage, setBanthingPage] = useState(1);
+  const [portfolioPage, setPortfolioPage] = useState(1);
 
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
@@ -26,6 +33,16 @@ function Work() {
       setBanthingPage(7)
     } else {
       setBanthingPage(banthingPage + n);
+    }
+  }
+
+  function portfolioPageSlides(n) {
+    if (portfolioPage + n > 5) {
+      setPortfolioPage(1);
+    } else if (portfolioPage + n < 1) {
+      setPortfolioPage(5)
+    } else {
+      setPortfolioPage(portfolioPage + n);
     }
   }
 
@@ -242,27 +259,23 @@ function Work() {
               {/* -------------------SCREEN SIDE------------------- */}
               <div className='work_screen_box'>
                 <div className='work_image'>
-                  <div className='work_image_prev_white' onClick={() => banthingPageSlides(-1)}>&#10094;</div>
-                  <div className='work_image_next_white' onClick={() => banthingPageSlides(1)}>&#10095;</div>
-                  {banthingPage === 1 ? <img className='banthing00' src={banthing00} alt='banthing00' onClick={() => window.open(banthing00)} /> : <></>}
-                  {banthingPage === 2 ? <img className='banthing01' src={banthing01} alt='banthing01' /> : <></>}
-                  {banthingPage === 3 ? <img className='banthing02' src={banthing02} alt='banthing02' /> : <></>}
-                  {banthingPage === 4 ? <img className='banthing03' src={banthing03} alt='banthing03' /> : <></>}
-                  {banthingPage === 5 ? <img className='banthing04' src={banthing04} alt='banthing04' /> : <></>}
-                  {banthingPage === 6 ? <img className='banthing05' src={banthing05} alt='banthing05' /> : <></>}
-                  {banthingPage === 7 ? <img className='banthing06' src={banthing06} alt='banthing06' /> : <></>}
+                  <div className='work_image_prev_white' onClick={() => portfolioPageSlides(-1)}>&#10094;</div>
+                  <div className='work_image_next_white' onClick={() => portfolioPageSlides(1)}>&#10095;</div>
+                  {portfolioPage === 1 ? <img className='portfolio00' src={portfolio00} alt='portfolio00' onClick={() => window.open(portfolio00)} /> : <></>}
+                  {portfolioPage === 2 ? <img className='portfolio01' src={portfolio01} alt='portfolio01' onClick={() => window.open(portfolio01)} /> : <></>}
+                  {portfolioPage === 3 ? <img className='portfolio02' src={portfolio02} alt='portfolio02' onClick={() => window.open(portfolio02)} /> : <></>}
+                  {portfolioPage === 4 ? <img className='portfolio03' src={portfolio03} alt='portfolio03' onClick={() => window.open(portfolio03)} /> : <></>}
+                  {portfolioPage === 5 ? <img className='portfolio04' src={portfolio04} alt='portfolio04' onClick={() => window.open(portfolio04)} /> : <></>}
                 </div>
 
                 <div className='work_image_page'>
-                  <div className='work_image_page_prev' onClick={() => banthingPageSlides(-1)}>◀︎</div>
-                  {banthingPage === 1 ? <span>1 / 7</span> : <></>}
-                  {banthingPage === 2 ? <span>2 / 7</span> : <></>}
-                  {banthingPage === 3 ? <span>3 / 7</span> : <></>}
-                  {banthingPage === 4 ? <span>4 / 7</span> : <></>}
-                  {banthingPage === 5 ? <span>5 / 7</span> : <></>}
-                  {banthingPage === 6 ? <span>6 / 7</span> : <></>}
-                  {banthingPage === 7 ? <span>7 / 7</span> : <></>}
-                  <div className='work_image_page_next' onClick={() => banthingPageSlides(1)}>▶︎</div>
+                  <div className='work_image_page_prev' onClick={() => portfolioPageSlides(-1)}>◀︎</div>
+                  {portfolioPage === 1 ? <span>1 / 5</span> : <></>}
+                  {portfolioPage === 2 ? <span>2 / 5</span> : <></>}
+                  {portfolioPage === 3 ? <span>3 / 5</span> : <></>}
+                  {portfolioPage === 4 ? <span>4 / 5</span> : <></>}
+                  {portfolioPage === 5 ? <span>5 / 5</span> : <></>}
+                  <div className='work_image_page_next' onClick={() => portfolioPageSlides(1)}>▶︎</div>
                 </div>
               </div>
 

@@ -424,13 +424,31 @@
   cursor: pointer;
 }
 
-/* ------------------------------------------ */
-
 .auction00 {
+  display: flex;
   width: 100%;
 }
 
 .auction00:hover {
+  cursor: pointer;
+}
+
+.portfolio00,
+.portfolio01,
+.portfolio02,
+.portfolio03,
+.portfolio04 {
+  display: flex;
+  width: 100%;
+  animation-name: slides-fade;
+  animation-duration: 0.5s;
+}
+
+.portfolio00:hover,
+.portfolio01:hover,
+.portfolio02:hover,
+.portfolio03:hover,
+.portfolio04:hover {
   cursor: pointer;
 }
 
