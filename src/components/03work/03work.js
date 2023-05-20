@@ -19,7 +19,7 @@ import portfolio02 from '../../assets/portfolio/Portfolio_02_Skill_Page.png';
 import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
-const handleMouseOver = () => {
+const preloadImages = () => {
   const images = [
     banthing00, banthing01, banthing02, banthing03, banthing04, banthing05, banthing06,
     auction00,
@@ -39,7 +39,7 @@ function Work() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    handleMouseOver();
+    preloadImages();
   }, []);
 
   function banthingPageSlides(n) {
