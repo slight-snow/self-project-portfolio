@@ -38,9 +38,9 @@ function Work() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    preloadImages();
-  }, []);
+  // useEffect(() => {
+  //   preloadImages();
+  // }, []);
 
   function banthingPageSlides(n) {
     if (banthingPage + n > 7) {
@@ -85,6 +85,8 @@ function Work() {
   }
 
   if (page === 3) {
+    preloadImages();
+
     return (
       <>
         <div
