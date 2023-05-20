@@ -306,7 +306,7 @@ function Work() {
               <div className='work_script_box'>
                 <div className='work_script_title'>PORTFOLIO</div>
                 <div className='work_script_content'>
-                  저에 대해 소개하는 포트폴리오용 정적 웹 사이트입니다.
+                  저에 대해 소개하고자 제작한 포트폴리오용 정적 웹 사이트입니다.
                   <br />
                   <br />메인 페이지에서 열람하고자 하는 페이지를 클릭하거나,
                   <br />프로필 우측의 바를 클릭하여 원하는 페이지로 이동할 수 있습니다.
