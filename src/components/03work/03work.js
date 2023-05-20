@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page03 } from '../../features/counter/counterSlice';
 import './03work.css';
@@ -45,9 +45,6 @@ function Work() {
       setPortfolioPage(portfolioPage + n);
     }
   }
-
-  useEffect(() => {
-  }, [page])
 
   if (page === 0) {
     return (
