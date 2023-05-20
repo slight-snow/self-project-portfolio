@@ -19,6 +19,11 @@ import portfolio02 from '../../assets/portfolio/Portfolio_02_Skill_Page.png';
 import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
+const handleMouseOver = () => {
+  const img = new Image();
+  img.src = '../../assets/banthing/BanThing_01_Login.png';
+}
+
 function Work() {
   const [banthingPage, setBanthingPage] = useState(1);
   const [portfolioPage, setPortfolioPage] = useState(1);
@@ -73,6 +78,7 @@ function Work() {
       <>
         <div
           className='work_container'
+          onMouseOver={handleMouseOver}
           onClick={() => dispatch(page03())}>
           <div className='work_box'>
 
