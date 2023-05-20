@@ -1,18 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page02 } from '../../features/counter/counterSlice';
 import './02skill.css';
 
-const preloadImages = () => {
-  const images = [
-    '/fe_icons/fe_HTML.png', '/fe_icons/fe_CSS.png', '/fe_icons/fe_JavaScript.png',
-    '/fe_icons/fe_TypeScript.png', '/fe_icons/fe_React.png', '/fe_icons/fe_Redux.png',
-    '/fe_icons/fe_NextJs.png', '/fe_icons/fe_Styled-Components.png', '/be_icons/be_JWT.png',
-    '/be_icons/be_MySQL.png', '/be_icons/be_NodeJS.png', '/dep_icons/dep_AWS.png',
-    '/dep_icons/dep_Vercel.png', '/com_icons/com_Git.png', '/com_icons/com_Figma.png',
-    '/tool_icons/tool_Word.jpeg', '/tool_icons/tool_Excel.jpeg', '/tool_icons/tool_Powerpoint.jpeg',
-    '/tool_icons/tool_Access.jpeg'
-  ]
+const images = [
+  '/fe_icons/fe_HTML.png', '/fe_icons/fe_CSS.png', '/fe_icons/fe_JavaScript.png',
+  '/fe_icons/fe_TypeScript.png', '/fe_icons/fe_React.png', '/fe_icons/fe_Redux.png',
+  '/fe_icons/fe_NextJs.png', '/fe_icons/fe_Styled-Components.png', '/be_icons/be_JWT.png',
+  '/be_icons/be_MySQL.png', '/be_icons/be_NodeJS.png', '/dep_icons/dep_AWS.png',
+  '/dep_icons/dep_Vercel.png', '/com_icons/com_Git.png', '/com_icons/com_Figma.png',
+  '/tool_icons/tool_Word.jpeg', '/tool_icons/tool_Excel.jpeg', '/tool_icons/tool_Powerpoint.jpeg',
+  '/tool_icons/tool_Access.jpeg'
+]
+
+const preloadImages = (images) => {
   images.forEach((image) => {
     const img = new Image();
     img.src = image;
@@ -23,7 +24,7 @@ function Skill() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  preloadImages();
+  preloadImages(images);
 
   if (page === 0) {
     return (

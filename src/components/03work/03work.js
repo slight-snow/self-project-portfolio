@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { page03 } from '../../features/counter/counterSlice';
 import './03work.css';
@@ -19,12 +19,13 @@ import portfolio02 from '../../assets/portfolio/Portfolio_02_Skill_Page.png';
 import portfolio03 from '../../assets/portfolio/Portfolio_03_Work_Page.png';
 import portfolio04 from '../../assets/portfolio/Portfolio_04_Contact_Page.png';
 
-const preloadImages = () => {
-  const images = [
-    banthing00, banthing01, banthing02, banthing03, banthing04, banthing05, banthing06,
-    auction00,
-    portfolio00, portfolio01, portfolio02, portfolio03, portfolio04
-  ]
+const images = [
+  banthing00, banthing01, banthing02, banthing03, banthing04, banthing05, banthing06,
+  auction00,
+  portfolio00, portfolio01, portfolio02, portfolio03, portfolio04
+]
+
+const preloadImages = (images) => {
   images.forEach((image) => {
     const img = new Image();
     img.src = image;
@@ -38,7 +39,7 @@ function Work() {
   const page = useSelector((state) => state.counter.page);
   const dispatch = useDispatch();
 
-  preloadImages();
+  preloadImages(images);
 
   function banthingPageSlides(n) {
     if (banthingPage + n > 7) {
