@@ -283,18 +283,19 @@ function Work() {
               <div className='work_script_box'>
                 <div className='work_script_title'>PORTFOLIO</div>
                 <div className='work_script_content'>
-                  가까운 거리 내에 있는 주변 사용자들과 채팅방을 통해 의사소통하여
-                  <br />배달 음식에 대한 배달비를 분담할 수 있는 웹 어플리케이션, '반띵'입니다.
+                  저에 대해 소개하는 포트폴리오용 정적 웹 사이트입니다.
                   <br />
-                  <br />카카오맵 API를 활용한 웹 어플리케이션으로,
-                  <br />사용자는 현재 자신의 위치를 기반으로 새로운 방을 생성하거나
-                  <br />기존에 생성되어 있는 주변의 방에 참가할 수 있습니다.
+                  <br />메인 페이지에서 열람하고자 하는 페이지를 클릭하거나,
+                  <br />프로필 우측의 바를 클릭하여 원하는 페이지로 이동할 수 있습니다.
                   <br />
-                  <br />배달시키고자 하는 음식과 역할을 설정하고
-                  <br />이를 바탕으로 사용자들 간의 세부 사항을 조율할 수 있습니다.
+                  <br />프로필 하단의 아이콘을 클릭하면 아이콘에 해당하는 사이트로 이동합니다.
                   <br />
-                  <br />최소주문금액, 배달팁 등 배달 음식에 대해
-                  <br />사용자들이 느끼는 부담을 해소하고자 추진된 팀 프로젝트입니다.
+                  <br />'ABOUT' 페이지에서는 저에 대한 세부 스펙과 프로필을,
+                  <br />'SKILL' 페이지에서는 제가 보유한 기술 및 스택을,
+                  <br />'WORK' 페이지에서는 제가 참여한 프로젝트를 확인할 수 있습니다.
+                  <br />
+                  <br />마지막으로, 'CONTACT' 페이지에서는 저의 연락처를 확인할 수 있으며,
+                  <br />페이지 내의 폼을 작성하여 메일을 전송할 수 있습니다.
                 </div>
 
                 <div className='work_detail_container'>
@@ -302,40 +303,40 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Repository</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<a href='https://github.com/slight-snow/BanThing' target='_blank' rel='noreferrer'>github.com/slight-snow/BanThing</a>
+                        -&nbsp;<a href='https://github.com/slight-snow/self-project-01' target='_blank' rel='noreferrer'>github.com/slight-snow/self-project-01</a>
                       </span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js, Axios</span>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React, JavaScript</span>
                       </span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Back End</span>
-                      <span className='work_detail_item_content'>-&nbsp;<span className='work_detail_item_content_bold'>JWT, MySQL,</span>&nbsp;TypeScript, TypeORM</span>
+                      <span className='work_detail_item_content'>- X</span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Deploy</span>
-                      <span className='work_detail_item_content'>- AWS</span>
+                      <span className='work_detail_item_content'>-&nbsp;<span className='work_detail_item_content_bold'>Vercel</span></span>
                     </div>
                   </div>
                   <div className='work_detail_box_02'>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ URL</span>
-                      <span className='work_detail_item_content'>- banthing.kr (X)</span>
+                      <span className='work_detail_item_content'>-&nbsp;<a href='https://yunseok-portfolio.vercel.app/' target='_blank' rel='noreferrer'>yunseok-portfolio.vercel.app</a></span>
+                    </div>
+                    <div className='work_detail_item'>
+                      <span className='work_detail_item_title'>✦ Responsive</span>
+                      <span className='work_detail_item_content'>- X</span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Team Member</span>
-                      <span className='work_detail_item_content'>- 4 Members</span>
+                      <span className='work_detail_item_content'>- 1 Member</span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Project Duration</span>
                       <span className='work_detail_item_content'>- 4 Weeks</span>
-                    </div>
-                    <div className='work_detail_item'>
-                      <span className='work_detail_item_title'>&nbsp;</span>
-                      <span className='work_detail_item_content'>&nbsp;</span>
                     </div>
                   </div>
                 </div>
