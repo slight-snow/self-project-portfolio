@@ -562,3 +562,10 @@ a:hover {
     padding-left: 50px;
   }
 }
+
+@media (min-width: 1920px) {
+  .work_item {
+    width: 1300px;
+    gap: 100px;
+  }
+}
