@@ -225,6 +225,7 @@ a:hover {
   flex-direction: row;
   width: 950px;
   height: 80vh;
+  min-height: 700px;
   max-height: 800px;
   gap: 5px;
   /* background: rgb(240, 240, 240); */
