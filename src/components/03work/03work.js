@@ -278,7 +278,7 @@ function Work() {
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Project Duration</span>
-                      <span className='work_detail_item_content'>- 1.5 Weeks</span>
+                      <span className='work_detail_item_content'>- 1 Week</span>
                     </div>
                   </div>
                 </div>
@@ -379,7 +379,7 @@ function Work() {
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Project Duration</span>
-                      <span className='work_detail_item_content'>- 4 Weeks</span>
+                      <span className='work_detail_item_content'>- 3 Weeks</span>
                     </div>
                   </div>
                 </div>
