@@ -44,9 +44,25 @@ function About() {
               </span>
               <div className='about_education_box'>
                 <div className='about_education_item'>
-                  <span className='about_certification_name'>• &nbsp;&nbsp;창원남고등학교</span>
+                  <span className='about_education_name'>• &nbsp;&nbsp;창원남고등학교</span>
                   <div className='about_extention_line' />
-                  <span className='about_certification_date'>23.04.26</span>
+                  <span className='about_education_date'>2013.03 ~ 2016.02</span>
+                </div>
+                <div className='about_education_item'>
+                  <span className='about_education_name'>
+                    • &nbsp;&nbsp;가톨릭대학교
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;(사회복지학 / 심리학)
+                  </span>
+                  <div className='about_extention_line' />
+                  <span className='about_education_date'>2016.03 ~ 2023.02</span>
+                </div>
+                <div className='about_education_item'>
+                  <span className='about_education_name'>
+                    • &nbsp;&nbsp;코드스테이츠
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;(FE Course 33기)
+                  </span>
+                  <div className='about_extention_line' />
+                  <span className='about_education_date'>2021.07 ~ 2022.03</span>
                 </div>
               </div>
             </div>
@@ -59,17 +75,17 @@ function About() {
                 <div className='about_certification_item'>
                   <span className='about_certification_name'>• &nbsp;&nbsp;TOEIC Speaking AL</span>
                   <div className='about_extention_line' />
-                  <span className='about_certification_date'>23.01.14</span>
+                  <span className='about_certification_date'>2023.01</span>
                 </div>
                 <div className='about_certification_item'>
                   <span className='about_certification_name'>• &nbsp;&nbsp;컴퓨터활용능력 1급</span>
                   <div className='about_extention_line' />
-                  <span className='about_certification_date'>23.03.10</span>
+                  <span className='about_certification_date'>2023.03</span>
                 </div>
                 <div className='about_certification_item'>
                   <span className='about_certification_name'>• &nbsp;&nbsp;정보처리기능사</span>
                   <div className='about_extention_line' />
-                  <span className='about_certification_date'>23.04.26</span>
+                  <span className='about_certification_date'>2023.04</span>
                 </div>
               </div>
             </div>

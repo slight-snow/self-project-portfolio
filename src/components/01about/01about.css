@@ -230,6 +230,17 @@
   /* background-color: rgb(94, 94, 94); */
 }
 
+.about_education_name {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.about_education_date {
+  display: flex;
+  width: 260px;
+  justify-content: flex-end;
+}
+
 .about_certification_container {
   display: flex;
   flex-direction: column;
