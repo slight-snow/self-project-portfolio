@@ -73,7 +73,10 @@ function About() {
               </span>
               <div className='about_certification_box'>
                 <div className='about_certification_item'>
-                  <span className='about_certification_name'>• &nbsp;&nbsp;TOEIC Speaking AL</span>
+                  <span className='about_certification_name'>
+                    • &nbsp;&nbsp;TOEIC Speaking AL
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_education_detail'>(Advanced Low, &nbsp;Level 7)</span>
+                  </span>
                   <div className='about_extention_line' />
                   <span className='about_certification_date'>2023.01</span>
                 </div>
