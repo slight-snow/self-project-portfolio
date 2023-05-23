@@ -40,7 +40,7 @@ function About() {
 
             <div className='about_education_container'>
               <span className='about_education_title'>
-                EDUCATION
+                {/* EDUCATION */}
               </span>
               <div className='about_education_box'>
                 <div className='about_education_item'>
@@ -51,23 +51,23 @@ function About() {
 
             <div className='about_certification_container'>
               <span className='about_certification_title'>
-                CERTIFICATION
+                ✦ &nbsp;CERTIFICATION
               </span>
               <div className='about_certification_box'>
                 <div className='about_certification_item'>
-                  <span>TOEIC Speaking</span>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;TOEIC Speaking AL</span>
                   <div className='about_extention_line' />
-                  <span>23.01.14</span>
+                  <span className='about_certification_date'>23.01.14</span>
                 </div>
                 <div className='about_certification_item'>
-                  <span>컴퓨터활용능력 1급</span>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;컴퓨터활용능력 1급</span>
                   <div className='about_extention_line' />
-                  <span>23.03.10</span>
+                  <span className='about_certification_date'>23.03.10</span>
                 </div>
                 <div className='about_certification_item'>
-                  <span>정보처리기능사</span>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;정보처리기능사</span>
                   <div className='about_extention_line' />
-                  <span>23.04.26</span>
+                  <span className='about_certification_date'>23.04.26</span>
                 </div>
               </div>
             </div>

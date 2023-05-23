@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_about_container,
@@ -169,30 +177,74 @@
 
 .about_box {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
   opacity: 0;
   animation-name: fade-in;
   animation-delay: 0.85s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
-  /* color: rgb(240, 240, 240); */
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: rgb(240, 240, 240);
+  /* color: black; */
+  /* background-color: white; */
+  /* border: 1px solid black; */
 }
 
-.about_certificaiton_container {
+.about_certification_container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: rgb(189, 189, 189);
+  border: 1px solid black; */
 }
 
-.about_certificaiton_box {
+.about_certification_title {
   display: flex;
+  justify-content: flex-start;
+  width: 900px;
+  font-family: 'Tilt Warp';
+  font-size: 40px;
+}
+
+.about_certification_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  font-family: 'Pretendard-Regular';
+  margin: 15px 0 15px 0;
+  /* background-color: red;
+  border: 1px solid black; */
 }
 
 .about_certification_item {
   display: flex;
+  align-items: center;
+  width: 900px;
+  /* background-color: rgb(94, 94, 94); */
+}
+
+.about_certification_name {
+  width: 230px;
+  margin-right: 20px;
+}
+
+.about_extention_line {
+  display: flex;
   width: 100%;
+  height: 0;
+  border: 0.5px solid rgb(240, 240, 240);
+}
+
+.about_certification_date {
+  display: flex;
+  width: 110px;
+  justify-content: flex-end;
 }
 
 /* ------------------------------------------ */
