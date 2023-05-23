@@ -40,11 +40,13 @@ function About() {
 
             <div className='about_education_container'>
               <span className='about_education_title'>
-                {/* EDUCATION */}
+                ✦ &nbsp;EDUCATION
               </span>
               <div className='about_education_box'>
                 <div className='about_education_item'>
-
+                  <span className='about_certification_name'>• &nbsp;&nbsp;창원남고등학교</span>
+                  <div className='about_extention_line' />
+                  <span className='about_certification_date'>23.04.26</span>
                 </div>
               </div>
             </div>
