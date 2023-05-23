@@ -51,7 +51,7 @@ function About() {
                 <div className='about_education_item'>
                   <span className='about_education_name'>
                     • &nbsp;&nbsp;가톨릭대학교
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_education_detail'>(사회복지학 / 심리학)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(사회복지학 / 심리학)</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_education_date'>2016.03 ~ 2023.02</span>
@@ -59,7 +59,7 @@ function About() {
                 <div className='about_education_item'>
                   <span className='about_education_name'>
                     • &nbsp;&nbsp;코드스테이츠
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_education_detail'>(Front-End Course 33기)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(Front-End Course 33기)</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_education_date'>2021.07 ~ 2022.03</span>
@@ -75,7 +75,7 @@ function About() {
                 <div className='about_certification_item'>
                   <span className='about_certification_name'>
                     • &nbsp;&nbsp;TOEIC Speaking AL
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_education_detail'>(Advanced Low, &nbsp;Level 7)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(Advanced Low, &nbsp;Level 7)</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_certification_date'>2023.01</span>
@@ -90,6 +90,23 @@ function About() {
                   <div className='about_extention_line' />
                   <span className='about_certification_date'>2023.04</span>
                 </div>
+              </div>
+            </div>
+
+            <div className='about_other_container'>
+              <span className='about_other_title'>
+                ✦ &nbsp;OTHER
+              </span>
+              <div className='about_other_box'>
+                <div className='about_other_item'>
+                  <span className='about_other_name'>
+                    • &nbsp;&nbsp;병역사항
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(운전병 / 상담병, &nbsp;만기전역)</span>
+                  </span>
+                  <div className='about_extention_line' />
+                  <span className='about_other_date'>2017.08 ~ 2019.04</span>
+                </div>
+
               </div>
             </div>
 
