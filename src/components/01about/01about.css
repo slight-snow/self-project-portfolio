@@ -216,9 +216,9 @@
   align-items: center;
   width: 100%;
   height: auto;
-  gap: 40px;
+  gap: 45px;
   font-family: 'Pretendard-Regular';
-  margin: 40px 0 40px 0;
+  margin: 50px 0 40px 0;
   /* background-color: red;
   border: 1px solid black; */
 }
@@ -231,12 +231,12 @@
 }
 
 .about_education_name {
-  width: 260px;
+  width: 280px;
   margin-right: 20px;
 }
 
 .about_education_detail {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .about_education_date {
@@ -269,9 +269,9 @@
   align-items: center;
   width: 100%;
   height: auto;
-  gap: 40px;
+  gap: 45px;
   font-family: 'Pretendard-Regular';
-  margin: 40px 0 40px 0;
+  margin: 50px 0 40px 0;
   /* background-color: red;
   border: 1px solid black; */
 }
@@ -284,7 +284,7 @@
 }
 
 .about_certification_name {
-  width: 230px;
+  width: 250px;
   margin-right: 20px;
 }
 
