@@ -37,9 +37,41 @@ function About() {
           onClick={() => dispatch(page01())}>
 
           <div className='about_box'>
-            <div>01</div>
-            <div className='about_break_line' />
-            <div className='about_title'>ABOUT</div>
+
+            <div className='about_education_container'>
+              <span className='about_education_title'>
+                EDUCATION
+              </span>
+              <div className='about_education_box'>
+                <div className='about_education_item'>
+
+                </div>
+              </div>
+            </div>
+
+            <div className='about_certification_container'>
+              <span className='about_certification_title'>
+                CERTIFICATION
+              </span>
+              <div className='about_certification_box'>
+                <div className='about_certification_item'>
+                  <span>TOEIC Speaking</span>
+                  <div className='about_extention_line' />
+                  <span>23.01.14</span>
+                </div>
+                <div className='about_certification_item'>
+                  <span>컴퓨터활용능력 1급</span>
+                  <div className='about_extention_line' />
+                  <span>23.03.10</span>
+                </div>
+                <div className='about_certification_item'>
+                  <span>정보처리기능사</span>
+                  <div className='about_extention_line' />
+                  <span>23.04.26</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </>

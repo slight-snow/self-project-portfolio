@@ -151,6 +151,20 @@
 
 .about_container {
   width: calc(100%);
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: width 0.75s ease;
+}
+
+.about_container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.about_container::-webkit-scrollbar-thumb {
+  width: 1px;
+  background-color: rgb(80, 80, 80);
+  border-radius: 10px;
 }
 
 .about_box {
@@ -162,17 +176,23 @@
   animation-delay: 0.85s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
+  /* color: rgb(240, 240, 240); */
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.about_break_line {
-  width: 1.5em;
-  margin: 1.25em 0 1.25em 0;
-  border-bottom: 1px solid #f9f9f9;
+.about_certificaiton_container {
+  display: flex;
 }
 
-.about_title {
-  font-size: 1.8em;
-  font-family: 'LeferiPoint-BlackA';
+.about_certificaiton_box {
+  display: flex;
+}
+
+.about_certification_item {
+  display: flex;
+  width: 100%;
 }
 
 /* ------------------------------------------ */
