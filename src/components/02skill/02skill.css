@@ -212,7 +212,7 @@
   display: flex;
   height: 40px;
   font-family: 'Tilt Warp';
-  font-size: 36px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
@@ -444,6 +444,10 @@
 
   .skill_item {
     height: 800px;
+  }
+
+  .skill_item_title {
+    font-size: 45px;
   }
 
   .skill_ul_type1 {
