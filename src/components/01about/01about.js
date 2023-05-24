@@ -51,7 +51,8 @@ function About() {
                 <div className='about_education_item'>
                   <span className='about_education_name'>
                     • &nbsp;&nbsp;가톨릭대학교
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(사회복지학 / 심리학)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 사회복지학, 심리학</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 3.77 / 4.5</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_education_date'>2016.03 ~ 2023.02</span>
@@ -101,7 +102,8 @@ function About() {
                 <div className='about_other_item'>
                   <span className='about_other_name'>
                     • &nbsp;&nbsp;병역사항
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(운전병 / 상담병, &nbsp;만기전역)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 운전병, 상담병</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 육군 병장 만기전역</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_other_date'>2017.08 ~ 2019.04</span>
