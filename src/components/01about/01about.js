@@ -74,6 +74,11 @@ function About() {
               </span>
               <div className='about_certification_box'>
                 <div className='about_certification_item'>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;자동차운전면허증 1종 보통</span>
+                  <div className='about_extention_line' />
+                  <span className='about_certification_date'>2016.07</span>
+                </div>
+                <div className='about_certification_item'>
                   <span className='about_certification_name'>
                     • &nbsp;&nbsp;TOEIC Speaking AL
                     <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(Advanced Low, &nbsp;Level 7)</span>
