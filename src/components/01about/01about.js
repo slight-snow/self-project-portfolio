@@ -60,7 +60,7 @@ function About() {
                 <div className='about_education_item'>
                   <span className='about_education_name'>
                     • &nbsp;&nbsp;코드스테이츠
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>(Front-End Course 33기)</span>
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- Front-End Course 33기</span>
                   </span>
                   <div className='about_extention_line' />
                   <span className='about_education_date'>2021.07 ~ 2022.03</span>
