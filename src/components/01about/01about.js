@@ -38,10 +38,34 @@ function About() {
 
           <div className='about_box'>
 
-            <div className='about_education_container'>
-              <span className='about_education_title'>
+            <div className='about_introduction_container'>
+              <span className='about_introduction_title'>
                 ✦ &nbsp;INTRODUCTION
               </span>
+              <div className='about_introduction_box'>
+                <span className='about_introduction_quotation_before' />
+                <span className='about_introduction_quotation_after' />
+              </div>
+            </div>
+
+            <div className='about_profile_container'>
+              <span className='about_profile_title'>
+                ✦ &nbsp;PROFILE
+              </span>
+              <div className='about_profile_box'>
+                <div className='about_profile_item'>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;이름(한글) &nbsp;:&nbsp; 정윤석</span>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;이름(영문) &nbsp;:&nbsp; Jeong Yunseok</span>
+                </div>
+                <div className='about_profile_item'>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;생년월일 &nbsp;:&nbsp; 1997.03.15</span>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;이메일 &nbsp;:&nbsp; forcoding97@gmail.com</span>
+                </div>
+                <div className='about_profile_item'>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;연락처 &nbsp;:&nbsp; +82 10 2322 3518</span>
+                  <span className='about_profile_name'>• &nbsp;&nbsp;거주지 &nbsp;:&nbsp; 경기도 과천시 별양로 12</span>
+                </div>
+              </div>
             </div>
 
             <div className='about_education_container'>
