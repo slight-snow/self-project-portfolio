@@ -207,7 +207,7 @@
   justify-content: flex-start;
   width: 870px;
   font-family: 'Tilt Warp';
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .about_education_box {
@@ -256,7 +256,7 @@
   justify-content: flex-start;
   width: 870px;
   font-family: 'Tilt Warp';
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .about_certification_box {
@@ -305,7 +305,7 @@
   justify-content: flex-start;
   width: 870px;
   font-family: 'Tilt Warp';
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .about_other_box {
@@ -329,7 +329,7 @@
 }
 
 .about_other_name {
-  width: 250px;
+  width: 310px;
   margin-right: 20px;
 }
 
