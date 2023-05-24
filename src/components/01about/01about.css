@@ -476,3 +476,9 @@
     opacity: 1;
   }
 }
+
+@media (min-width: 1920px) {
+  .about_profile_item {
+    gap: 130px;
+  }
+}
