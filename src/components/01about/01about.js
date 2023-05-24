@@ -40,6 +40,12 @@ function About() {
 
             <div className='about_education_container'>
               <span className='about_education_title'>
+                ✦ &nbsp;INTRODUCTION
+              </span>
+            </div>
+
+            <div className='about_education_container'>
+              <span className='about_education_title'>
                 ✦ &nbsp;EDUCATION
               </span>
               <div className='about_education_box'>
@@ -50,7 +56,7 @@ function About() {
                 </div>
                 <div className='about_education_item'>
                   <span className='about_education_name'>
-                    • &nbsp;&nbsp;가톨릭대학교
+                    • &nbsp;&nbsp;가톨릭대학교 (성심)
                     <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 사회복지학, 심리학</span>
                     <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='about_item_detail'>- 3.77 / 4.5</span>
                   </span>
@@ -74,7 +80,7 @@ function About() {
               </span>
               <div className='about_certification_box'>
                 <div className='about_certification_item'>
-                  <span className='about_certification_name'>• &nbsp;&nbsp;자동차운전면허증 1종 보통</span>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;자동차운전면허증 (1종)</span>
                   <div className='about_extention_line' />
                   <span className='about_certification_date'>2016.07</span>
                 </div>
@@ -87,7 +93,7 @@ function About() {
                   <span className='about_certification_date'>2023.01</span>
                 </div>
                 <div className='about_certification_item'>
-                  <span className='about_certification_name'>• &nbsp;&nbsp;컴퓨터활용능력 1급</span>
+                  <span className='about_certification_name'>• &nbsp;&nbsp;컴퓨터활용능력 (1급)</span>
                   <div className='about_extention_line' />
                   <span className='about_certification_date'>2023.03</span>
                 </div>
