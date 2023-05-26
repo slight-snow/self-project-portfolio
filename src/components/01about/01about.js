@@ -43,13 +43,15 @@ function About() {
               <div className='about_quotes_eng'>
                 <div className='about_quotes_eng_title'>
                   <Typewriter
-                    delay={3000}
                     onInit={(typewriter) => {
                       typewriter
+                        .changeDelay(80)
                         .pauseFor(2000)
                         .typeString('"The only source of knowledge is experience."')
                         .start()
                     }} />
+                  <span className='about_quotes_emphasis_line01' />
+                  <span className='about_quotes_emphasis_line02' />
                 </div>
                 <div className='about_quotes_kor_title'>"지식의 유일한 근원은 경험이다."</div>
               </div>

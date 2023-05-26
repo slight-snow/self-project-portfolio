@@ -216,7 +216,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 35px;
   font-family: 'NotoSerifKR';
 }
 
@@ -228,11 +228,38 @@
 }
 
 .about_quotes_eng_title {
+  position: relative;
   font-size: 38px;
   font-weight: bold;
   width: 875px;
   /* background-color: red; */
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+.about_quotes_emphasis_line01 {
+  position: absolute;
+  opacity: 0;
+  left: 625px;
+  bottom: -6px;
+  /* width: 205px; */
+  border: 0.5px solid white;
+  animation-name: line;
+  animation-delay: 6.5s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.about_quotes_emphasis_line02 {
+  position: absolute;
+  opacity: 0;
+  left: 625px;
+  bottom: -2px;
+  /* width: 205px; */
+  border: 0.5px solid white;
+  animation-name: line;
+  animation-delay: 6.5s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .about_quotes_eng_name {
@@ -245,19 +272,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   font-family: 'NotoSerifKR';
   animation-name: fade-in;
-  animation-delay: 10.6s;
+  animation-delay: 8.4s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
 }
 
 .about_quotes_kor_title {
   opacity: 0;
-  font-size: 22px;
+  font-size: 25px;
   animation-name: fade-in;
-  animation-delay: 9.6s;
+  animation-delay: 7.4s;
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
 }
@@ -557,11 +584,21 @@
   }
 }
 
-@keyframes typing {
+@keyframes line {
   from {
-    width: 0%;
+    width: 0;
   }
   to {
-    width: 100%;
+    width: 204px;
+  }
+
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
