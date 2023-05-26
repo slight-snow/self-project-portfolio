@@ -53,7 +53,7 @@ function About() {
                   <span className='about_quotes_emphasis_line01' />
                   <span className='about_quotes_emphasis_line02' />
                 </div>
-                <div className='about_quotes_kor_title'>"지식의 유일한 근원은 경험이다."</div>
+                <div className='about_quotes_kor_title'>"지식의 유일한 원천은 경험이다."</div>
               </div>
               <div className='about_quotes_kor'>
                 <div className='about_quotes_eng_name'>- Albert Einstein -</div>
