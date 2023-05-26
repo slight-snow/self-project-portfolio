@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import { useDispatch, useSelector } from 'react-redux';
 import { page01 } from '../../features/counter/counterSlice';
 import './01about.css';
@@ -37,6 +38,26 @@ function About() {
           onClick={() => dispatch(page01())}>
 
           <div className='about_box'>
+
+            <div className='about_quotes_box'>
+              <div className='about_quotes_eng'>
+                <div className='about_quotes_eng_title'>
+                  <Typewriter
+                    delay={3000}
+                    onInit={(typewriter) => {
+                      typewriter
+                        .pauseFor(2000)
+                        .typeString('"The only source of knowledge is experience."')
+                        .start()
+                    }} />
+                </div>
+                <div className='about_quotes_kor_title'>"지식의 유일한 근원은 경험이다."</div>
+              </div>
+              <div className='about_quotes_kor'>
+                <div className='about_quotes_eng_name'>- Albert Einstein -</div>
+                <div className='about_quotes_kor_name'>- 앨버트 아인슈타인 -</div>
+              </div>
+            </div>
 
             <div className='about_introduction_container'>
               <span className='about_introduction_title'>

@@ -22,6 +22,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ------------------------------------------ */
 
 .home_about_container,
@@ -191,6 +199,72 @@
   /* color: black; */
   /* background-color: white; */
   /* border: 1px solid black; */
+}
+
+/* QUOTES */
+
+.about_quotes_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 70px;
+}
+
+.about_quotes_eng {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-family: 'NotoSerifKR';
+}
+
+.about_quotes_blink {
+  animation: blink 0.8s infinite;
+  font-family: 'Pretendard-Regular';
+  font-size: 47px;
+  margin: 0 -5px 0 -5px;
+}
+
+.about_quotes_eng_title {
+  font-size: 38px;
+  font-weight: bold;
+  width: 875px;
+  /* background-color: red; */
+  margin-left: 10px;
+}
+
+.about_quotes_eng_name {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.about_quotes_kor {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'NotoSerifKR';
+  animation-name: fade-in;
+  animation-delay: 10.6s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.about_quotes_kor_title {
+  opacity: 0;
+  font-size: 22px;
+  animation-name: fade-in;
+  animation-delay: 9.6s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.about_quotes_kor_name {
+  font-size: 17px;
+  font-style: italic;
 }
 
 /* INTRODUCTION */
@@ -477,8 +551,17 @@
   }
 }
 
-@media (min-width: 1920px) {
-  .about_profile_item {
-    gap: 130px;
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
   }
 }
