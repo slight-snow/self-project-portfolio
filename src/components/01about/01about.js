@@ -70,6 +70,9 @@ function About() {
                 ✦ &nbsp;INTRODUCTION
               </span>
               <div className='about_introduction_box'>
+                <div>
+                  안녕하세요.
+                </div>
                 <span className='about_introduction_quotation_before' />
                 <span className='about_introduction_quotation_after' />
               </div>

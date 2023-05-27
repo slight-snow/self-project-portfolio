@@ -314,21 +314,20 @@
 
 .about_quotes_scroll_content {
   position: absolute;
-  bottom: 85px;
+  bottom: 75px;
   font-family: 'Pretendard-Regular';
   font-size: 15px;
 }
 
 .about_quotes_scroll_direction {
   position: absolute;
-  opacity: 0.9;
   width: 0;
   height: 0;
   bottom: 0;
-  border-bottom: 45px solid transparent;
+  border-bottom: 40px solid transparent;
   border-top: 17px solid rgb(240, 240, 240);
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
   animation: scroll-guide 1s infinite;
 }
 
