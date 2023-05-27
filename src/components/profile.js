@@ -1,11 +1,8 @@
 import React from 'react';
-// import { useDispatch } from 'react-redux';
-// import { page00 } from '../features/counter/counterSlice';
 import { ToastContainer, toast, Zoom } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import profile_image from '../assets/profile_image.jpg'
 import icon_github from '../assets/icon_github.svg'
-// import icon_velog from '../assets/icon_velog.png'
 import icon_velog_white from '../assets/icon_velog_white.svg'
 import icon_email from '../assets/icon_email_00.png'
 import './profile.css';
@@ -25,13 +22,10 @@ const notify = () =>
   });
 
 function Profile() {
-  // const dispatch = useDispatch();
-
   return (
     <>
       <div>
         <div className='profile_title' onClick={() => window.location.reload()}>yunseok.portfolio</div>
-        {/* <div className='profile_title' onClick={() => dispatch(page00())}>#yunseok.portfolio</div> */}
         <div className='profile_container'>
           <div className='profile_box'>
             <div className='profile_image_box'>
