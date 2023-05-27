@@ -38,6 +38,9 @@
 
 .profile_container {
   display: flex;
+  /*  */
+  justify-content: center;
+  /*  */
   align-items: center;
   width: 17em;
   height: 100vh;
@@ -62,6 +65,9 @@
 }
 
 .profile_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 1em 0 1em 0.5em;
   font-family: 'S-CoreDream-3Light';
 }
@@ -94,8 +100,9 @@
 .profile_icon_box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 7.5em;
+  justify-content: center;
+  gap: 20px;
+  /* width: 7.5em; */
   margin: 1em 0 0 0.5em;
 }
 
