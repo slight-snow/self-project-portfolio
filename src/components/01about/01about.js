@@ -70,8 +70,20 @@ function About() {
                 ✦ &nbsp;INTRODUCTION
               </span>
               <div className='about_introduction_box'>
-                <div>
-                  안녕하세요.
+                <div className='about_introduction_header'>
+                  "경험을 통한 지식의 체화를 지향하는 개발자, <span className='about_introduction_bold'>정윤석</span>입니다."
+                </div>
+                <div className='about_introduction_content'>
+                  새로운 이론이나 기술을 단순히 학습하는 것을 넘어, 실제로 적용하며 몸에 익히는 것을 좋아합니다.
+                  <br />적용하면서 마주할 수 있는 실수나 실패를 두려워하지 않고 이를 해결하는 과정에서의 배움을 중요시합니다.
+                  <br />미숙, 도전, 실패, 해결, 성공, 적응, 변화.
+                  <br />이 모든 것들을 경험삼아 저는 보다 더 성장하고자 합니다.
+                  <br />
+                  <br />온라인 상의 웹 사이트와 웹 어플리케이션을 사용해보면서 직접 구현해보고 싶다고 생각했습니다.
+                  <br />부트캠프를 통해 웹 개발에 필요한 HTML, CSS, JavaScript 등의 핵심적인 기술을 학습하였고,
+                  <br />이후 프로젝트에서 React, Next.js 와 같은 라이브러리, 프레임워크 등을 다루며 경험을 쌓았습니다.
+                  <br />다양한 알고리즘 문제를 풀며 컴퓨터식 사고방식을 키워나가고 있습니다.
+                  <br />
                 </div>
                 <span className='about_introduction_quotation_before' />
                 <span className='about_introduction_quotation_after' />

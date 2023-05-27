@@ -354,14 +354,29 @@
 .about_introduction_box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   width: 800px;
-  height: 300px;
-  gap: 40px;
+  height: 400px;
+  gap: 25px;
   font-family: 'Pretendard-Regular';
   margin: 50px 0 40px 0;
-  background-color: rgb(104, 134, 230);
+  /* background-color: rgb(34, 44, 78); */
   /* border: 1px solid black; */
+}
+
+.about_introduction_header {
+  font-family: 'NotoSerifKR';
+  font-size: 30px;
+  margin: 10px auto;
+}
+
+.about_introduction_bold {
+  font-weight: bold;
+}
+
+.about_introduction_content {
+  font-family: 'Pretendard-Regular';
+  line-height: 30px;
 }
 
 /* PROFILE */
