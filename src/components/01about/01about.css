@@ -195,7 +195,8 @@
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
   color: rgb(240, 240, 240);
-  gap: 30px;
+  gap: 80px;
+  margin-bottom: 100px;
   /* color: black; */
   /* background-color: white; */
   /* border: 1px solid black; */
@@ -205,11 +206,13 @@
 
 .about_quotes_box {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   gap: 70px;
+  margin-bottom: 100px;
 }
 
 .about_quotes_eng {
@@ -292,6 +295,41 @@
 .about_quotes_kor_name {
   font-size: 17px;
   font-style: italic;
+}
+
+.about_quotes_scroll {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  /* background-color: red; */
+  bottom: 0;
+  animation-name: fade-in;
+  animation-delay: 9.4s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.about_quotes_scroll_content {
+  position: absolute;
+  bottom: 85px;
+  font-family: 'Pretendard-Regular';
+  font-size: 15px;
+}
+
+.about_quotes_scroll_direction {
+  position: absolute;
+  opacity: 0.9;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-bottom: 45px solid transparent;
+  border-top: 17px solid rgb(240, 240, 240);
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  animation: scroll-guide 1s infinite;
 }
 
 /* INTRODUCTION */
@@ -600,5 +638,17 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes scroll-guide {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 0;
   }
 }

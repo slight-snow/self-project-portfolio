@@ -59,6 +59,10 @@ function About() {
                 <div className='about_quotes_eng_name'>- Albert Einstein -</div>
                 <div className='about_quotes_kor_name'>- 앨버트 아인슈타인 -</div>
               </div>
+              <div className='about_quotes_scroll'>
+                <span className='about_quotes_scroll_content'>SCROLL</span>
+                <div className='about_quotes_scroll_direction' />
+              </div>
             </div>
 
             <div className='about_introduction_container'>
