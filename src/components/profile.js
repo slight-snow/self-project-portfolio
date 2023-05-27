@@ -3,7 +3,7 @@ import React from 'react';
 // import { page00 } from '../features/counter/counterSlice';
 import { ToastContainer, toast, Zoom } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import profile_image from '../assets/profile_image.jpeg'
+import profile_image from '../assets/profile_image.jpg'
 import icon_github from '../assets/icon_github.svg'
 // import icon_velog from '../assets/icon_velog.png'
 import icon_velog_white from '../assets/icon_velog_white.svg'
