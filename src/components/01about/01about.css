@@ -377,6 +377,9 @@
 .about_introduction_content {
   font-family: 'Pretendard-Regular';
   line-height: 30px;
+  width: 750px;
+  /* background-color: red; */
+  margin: auto;
 }
 
 /* PROFILE */
