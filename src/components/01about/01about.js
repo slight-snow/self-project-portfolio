@@ -84,9 +84,10 @@ function About() {
                   <br />
                   <br />&nbsp;&nbsp;교육과정을 수료하고 개발자로서의 진로를 확고히 하였으며, 개발 전문성을 향상시키고자 노력합니다.
                   <br />주도적으로 웹 개발 관련 공식문서를 찾아보거나 알고리즘 문제를 풀어나가며 역량을 키워나가고 있습니다.
-                  <br />새롭게 알게된 기술이나 함수, 메서드들에 대해서는 이해한 내용을 바탕으로 블로그에 기록합니다.
+                  <br />기술이나 함수, 메서드들에 관해 새롭게 알게된 내용은 이해한 부분을 바탕으로 블로그에 기록합니다.
                   <br />
-                  <br />&nbsp;&nbsp;
+                  <br />&nbsp;&nbsp;저의 경험을 바탕으로 한 성장이 다른 사용자에게 편리하고 자연스러운 경험으로 다가올 수 있도록,
+                  <br />사람과 사회에 이바지할 수 있는 개발자가 되도록 계속해서 정진하겠습니다.
                 </div>
                 <span className='about_introduction_quotation_before' />
                 <span className='about_introduction_quotation_after' />
