@@ -162,7 +162,7 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js, Axios</span>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React.js, Next.js, TypeScript, Axios</span>
                       </span>
                     </div>
                     <div className='work_detail_item'>
@@ -251,7 +251,7 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<span className='work_detail_item_content_bold'>React, TypeScript, Next.js</span>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React.js, Next.js, TypeScript</span>
                       </span>
                     </div>
                     <div className='work_detail_item'>
@@ -333,7 +333,7 @@ function Work() {
                   <br />
                   <br />프로필 하단의 아이콘을 클릭하면 아이콘에 해당하는 사이트로 이동합니다.
                   <br />
-                  <br />'ABOUT' 페이지에서는 저에 대한 세부 스펙과 프로필을,
+                  <br />'ABOUT' 페이지에서는 저에 관한 프로필과 세부 정보를,
                   <br />'SKILL' 페이지에서는 제가 보유한 기술 및 스택을,
                   <br />'WORK' 페이지에서는 제가 참여한 프로젝트를 확인할 수 있습니다.
                   <br />
@@ -352,7 +352,7 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<span className='work_detail_item_content_bold'>React, JavaScript</span>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React.js</span>
                       </span>
                     </div>
                     <div className='work_detail_item'>
