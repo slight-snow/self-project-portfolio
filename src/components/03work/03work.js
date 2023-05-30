@@ -346,13 +346,13 @@ function Work() {
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Repository</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<a href='https://github.com/slight-snow/self-project-01' target='_blank' rel='noreferrer'>github.com/slight-snow/self-project-01</a>
+                        -&nbsp;<a href='https://github.com/slight-snow/self-project-portfolio' target='_blank' rel='noreferrer'>github.com/slight-snow/<br />self-project-portfolio</a>
                       </span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Front End</span>
                       <span className='work_detail_item_content'>
-                        -&nbsp;<span className='work_detail_item_content_bold'>React.js</span>
+                        -&nbsp;<span className='work_detail_item_content_bold'>React.js, Redux</span>
                       </span>
                     </div>
                     <div className='work_detail_item'>
@@ -367,7 +367,9 @@ function Work() {
                   <div className='work_detail_box_02'>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ URL</span>
-                      <span className='work_detail_item_content'>-&nbsp;<a href='https://yunseok-portfolio.vercel.app/' target='_blank' rel='noreferrer'>yunseok-portfolio.vercel.app</a></span>
+                      <span className='work_detail_item_content'>-&nbsp;<a href='https://yunseok-portfolio.vercel.app/' target='_blank' rel='noreferrer'>yunseok-portfolio.vercel.app</a>
+                        <br />&nbsp;
+                      </span>
                     </div>
                     <div className='work_detail_item'>
                       <span className='work_detail_item_title'>✦ Responsive</span>
