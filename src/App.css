@@ -1,6 +1,8 @@
 .App {
   display: flex;
   overflow: hidden;
+  min-width: 1280px;
+  min-height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
