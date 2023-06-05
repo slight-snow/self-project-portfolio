@@ -74,7 +74,7 @@
 
 .home_contact_container:hover .home_contact_title {
   font-size: 30px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .contact_line01 {

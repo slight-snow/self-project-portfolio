@@ -48,7 +48,7 @@
 
 .home_skill_container:hover .home_skill_title {
   font-size: 30px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .skill_line01 {
