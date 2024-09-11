@@ -232,6 +232,7 @@
   font-weight: bold;
   width: 875px;
   margin-left: 15px;
+  text-wrap: nowrap;
 }
 
 .about_quotes_emphasis_line01 {
